@@ -1,42 +1,103 @@
-# Configuration pour The Sprawl
+# --- CONFIGURATION GÉNÉRALE ---
+rollFormula = "2d6"
+statToggle = true
 
-# --- LES STATISTIQUES (STATS) ---
-[stats]
-cool = "Cool"
-edge = "Cran"
-meat = "Viande"
-mind = "Cerveau"
-style = "Style"
-synth = "Synth"
+[rollResults]
+  [rollResults.failure]
+    range = "6-"
+    label = "Échec (Réaction du MC)"
+  [rollResults.partial]
+    range = "7-9"
+    label = "Succès partiel / Glitch"
+  [rollResults.success]
+    range = "10+"
+    label = "Succès !"
 
-# --- LES ATTRIBUTS (BARRES & COMPTEURS) ---
-[attributesTop]
-# L'expérience
-xp.label = "Expérience"
-xp.type = "Xp"
-xp.max = 10
+# ==========================================
+#              PERSONNAGES (PJ)
+# ==========================================
+[character]
 
-# La Santé (Horloge de blessure style PbtA)
-harm.label = "Blessures"
-harm.type = "Clock"
-harm.description = "À 15h00 et 21h00 : Malus -1."
-harm.max = 6     # L'horloge va de 0 à 6 segments
+  # 1. STATISTIQUES (The Sprawl Stats)
+  [character.stats]
+    cool = "Cool"
+    edge = "Cran"
+    meat = "Viande"
+    mind = "Cerveau"
+    style = "Style"
+    synth = "Synthé"
 
-# L'armure
-armor.label = "Armure"
-armor.container = false # Juste une valeur numérique
+  # 2. BARRES DU HAUT (Top Attributes)
+  [character.attributesTop]
+    [character.attributesTop.harm]
+      label = "Blessures"
+      type = "Clock"
+      max = 6
+    [character.attributesTop.xp]
+      label = "Expérience"
+      type = "Xp"
+      max = 10
+    [character.attributesTop.cred]
+      label = "Crédit"
+      type = "Resource"
+      max = 50
+    [character.attributesTop.intel]
+      label = "Rens."
+      type = "Resource"
+      max = 3
 
-# --- GROUPES DE MOUVEMENTS (MOVES) ---
-[moveTypes]
-basic = "Manœuvres de Base"
-special = "Manœuvres Spéciales"
-cred = "Manœuvres de Crédit"
-matrix = "Manœuvres de Matrice"
-corpo = "Manœuvres de Corporation"
+  # 3. COLONNE DE GAUCHE (Left Attributes)
+  [character.attributesLeft]
+    [character.attributesLeft.look]
+      label = "Look / Style"
+      type = "LongText"
+    [character.attributesLeft.directives]
+      label = "Directives"
+      type = "LongText"
+    [character.attributesLeft.cyberdeck]
+      label = "Cyberdeck"
+      type = "Text"
 
-# --- ÉQUIPEMENT ---
-[equipmentTypes]
-gear = "Matos"
-cyberware = "Cyberware"
-vehicles = "Véhicules"
-drones = "Drones"
+  # 4. GROUPES DE MANŒUVRES (Moves)
+  [character.moveTypes]
+    basic = "Manoeuvres de base"
+    playbook = "Livret"
+    matrix = "Matrice"
+    mission = "Mission"
+    reputation = "Réputation"
+
+  # 5. TYPES D'ÉQUIPEMENT (OBLIGATOIRE POUR ÉVITER L'ERREUR)
+  [character.equipmentTypes]
+    weapon = "Armes"
+    armor = "Protection"
+    gear = "Matériel"
+    cyberware = "Cyberware"
+    program = "Programmes"
+    vehicle = "Véhicules"
+
+# ==========================================
+#              PNJ (NPC)
+# ==========================================
+# Cette section est OBLIGATOIRE sinon erreur "npc type requis"
+[npc]
+  
+  [npc.attributesTop]
+    [npc.attributesTop.harm]
+      label = "Santé / Menace"
+      type = "Clock"
+      max = 10
+    [npc.attributesTop.instinct]
+      label = "Instinct"
+      type = "Text"
+
+  [npc.attributesLeft]
+    [npc.attributesLeft.description]
+      label = "Description"
+      type = "LongText"
+
+  [npc.moveTypes]
+    gm = "Manoeuvres MC"
+
+  [npc.equipmentTypes]
+    weapon = "Armes"
+    gear = "Matériel"
