@@ -1,0 +1,42 @@
+# Configuration pour The Sprawl
+
+# --- LES STATISTIQUES (STATS) ---
+[stats]
+cool = "Cool"
+edge = "Cran"
+meat = "Viande"
+mind = "Cerveau"
+style = "Style"
+synth = "Synth"
+
+# --- LES ATTRIBUTS (BARRES & COMPTEURS) ---
+[attributesTop]
+# L'expérience
+xp.label = "Expérience"
+xp.type = "Xp"
+xp.max = 10
+
+# La Santé (Horloge de blessure style PbtA)
+harm.label = "Blessures"
+harm.type = "Clock"
+harm.description = "À 15h00 et 21h00 : Malus -1."
+harm.max = 6     # L'horloge va de 0 à 6 segments
+
+# L'armure
+armor.label = "Armure"
+armor.container = false # Juste une valeur numérique
+
+# --- GROUPES DE MOUVEMENTS (MOVES) ---
+[moveTypes]
+basic = "Manœuvres de Base"
+special = "Manœuvres Spéciales"
+cred = "Manœuvres de Crédit"
+matrix = "Manœuvres de Matrice"
+corpo = "Manœuvres de Corporation"
+
+# --- ÉQUIPEMENT ---
+[equipmentTypes]
+gear = "Matos"
+cyberware = "Cyberware"
+vehicles = "Véhicules"
+drones = "Drones"
