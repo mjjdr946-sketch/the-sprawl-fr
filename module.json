@@ -1,0 +1,27 @@
+{
+  "id": "the-sprawl-fr",
+  "title": "The Sprawl (FR)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "sprawl_playbooks",
+      "label": "The Sprawl - Playbooks",
+      "path": "packs/sprawl_playbooks",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    }
+  ],
+  "description": ""
+}
