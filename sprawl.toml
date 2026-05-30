@@ -1,4 +1,5 @@
 # --- CONFIGURATION GÉNÉRALE ---
+# --- A copier directement dans l'interface Foundry du module Pbta
 rollFormula = "2d6"
 statToggle = true
 
@@ -20,12 +21,12 @@ statToggle = true
 
   # 1. STATISTIQUES (The Sprawl Stats)
   [character.stats]
-    cool = "Cool"
-    edge = "Cran"
-    meat = "Viande"
-    mind = "Cerveau"
+    cool = "Cran"
+    edge = "Pro"
+    meat = "Chair"
+    mind = "Esprit"
     style = "Style"
-    synth = "Synthé"
+    synth = "Synth"
 
   # 2. BARRES DU HAUT (Top Attributes)
   [character.attributesTop]
@@ -74,6 +75,7 @@ statToggle = true
     cyberware = "Cyberware"
     program = "Programmes"
     vehicle = "Véhicules"
+    bond = "Liens"
 
 # ==========================================
 #              PNJ (NPC)

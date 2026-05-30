@@ -1,0 +1,133 @@
+/* --- IMPORT DES FONTS (On garde ça, c'est stylé) --- */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;900&family=Share+Tech+Mono&display=swap');
+
+/* --- FOND GÉNÉRAL : GRIS ANTHRACITE TACTIQUE --- */
+.pbta.sheet .window-content,
+.pbta.sheet form {
+    /* Un gris foncé bleuté, type "blindage carbone" */
+    background-color: #2b303b !important; 
+    
+    /* Une texture subtile pour donner du grain */
+    background-image: 
+        repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 10px,
+            rgba(0, 0, 0, 0.1) 10px,
+            rgba(0, 0, 0, 0.1) 11px
+        );
+    
+    /* La couleur de base du texte devient blanc cassé pour la lisibilité */
+    color: #e0e6ed; 
+    font-family: 'Share Tech Mono', sans-serif;
+}
+
+/* --- TITRES (On garde le Vert Néon, ça ressort super bien sur le Gris) --- */
+.pbta.sheet h1, .pbta.sheet h2, .pbta.sheet .section-title {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ff41; 
+    border-bottom: 2px solid #4a5568; /* Ligne de séparation grise plus claire */
+    text-shadow: none; /* On enlève le glow pour la netteté */
+}
+
+/* --- BOUTONS ET CONTRÔLES (Le correctif principal) --- */
+/* On force tous les boutons à avoir un fond visible et un texte clair */
+.pbta.sheet button,
+.pbta.sheet .btn {
+    background: #4a5568; /* Gris clair "Béton" */
+    color: #fff !important; /* Texte blanc forcé */
+    border: 1px solid #718096;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.pbta.sheet button:hover {
+    background: #00ff41; /* S'allume en vert au survol */
+    color: #000 !important; /* Texte noir au survol pour contraste */
+    box-shadow: 0 0 10px #00ff41;
+}
+
+/* --- LES TEXTES NOIRS DISPARUS --- */
+/* Si certains textes sont "en dur" en noir dans le système, on les inverse */
+.pbta.sheet .item-name,
+.pbta.sheet label {
+    color: #cbd5e0; /* Gris très clair */
+}
+
+/* --- CHAMPS DE SAISIE (Inputs) --- */
+/* On crée des "creux" plus sombres dans le gris pour écrire */
+.pbta.sheet input[type="text"], 
+.pbta.sheet input[type="number"],
+.pbta.sheet textarea {
+    background-color: #1a202c; /* Presque noir */
+    border: 1px solid #4a5568;
+    color: #00ff41; /* Texte vert machine */
+    border-radius: 3px;
+}
+
+.pbta.sheet input:focus {
+    border-color: #00ff41;
+    background-color: #000;
+}
+
+/* --- LES STATS --- */
+/* On garde l'idée des stats high-tech mais adaptées au fond gris */
+.pbta.sheet .stat-rollable {
+    background-color: #1a202c; /* Fond sombre */
+    border: 2px solid #718096; /* Bordure grise metallique */
+    color: #00e5ff; /* Chiffre Cyan */
+    border-radius: 4px; 
+}
+.pbta.sheet .stat-rollable:hover {
+    background-color: #00e5ff;
+    color: #1a202c;
+    cursor: pointer;
+}
+
+/* --- ONGLETS (TABS) --- */
+.pbta.sheet .sheet-tabs .item {
+    background: #1a202c;
+    color: #718096;
+    border-bottom: 3px solid transparent;
+}
+.pbta.sheet .sheet-tabs .item.active {
+    background: #2b303b; /* Même couleur que le fond pour se fondre */
+    color: #00ff41;
+    border-bottom: 3px solid #00ff41;
+    font-weight: bold;
+}
+
+/* --- TINYMCE (Editeur de texte) --- */
+.editor-content {
+    background: rgba(0,0,0,0.1);
+    color: #e2e8f0;
+    padding: 5px;
+}
+
+/* --- LISTES DÉROULANTES (SELECT) --- */
+
+.pbta.sheet select {
+    /* Fond Gris Clair (Argenté) pour que le violet ressorte bien */
+    background-color: #cbd5e0 !important; 
+    
+    /* Le Violet Sombre demandé (Deep Purple) */
+    color: #240046 !important; 
+    
+    border: 1px solid #718096;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
+    cursor: pointer;
+}
+
+/* On s'assure que les options à l'intérieur gardent ce style une fois ouvertes */
+.pbta.sheet select option {
+    background-color: #cbd5e0;
+    color: #240046;
+}
+
+/* Petit bonus : au survol, on inverse légèrement pour l'effet tactile */
+.pbta.sheet select:hover {
+    background-color: #e2e8f0 !important;
+    border-color: #240046;
+    box-shadow: 0 0 5px rgba(36, 0, 70, 0.5);
+}
