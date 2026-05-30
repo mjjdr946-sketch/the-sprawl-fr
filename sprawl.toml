@@ -55,6 +55,10 @@ statToggle = true
     [character.attributesLeft.directives]
       label = "Directives"
       type = "LongText"
+    [character.attributesLeft.retenue]
+      label = "[Retenue]"
+      type = "Resource"
+      max = 3
     [character.attributesLeft.info]
       label = "[Info]"
       type = "Resource"

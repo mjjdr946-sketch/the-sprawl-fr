@@ -132,6 +132,21 @@
     box-shadow: 0 0 5px rgba(36, 0, 70, 0.5);
 }
 
+/* --- JETONS [Retenue], [Info] et [Matos] --- */
+.pbta.sheet [data-attr="retenue"] label,
+.pbta.sheet .attribute-key-retenue label {
+    color: #ff6b35;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 1px;
+}
+
+.pbta.sheet [data-attr="retenue"] input,
+.pbta.sheet .attribute-key-retenue input {
+    border-color: #ff6b35 !important;
+    color: #ff6b35 !important;
+}
+
 /* --- JETONS [Info] et [Matos] --- */
 .pbta.sheet [data-attr="info"] label,
 .pbta.sheet .attribute-key-info label {
