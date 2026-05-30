@@ -42,10 +42,28 @@ statToggle = true
       type = "Resource"
       max = 50
 
+  [character.attributesLeft]
+    [character.attributesLeft.look]
+      label = "Look / Style"
+      type = "LongText"
+    [character.attributesLeft.directives]
+      label = "Directives"
+      type = "LongText"
+    [character.attributesLeft.info]
+      label = "[Info]"
+      type = "Resource"
+      max = 5
+    [character.attributesLeft.matos]
+      label = "[Matos]"
+      type = "Resource"
+      max = 5
+
   [character.moveTypes]
-    basic = "Manœuvres de Base"
-    playbook = "Manœuvres de Livret"
+    basic = "Manoeuvres de base"
+    playbook = "Livret"
     matrix = "Matrice"
+    mission = "Mission"
+    reputation = "Réputation"
 `;
 
 /* ------------------------------------ */
