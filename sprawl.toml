@@ -55,9 +55,18 @@ statToggle = true
     [character.attributesLeft.directives]
       label = "Directives"
       type = "LongText"
-    [character.attributesLeft.cyberdeck]
-      label = "Cyberdeck"
-      type = "Text"
+    [character.attributesLeft.retenue]
+      label = "[Retenue]"
+      type = "Resource"
+      max = 3
+    [character.attributesLeft.info]
+      label = "[Info]"
+      type = "Resource"
+      max = 5
+    [character.attributesLeft.matos]
+      label = "[Matos]"
+      type = "Resource"
+      max = 5
 
   # 4. GROUPES DE MANŒUVRES (Moves)
   [character.moveTypes]

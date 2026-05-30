@@ -131,3 +131,47 @@
     border-color: #240046;
     box-shadow: 0 0 5px rgba(36, 0, 70, 0.5);
 }
+
+/* --- JETONS [Retenue], [Info] et [Matos] --- */
+.pbta.sheet [data-attr="retenue"] label,
+.pbta.sheet .attribute-key-retenue label {
+    color: #ff6b35;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 1px;
+}
+
+.pbta.sheet [data-attr="retenue"] input,
+.pbta.sheet .attribute-key-retenue input {
+    border-color: #ff6b35 !important;
+    color: #ff6b35 !important;
+}
+
+/* --- JETONS [Info] et [Matos] --- */
+.pbta.sheet [data-attr="info"] label,
+.pbta.sheet .attribute-key-info label {
+    color: #00e5ff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 1px;
+}
+
+.pbta.sheet [data-attr="matos"] label,
+.pbta.sheet .attribute-key-matos label {
+    color: #ffd600;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 1px;
+}
+
+.pbta.sheet [data-attr="info"] input,
+.pbta.sheet .attribute-key-info input {
+    border-color: #00e5ff !important;
+    color: #00e5ff !important;
+}
+
+.pbta.sheet [data-attr="matos"] input,
+.pbta.sheet .attribute-key-matos input {
+    border-color: #ffd600 !important;
+    color: #ffd600 !important;
+}
