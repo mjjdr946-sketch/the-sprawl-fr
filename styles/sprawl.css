@@ -1,14 +1,16 @@
-/* --- IMPORT DES FONTS (On garde ça, c'est stylé) --- */
+/* --- THE SPRAWL [FR] — THÈME CYBERPUNK --- */
+/* Compatible système pbta v1.2.0+ / Foundry VTT v14   */
+
+/* --- IMPORT DES FONTS --- */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;900&family=Share+Tech+Mono&display=swap');
 
-/* --- FOND GÉNÉRAL : GRIS ANTHRACITE TACTIQUE --- */
+/* ============================================= */
+/*  FOND GÉNÉRAL : GRIS ANTHRACITE TACTIQUE      */
+/* ============================================= */
 .pbta.sheet .window-content,
 .pbta.sheet form {
-    /* Un gris foncé bleuté, type "blindage carbone" */
-    background-color: #2b303b !important; 
-    
-    /* Une texture subtile pour donner du grain */
-    background-image: 
+    background-color: #2b303b !important;
+    background-image:
         repeating-linear-gradient(
             45deg,
             transparent,
@@ -16,52 +18,57 @@
             rgba(0, 0, 0, 0.1) 10px,
             rgba(0, 0, 0, 0.1) 11px
         );
-    
-    /* La couleur de base du texte devient blanc cassé pour la lisibilité */
-    color: #e0e6ed; 
+    color: #e0e6ed;
     font-family: 'Share Tech Mono', sans-serif;
 }
 
-/* --- TITRES (On garde le Vert Néon, ça ressort super bien sur le Gris) --- */
-.pbta.sheet h1, .pbta.sheet h2, .pbta.sheet .section-title {
+/* ============================================= */
+/*  TITRES : VERT NÉON SUR FONCÉ                 */
+/* ============================================= */
+.pbta.sheet h1,
+.pbta.sheet h2,
+.pbta.sheet .section-title {
     font-family: 'Orbitron', sans-serif;
-    color: #00ff41; 
-    border-bottom: 2px solid #4a5568; /* Ligne de séparation grise plus claire */
-    text-shadow: none; /* On enlève le glow pour la netteté */
+    color: #00ff41;
+    border-bottom: 2px solid #4a5568;
+    text-shadow: none;
 }
 
-/* --- BOUTONS ET CONTRÔLES (Le correctif principal) --- */
-/* On force tous les boutons à avoir un fond visible et un texte clair */
+/* ============================================= */
+/*  BOUTONS ET CONTRÔLES                         */
+/* ============================================= */
 .pbta.sheet button,
 .pbta.sheet .btn {
-    background: #4a5568; /* Gris clair "Béton" */
-    color: #fff !important; /* Texte blanc forcé */
+    background: #4a5568;
+    color: #fff !important;
     border: 1px solid #718096;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     font-family: 'Orbitron', sans-serif;
 }
 
 .pbta.sheet button:hover {
-    background: #00ff41; /* S'allume en vert au survol */
-    color: #000 !important; /* Texte noir au survol pour contraste */
+    background: #00ff41;
+    color: #000 !important;
     box-shadow: 0 0 10px #00ff41;
 }
 
-/* --- LES TEXTES NOIRS DISPARUS --- */
-/* Si certains textes sont "en dur" en noir dans le système, on les inverse */
+/* ============================================= */
+/*  TEXTES & LABELS                              */
+/* ============================================= */
 .pbta.sheet .item-name,
 .pbta.sheet label {
-    color: #cbd5e0; /* Gris très clair */
+    color: #cbd5e0;
 }
 
-/* --- CHAMPS DE SAISIE (Inputs) --- */
-/* On crée des "creux" plus sombres dans le gris pour écrire */
-.pbta.sheet input[type="text"], 
+/* ============================================= */
+/*  CHAMPS DE SAISIE (INPUTS)                    */
+/* ============================================= */
+.pbta.sheet input[type="text"],
 .pbta.sheet input[type="number"],
 .pbta.sheet textarea {
-    background-color: #1a202c; /* Presque noir */
+    background-color: #1a202c;
     border: 1px solid #4a5568;
-    color: #00ff41; /* Texte vert machine */
+    color: #00ff41;
     border-radius: 3px;
 }
 
@@ -70,108 +77,142 @@
     background-color: #000;
 }
 
-/* --- LES STATS --- */
-/* On garde l'idée des stats high-tech mais adaptées au fond gris */
+/* ============================================= */
+/*  STATISTIQUES (STATS)                         */
+/* ============================================= */
 .pbta.sheet .stat-rollable {
-    background-color: #1a202c; /* Fond sombre */
-    border: 2px solid #718096; /* Bordure grise metallique */
-    color: #00e5ff; /* Chiffre Cyan */
-    border-radius: 4px; 
+    background-color: #1a202c;
+    border: 2px solid #718096;
+    color: #00e5ff;
+    border-radius: 4px;
 }
+
 .pbta.sheet .stat-rollable:hover {
     background-color: #00e5ff;
     color: #1a202c;
     cursor: pointer;
 }
 
-/* --- ONGLETS (TABS) --- */
+/* ============================================= */
+/*  ONGLETS (TABS)                               */
+/* ============================================= */
 .pbta.sheet .sheet-tabs .item {
     background: #1a202c;
     color: #718096;
     border-bottom: 3px solid transparent;
 }
+
 .pbta.sheet .sheet-tabs .item.active {
-    background: #2b303b; /* Même couleur que le fond pour se fondre */
+    background: #2b303b;
     color: #00ff41;
     border-bottom: 3px solid #00ff41;
     font-weight: bold;
 }
 
-/* --- TINYMCE (Editeur de texte) --- */
+/* ============================================= */
+/*  ÉDITEUR DE TEXTE (TinyMCE / ProseMirror)     */
+/* ============================================= */
 .editor-content {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     color: #e2e8f0;
     padding: 5px;
 }
 
-/* --- LISTES DÉROULANTES (SELECT) --- */
-
+/* ============================================= */
+/*  LISTES DÉROULANTES (SELECT)                  */
+/* ============================================= */
 .pbta.sheet select {
-    /* Fond Gris Clair (Argenté) pour que le violet ressorte bien */
-    background-color: #cbd5e0 !important; 
-    
-    /* Le Violet Sombre demandé (Deep Purple) */
-    color: #240046 !important; 
-    
+    background-color: #cbd5e0 !important;
+    color: #240046 !important;
     border: 1px solid #718096;
     font-weight: bold;
     font-family: 'Share Tech Mono', monospace;
     cursor: pointer;
 }
 
-/* On s'assure que les options à l'intérieur gardent ce style une fois ouvertes */
 .pbta.sheet select option {
     background-color: #cbd5e0;
     color: #240046;
 }
 
-/* Petit bonus : au survol, on inverse légèrement pour l'effet tactile */
 .pbta.sheet select:hover {
     background-color: #e2e8f0 !important;
     border-color: #240046;
     box-shadow: 0 0 5px rgba(36, 0, 70, 0.5);
 }
 
-/* --- JETONS [Retenue], [Info] et [Matos] --- */
-.pbta.sheet [data-attr="retenue"] label,
-.pbta.sheet .attribute-key-retenue label {
+/* ============================================= */
+/*  ATTRIBUTS SPÉCIFIQUES THE SPRAWL             */
+/*  Utilisation des classes générées par pbta    */
+/*  (cell--{key} = cell--retenue, cell--info...) */
+/* ============================================= */
+
+/* --- [Retenue] — Orange --- */
+.pbta.sheet .cell--retenue .cell__title {
     color: #ff6b35;
     font-family: 'Orbitron', sans-serif;
     font-size: 0.75em;
     letter-spacing: 1px;
 }
 
-.pbta.sheet [data-attr="retenue"] input,
-.pbta.sheet .attribute-key-retenue input {
+.pbta.sheet .cell--retenue input {
     border-color: #ff6b35 !important;
     color: #ff6b35 !important;
 }
 
-/* --- JETONS [Info] et [Matos] --- */
-.pbta.sheet [data-attr="info"] label,
-.pbta.sheet .attribute-key-info label {
+/* --- [Info] — Cyan --- */
+.pbta.sheet .cell--info .cell__title {
     color: #00e5ff;
     font-family: 'Orbitron', sans-serif;
     font-size: 0.75em;
     letter-spacing: 1px;
 }
 
-.pbta.sheet [data-attr="matos"] label,
-.pbta.sheet .attribute-key-matos label {
+.pbta.sheet .cell--info input {
+    border-color: #00e5ff !important;
+    color: #00e5ff !important;
+}
+
+/* --- [Matos] — Jaune --- */
+.pbta.sheet .cell--matos .cell__title {
     color: #ffd600;
     font-family: 'Orbitron', sans-serif;
     font-size: 0.75em;
     letter-spacing: 1px;
 }
 
-.pbta.sheet [data-attr="info"] input,
-.pbta.sheet .attribute-key-info input {
-    border-color: #00e5ff !important;
-    color: #00e5ff !important;
-}
-
-.pbta.sheet [data-attr="matos"] input,
-.pbta.sheet .attribute-key-matos input {
+.pbta.sheet .cell--matos input {
     border-color: #ffd600 !important;
     color: #ffd600 !important;
+}
+
+/* ============================================= */
+/*  EN-TÊTE : LOOK & DIRECTIVES (LongText)       */
+/* ============================================= */
+.pbta.sheet .cell--look .cell__title,
+.pbta.sheet .cell--directives .cell__title {
+    color: #00ff41;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ============================================= */
+/*  ATTRIBUTS DU HAUT (Top) : Harm, XP, Cred     */
+/* ============================================= */
+.pbta.sheet .cell--harm .cell__title {
+    color: #ff4444;
+    font-weight: bold;
+}
+
+.pbta.sheet .cell--xp .cell__title {
+    color: #00ff41;
+}
+
+.pbta.sheet .cell--cred .cell__title {
+    color: #ffd600;
+}
+
+.pbta.sheet .cell--intel .cell__title {
+    color: #00e5ff;
 }

@@ -1,33 +1,38 @@
 /* ------------------------------------ */
 /*           THE SPRAWL [FR]            */
+/*         Foundry VTT v14 + pbta       */
 /* ------------------------------------ */
 
-const sprawlToml = `
-# CONFIGURATION GLOBAL
+const sprawlToml = `# --- CONFIGURATION GÉNÉRALE ---
 rollFormula = "2d6"
 statToggle = true
 
 [rollResults]
   [rollResults.failure]
     range = "6-"
-    label = "Échec / Réaction"
+    label = "Échec (Réaction du MC)"
   [rollResults.partial]
     range = "7-9"
-    label = "Succès partiel"
+    label = "Succès partiel / Glitch"
   [rollResults.success]
     range = "10+"
     label = "Succès !"
 
-# --- PERSONNAGE ---
+# ==========================================
+#              PERSONNAGES (PJ)
+# ==========================================
 [character]
-  [character.stats]
-    cool = "Cool"
-    hard = "Cran"
-    meat = "Viande"
-    mind = "Cerveau"
-    style = "Style"
-    synth = "Synthé"
 
+  # 1. STATISTIQUES (The Sprawl Stats)
+  [character.stats]
+    cool = "Cran"
+    edge = "Pro"
+    meat = "Chair"
+    mind = "Esprit"
+    style = "Style"
+    synth = "Synth"
+
+  # 2. BARRES DU HAUT (Top Attributes)
   [character.attributesTop]
     [character.attributesTop.harm]
       label = "Blessures"
@@ -41,7 +46,12 @@ statToggle = true
       label = "Crédit"
       type = "Resource"
       max = 50
+    [character.attributesTop.intel]
+      label = "Rens."
+      type = "Resource"
+      max = 3
 
+  # 3. COLONNE DE GAUCHE (Left Attributes)
   [character.attributesLeft]
     [character.attributesLeft.look]
       label = "Look / Style"
@@ -62,37 +72,72 @@ statToggle = true
       type = "Resource"
       max = 5
 
+  # 4. GROUPES DE MANŒUVRES (Moves)
   [character.moveTypes]
     basic = "Manoeuvres de base"
     playbook = "Livret"
     matrix = "Matrice"
     mission = "Mission"
     reputation = "Réputation"
+
+  # 5. TYPES D'ÉQUIPEMENT (OBLIGATOIRE POUR ÉVITER L'ERREUR)
+  [character.equipmentTypes]
+    weapon = "Armes"
+    armor = "Protection"
+    gear = "Matériel"
+    cyberware = "Cyberware"
+    program = "Programmes"
+    vehicle = "Véhicules"
+    bond = "Liens"
+
+# ==========================================
+#              PNJ (NPC)
+# ==========================================
+# Cette section est OBLIGATOIRE sinon erreur "npc type requis"
+[npc]
+  
+  [npc.attributesTop]
+    [npc.attributesTop.harm]
+      label = "Santé / Menace"
+      type = "Clock"
+      max = 10
+    [npc.attributesTop.instinct]
+      label = "Instinct"
+      type = "Text"
+
+  [npc.attributesLeft]
+    [npc.attributesLeft.description]
+      label = "Description"
+      type = "LongText"
+
+  [npc.moveTypes]
+    gm = "Manoeuvres MC"
+
+  [npc.equipmentTypes]
+    weapon = "Armes"
+    gear = "Matériel"
 `;
 
 /* ------------------------------------ */
 /*           INITIALISATION             */
 /* ------------------------------------ */
 
-// 1. DÉSACTIVATION DE L'OVERRIDE MANUEL 
-// Si cette option est sur TRUE, Foundry ignore les modules. On la force à FALSE.
-Hooks.once("ready", async function() {
-    if (game.settings.get("pbta", "sheetConfigOverride")) {
-        console.log("THE SPRAWL | Désactivation de la configuration manuelle pour activer le module.");
-        await game.settings.set("pbta", "sheetConfigOverride", false);
-        // On recharge pour que le changement prenne effet
-        foundry.utils.debouncedReload();
-    }
-});
-
-// 2. INJECTION PURE (MÉTHODE MASKS)
-// Le système nous donne l'objet "sheetConfig", on le modifie directement.
-Hooks.once('pbtaSheetConfig', (sheetConfig) => {
+// INJECTION DE LA CONFIGURATION THE SPRAWL
+// Le système pbta v1.2.0+ appelle le hook "pbtaSheetConfig" pendant son ready.
+// On parse notre TOML et on injecte la config directement dans game.pbta.sheetConfig.
+Hooks.once('pbtaSheetConfig', async () => {
     console.log("THE SPRAWL | Chargement de la matrice du système...");
 
-    // C'est ICI que la différence se fait : on assigne, on ne return pas.
-    sheetConfig.label = "The Sprawl";
-    sheetConfig.tomlString = sprawlToml;
-    
-    console.log("THE SPRAWL | Matrice chargée.");
+    try {
+        // Parser le TOML via l'utilitaire du système pbta
+        const parsed = game.pbta.utils.parseTomlString(sprawlToml);
+        // Convertir en config utilisable par les sheets
+        game.pbta.sheetConfig = game.pbta.utils.convertSheetConfig(parsed);
+        // Activer le override pour que la config persiste en session
+        await game.settings.set("pbta", "sheetConfigOverride", true);
+
+        console.log("THE SPRAWL | Matrice chargée avec succès ✅");
+    } catch (err) {
+        console.error("THE SPRAWL | Erreur lors du chargement de la matrice :", err);
+    }
 });
