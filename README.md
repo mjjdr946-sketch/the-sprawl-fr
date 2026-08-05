@@ -37,3 +37,6 @@ Configuration complète pour **The Sprawl** (PbtA cyberpunk) sur Foundry VTT v14
 | `scripts/main.mjs` | Injection automatique de la configuration pbta |
 | `styles/sprawl.css` | Thème visuel cyberpunk |
 | `sprawl.toml` | Configuration TOML de référence pour The Sprawl |
+| `packs/playbooks.db/` | Livrets (playbooks) |
+| `packs/moves.db/` | Manœuvres (moves) |
+| `packs/equipment.db/` | Équipement (armes, protection, cyberware, programmes, etc.) |

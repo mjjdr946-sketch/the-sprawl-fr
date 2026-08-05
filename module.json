@@ -31,7 +31,32 @@
   "styles": [
     "styles/sprawl.css"
   ],
-  "packs": [],
+  "packs": [
+    {
+      "name": "playbooks",
+      "label": "Livrets (The Sprawl)",
+      "path": "packs/playbooks.db",
+      "type": "Item",
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "moves",
+      "label": "Manœuvres (The Sprawl)",
+      "path": "packs/moves.db",
+      "type": "Item",
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "equipment",
+      "label": "Équipement (The Sprawl)",
+      "path": "packs/equipment.db",
+      "type": "Item",
+      "system": "pbta",
+      "flags": {}
+    }
+  ],
   "url": "https://github.com/mjjdr946-sketch/the-sprawl-fr",
   "manifest": "https://raw.githubusercontent.com/mjjdr946-sketch/the-sprawl-fr/v14-port/module.json",
   "download": "https://github.com/mjjdr946-sketch/the-sprawl-fr/archive/refs/heads/v14-port.zip",
