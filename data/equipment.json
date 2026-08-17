@@ -1,0 +1,444 @@
+{
+  "description": "Équipement complet pour The Sprawl [FR] — Armes, Armures, Matériel, Cybernétique, Véhicules",
+  "system": "pbta",
+  "game": "The Sprawl",
+  "categories": {
+    "weapons": 23,
+    "armors": 5,
+    "gear": 24,
+    "cyberware": 25,
+    "vehicles": 7
+  },
+  "equipment": {
+    "weapons": [
+      {
+        "n": "Revolver de gros calibre",
+        "t": "+courte/proche, +recharge, +bruyant, 3-dégâts",
+        "d": "Un revolver lourd qui fait mal là où ça compte."
+      },
+      {
+        "n": "Pistolet à fléchettes",
+        "t": "+courte/proche, +rapide, +fléchettes, 3-dégâts",
+        "d": "Pistolet tirant des fléchettes tranquillisantes ou empoisonnées."
+      },
+      {
+        "n": "Arme de poing",
+        "t": "+courte/proche, +bruyant, +rapide, 2-dégâts",
+        "d": "Pistolet standard, fiable et dissimulable."
+      },
+      {
+        "n": "Fusil à pompe",
+        "t": "+courte/proche, +bruyant, +carnage, 3-dégâts",
+        "d": "Puissant à courte portée, dévastateur dans les espaces confinés."
+      },
+      {
+        "n": "Fusil d'assaut",
+        "t": "+proche/longue, +bruyant, +automatique, 2-dégâts",
+        "d": "Fusil automatique standard, polyvalent."
+      },
+      {
+        "n": "Fusil de précision",
+        "t": "+longue/extrême, +bruyant, +recharge, 4-dégâts",
+        "d": "Fusil à longue portée pour le tir d'élite."
+      },
+      {
+        "n": "Lame",
+        "t": "+contact, 2-dégâts",
+        "d": "Couteau, machette ou autre arme blanche."
+      },
+      {
+        "n": "Fouet ou chaîne",
+        "t": "+courte, +zone, 1-dégât",
+        "d": "Arme improvisée mais efficace pour garder ses distances."
+      },
+      {
+        "n": "Pistolet-mitrailleur",
+        "t": "+courte/proche, +automatique, +bruyant, 2-dégâts",
+        "d": "Automatique compact, idéal pour le combat rapproché."
+      },
+      {
+        "n": "Explosifs",
+        "t": "+courte, +dangereux, 4-dégâts, +carnage",
+        "d": "Grenades, charges ou autres explosifs."
+      },
+      {
+        "n": "Pistolet de poche",
+        "t": "+contact/courte, +discret, +rapide, +recharge, +bruyant, 2-dégâts",
+        "d": "Arme de poing compacte, facile à dissimuler."
+      },
+      {
+        "n": "Pistolet semi-automatique",
+        "t": "+courte/proche, +bruyant, +rapide, 2-dégâts",
+        "d": "Pistolet standard à tir rapide."
+      },
+      {
+        "n": "Taser de poing",
+        "t": "+assommant, +contact, +recharge",
+        "d": "Arme électrique non-létale."
+      },
+      {
+        "n": "Pistolet-mitrailleur silencieux",
+        "t": "+courte/proche, +automatique, +discret, 2-dégâts",
+        "d": "PM avec silencieux intégré pour les opérations discrètes."
+      },
+      {
+        "n": "Pistolet semi-automatique silencieux",
+        "t": "+courte, +rapide, +discret, 2-dégâts",
+        "d": "Pistolet équipé d'un silencieux."
+      },
+      {
+        "n": "Épée",
+        "t": "+contact, +carnage, 3-dégâts",
+        "d": "Lame longue tranchante, efficace au combat."
+      },
+      {
+        "n": "Shuriken ou couteaux de lancer",
+        "t": "+courte, +nombreux, 2-dégâts",
+        "d": "Projectiles légers, nombreux et discrets."
+      },
+      {
+        "n": "Fusil de combat",
+        "t": "+courte/proche, +bruyant, +carnage, +automatique, 3-dégâts",
+        "d": "Fusil automatique lourd pour l'assaut."
+      },
+      {
+        "n": "Machette",
+        "t": "+contact, +carnage, 3-dégâts",
+        "d": "Lame large et lourde, dévastatrice au corps à corps."
+      },
+      {
+        "n": "Grenades à fragmentation",
+        "t": "+proche, +zone, +recharge, +bruyant, +carnage, 4-dégâts",
+        "d": "Grenade explosive standard."
+      },
+      {
+        "n": "Grenades incapacitantes",
+        "t": "+assommant, +proche, +zone, +bruyant, +recharge",
+        "d": "Grenade à effet non-létal."
+      },
+      {
+        "n": "Grenades à gaz",
+        "t": "+assommant, +proche, +zone, +recharge, +gaz",
+        "d": "Grenade libérant un gaz incapacitant."
+      },
+      {
+        "n": "Pistolet (Soldat)",
+        "t": "+courte/proche, +bruyant, 3-dégâts",
+        "d": "Pistolet militaire lourd."
+      }
+    ],
+    "armors": [
+      {
+        "n": "Vêtements renforcés",
+        "t": "0-armure, +discret",
+        "d": "Vêtements tactiques avec renforts discrets. Soustrait 1 lors des jets de Blessure."
+      },
+      {
+        "n": "Gilet pare-balles",
+        "t": "1-armure, +voyant",
+        "d": "Gilet offrant une protection balistique standard."
+      },
+      {
+        "n": "Armure lourde",
+        "t": "2-armure, +lourd, +très voyant",
+        "d": "Armure complète avec plaques balistiques."
+      },
+      {
+        "n": "Blouson renforcé",
+        "t": "0-armure, +discret",
+        "d": "Blouson en cuir ou synthétique avec mailles protectrices intégrées."
+      },
+      {
+        "n": "Gilet de protection",
+        "t": "1-armure",
+        "d": "Gilet balistique standard de niveau protection de base."
+      }
+    ],
+    "gear": [
+      {
+        "n": "Lunettes tactiques",
+        "t": "+zoom, +enregistrement",
+        "d": "Lunettes à réalité augmentée avec zoom et enregistrement."
+      },
+      {
+        "n": "Traumapatch",
+        "t": "+jetable, +premiers soins",
+        "d": "Patch médical d'urgence pour blessures jusqu'à 21h00."
+      },
+      {
+        "n": "Kit de Traitement Médical d'Urgence",
+        "t": "+médical, +encombrant",
+        "d": "Kit complet pour les blessures graves au-delà de 21h00."
+      },
+      {
+        "n": "Outils d'investigation de terrain",
+        "t": "+investigation",
+        "d": "Kit complet : lampe UV, empreintes, enregistreur."
+      },
+      {
+        "n": "Console matricielle",
+        "t": "+matrice",
+        "d": "Console de decking avec processeur, mémoire et programmes."
+      },
+      {
+        "n": "Atelier",
+        "t": "+atelier",
+        "d": "Atelier spécialisé dans une sphère d'expertise (armurerie, chimie, cybernétique, électronique, mécanique, médical)."
+      },
+      {
+        "n": "Drone de reconnaissance",
+        "t": "+drone, +volant, +discret",
+        "d": "Petit drone discret pour la surveillance et l'exploration."
+      },
+      {
+        "n": "Drone de combat",
+        "t": "+drone, +volant, 2-dégâts, 1-armure",
+        "d": "Drone armé pour le soutien tactique."
+      },
+      {
+        "n": "Puce de compétence",
+        "t": "+puce, +compétence",
+        "d": "Puce de compétence câblée pour Compétences câblées. Exemples : arts martiaux, crochetage, escalade, armes à feu, conduite extrême, premiers soins, parkour."
+      },
+      {
+        "n": "Combinaison furtive",
+        "t": "+furtif, +discret",
+        "d": "+1 continu pour éviter d'être repéré quand tu es seul et caché."
+      },
+      {
+        "n": "Kit de déguisement",
+        "t": "+déguisement",
+        "d": "+1 continu pour éviter d'être repéré en maintenant une fausse identité."
+      },
+      {
+        "n": "Matériel d'enregistrement",
+        "t": "+enregistrement",
+        "d": "Matériel audio/vidéo. Choisis jusqu'à 2 étiquettes : +audio, +vidéo, +discret, +encrypté."
+      },
+      {
+        "n": "Console d'infiltration",
+        "t": "+matrice, +infiltration",
+        "d": "Console spécialisée : Résistance 1, Pare-feu 1, Processeur 1, Furtivité 2. Avec Protection d'identité, Traitement de données, Verrouillage."
+      },
+      {
+        "n": "Matériel de communication +encryptée",
+        "t": "+communication, +encrypté",
+        "d": "Système de communication crypté, résistant aux interceptions."
+      },
+      {
+        "n": "Relais de communication",
+        "t": "+communication, +relais",
+        "d": "Relais de communication. Choisis 2 étiquettes parmi +encrypté, +brouillage."
+      },
+      {
+        "n": "Station microélectronique de réparation",
+        "t": "+réparation, +électronique",
+        "d": "Permet d'effectuer des réparations sur le terrain sur l'électronique et la cybernétique."
+      },
+      {
+        "n": "Réfrigérateur blindé",
+        "t": "3-armure, +immobile",
+        "d": "Coffre blindé pour protéger du matériel sensible."
+      },
+      {
+        "n": "Jumelles",
+        "t": "+vision",
+        "d": "Jumelles. Choisis 2 étiquettes parmi : +thermographique, +amplification lumineuse, +zoom, +anti-flash, +enregistrement."
+      },
+      {
+        "n": "Lunettes (équipement)",
+        "t": "+vision",
+        "d": "Lunettes. Choisis 2 étiquettes parmi : +amplification lumineuse, +zoom, +enregistrement."
+      },
+      {
+        "n": "Équipement d'enregistrement simsense",
+        "t": "+enregistrement, +simsense",
+        "d": "Équipement d'enregistrement de simulation sensorielle (simsense)."
+      },
+      {
+        "n": "Instruments de musique",
+        "t": "+musique, +enregistrement",
+        "d": "Instruments de musique. Choisis 2 étiquettes parmi : +enregistrement, +relais satellite, +simsense."
+      },
+      {
+        "n": "Trousse à outils (Tech)",
+        "t": "+outils, +réparation",
+        "d": "Trousse à outils et matériel adaptés à ta sphère d'expertise."
+      },
+      {
+        "n": "Combinaison de cuir synthétique",
+        "t": "0-armure, +discret",
+        "d": "Soustrait 1 lors des jets de blessure."
+      },
+      {
+        "n": "Berline +quelconque",
+        "t": "+véhicule, +quelconque",
+        "d": "Berline discrète qui ne se fait pas remarquer."
+      }
+    ],
+    "cyberware": [
+      {
+        "n": "Processeur tactique",
+        "t": "+implant cérébral",
+        "d": "Système expert calculant trajectoires, distances et variables environnementales pour guider la prise de décision. Quand tu évalues au cœur d'une situation tactique, retiens 1 supplémentaire, même sur un raté."
+      },
+      {
+        "n": "Yeux cybernétiques",
+        "t": "+zoom, +amplification lumineuse, +enregistrement, +implant",
+        "d": "Yeux de remplacement offrant des capacités visuelles supérieures. Choisis 2 options parmi : +thermographique, +amplification lumineuse, +zoom, +anti-flash, +enregistrement, +crypté, +partition inaccessible. Quand ta vision améliorée peut aider, lance 2d6+Synth pour évaluer."
+      },
+      {
+        "n": "Interface neurale",
+        "t": "+interface, +matrice, +implant cérébral",
+        "d": "Interface cérébrale retranscrivant les impulsions nerveuses en signaux pour contrôler des engins extérieurs. Permet de prendre Seconde peau (Pilote) ou Branché (Hacker) comme avancement. Choisis une option : Logiciel de visée, Module de contrôle à distance, ou Stockage de données."
+      },
+      {
+        "n": "Logiciel de visée",
+        "t": "+interface, +visée, +implant",
+        "d": "Option de l'Interface neurale. Lien neural direct avec une arme +connectée. Inflige dégâts supplémentaires = Synth. Lance 2d6+Synth au lieu de Chair pour employer la manière forte. Précision de zone avec +automatique."
+      },
+      {
+        "n": "Module de contrôle à distance",
+        "t": "+interface, +drone, +implant",
+        "d": "Option de l'Interface neurale. Contrôle à distance de véhicules et drones sans fil. Choisis 2 parmi : +multitâche, +crypté, +relais satellite, +partition inaccessible."
+      },
+      {
+        "n": "Stockage de données",
+        "t": "+interface, +mémoire, +implant",
+        "d": "Option de l'Interface neurale. Communication pensée avec système/Matrice. Recherche dans données stockées : [info] supplémentaire sur succès. Choisis 2 parmi : +vitesse élevée, +large capacité, +crypté, +partition inaccessible."
+      },
+      {
+        "n": "Réflexes augmentés",
+        "t": "+réflexes, +combat, +implant",
+        "d": "Amélioration des réflexes par implants neuromusculaires. +1 pour agir sous pression quand la réaction compte."
+      },
+      {
+        "n": "Armature synthétique",
+        "t": "+armature, +résistance, +implant",
+        "d": "Renforcement du squelette et des muscles. +1 armure contre les dégâts physiques."
+      },
+      {
+        "n": "Armure dermique",
+        "t": "+armure, +dermique, +implant",
+        "d": "Plaques hypodermiques d'armure synthétique. Blessure : soustrais 2 au jet (3 si +fléchettes)."
+      },
+      {
+        "n": "Bras cybernétique (force augmentée)",
+        "t": "+force, +mêlée, +implant",
+        "d": "Bras de remplacement avec force augmentée. +2 dégâts en utilisant une arme de mêlée qui dépend de la force physique."
+      },
+      {
+        "n": "Bras cybernétique (outils intégrés)",
+        "t": "+outils, +bricolage, +implant",
+        "d": "Bras de remplacement avec outils intégrés. +1 sur le prochain jet pour réparer, trafiquer ou court-circuiter un appareil."
+      },
+      {
+        "n": "Bras cybernétique (arme intégrée)",
+        "t": "+arme, +implant",
+        "d": "Bras de remplacement avec arme intégrée. Choisis : lames rétractables (2-dégâts +contact +carnage), arme à feu cachée (2-dégâts +courte +bruyant), ou fouet à monofilament (4-dégâts +contact +carnage +zone +dangereux)."
+      },
+      {
+        "n": "Lames rétractables",
+        "t": "+contact, +carnage, +implant, +dissimulé, 2-dégâts",
+        "d": "Armes internes dissimulées montées dans les avant-bras, déployables à volonté. Variante de l'Armement incorporé."
+      },
+      {
+        "n": "Arme à feu cachée",
+        "t": "+courte, +bruyant, +implant, +dissimulé, 2-dégâts",
+        "d": "Arme à feu implantée dans le corps. Variante de l'Armement incorporé."
+      },
+      {
+        "n": "Fouet à monofilament",
+        "t": "+contact, +carnage, +zone, +dangereux, +implant, 4-dégâts",
+        "d": "Fouet à monofilament implanté, capable de trancher presque tout. Variante de l'Armement incorporé."
+      },
+      {
+        "n": "Implant interne d'assassinat",
+        "t": "+intime, +lent, +implant, 4-dégâts",
+        "d": "Implant discret conçu pour l'assassinat silencieux à bout portant."
+      },
+      {
+        "n": "Compétences câblées",
+        "t": "+cérébral, +puce, +compétence, +implant",
+        "d": "Système expert cérébral émulant réflexes et connaissances. +1 continu si la puce correspond à la Manœuvre. 2 ports standard, démarre avec 2 puces. Puces : arts martiaux, crochetage, escalade, armes à feu, conduite extrême, parkour, premiers soins, etc."
+      },
+      {
+        "n": "Cybercoms",
+        "t": "+communication, +implant",
+        "d": "Communications internes par impulsions mentales. Choisis 2 parmi : +brouillage, +relais satellite, +enregistrement, +crypté, +partition inaccessible. Surveiller des communications : 2d6+Synth pour évaluer."
+      },
+      {
+        "n": "Greffe musculaire",
+        "t": "+muscle, +force, +mêlée, +implant",
+        "d": "Fibres synthétiques greffées. Arme de mêlée pour employer la manière forte : 2d6+Synth au lieu de Chair, +1 dégât."
+      },
+      {
+        "n": "Jambes cybernétiques",
+        "t": "+jambes, +athlétique, +implant",
+        "d": "Jambes de remplacement aux capacités athlétiques surhumaines. +1 pour agir sous pression via capacités athlétiques. 12+ : gagne 1 retenue (comme évaluer)."
+      },
+      {
+        "n": "Nerfs synthétiques",
+        "t": "+réflexes, +nerfs, +combat, +implant",
+        "d": "Remplacement partiel du système nerveux. +1 sur employer la manière forte si aucun ennemi n'en a. +1 sur agir sous pression si réaction importante."
+      },
+      {
+        "n": "Oreilles cybernétiques",
+        "t": "+audition, +implant",
+        "d": "Oreilles de remplacement aux capacités auditives supérieures. Choisis 2 parmi : +atténuation, +gamme de fréquences, +enregistrement, +crypté, +partition inaccessible. Audition améliorée : 2d6+Synth pour évaluer."
+      },
+      {
+        "n": "Poumon filtrant",
+        "t": "+filtre, +survie, +implant",
+        "d": "Implant pulmonaire filtrant les toxines et agents chimiques."
+      },
+      {
+        "n": "Stimulateur adrénaline",
+        "t": "+stimulant, +adrénaline, +implant",
+        "d": "Libération contrôlée d'adrénaline. Une fois par mission, +1 sur un jet de Chair ou Cran."
+      },
+      {
+        "n": "Enregistreur mnésique",
+        "t": "+enregistrement, +mémoire, +implant",
+        "d": "Implant qui enregistre tout ce que tu vois et entends avec une capacité de stockage étendue."
+      }
+    ],
+    "vehicles": [
+      {
+        "n": "Véhicule câblé",
+        "t": "+véhicule, +câblé",
+        "d": "Véhicule personnalisé avec interface neurale. Puissance, Aspect, Défaut et Armure variables selon le modèle."
+      },
+      {
+        "n": "Véhicule +voyant",
+        "t": "+véhicule, +voyant",
+        "d": "Moto, voiture de sport ou hors-bord voyant."
+      },
+      {
+        "n": "Véhicule +racé",
+        "t": "+véhicule, +racé",
+        "d": "Moto, voiture ou hélicoptère racé."
+      },
+      {
+        "n": "Moto +agressive",
+        "t": "+véhicule, +moto, +agressive",
+        "d": "Moto au look agressif et performant."
+      },
+      {
+        "n": "Fourgon ou camion",
+        "t": "+véhicule, +utilitaire",
+        "d": "Fourgon utilitaire. Choisis un avantage (+robuste, +tout-terrain, +immense, +performant) et un défaut (+lent, +exigu, +bruyant)."
+      },
+      {
+        "n": "Console matricielle (défensive)",
+        "t": "+matrice, +défensive",
+        "d": "Console défensive : Résistance 2, Pare-feu 2, Processeur 1, Furtivité 1. Avec 2 programmes."
+      },
+      {
+        "n": "Console matricielle (performante)",
+        "t": "+matrice, +performante",
+        "d": "Console performante : Résistance 1, Pare-feu 1, Processeur 2, Furtivité 2. Avec 3 programmes."
+      }
+    ]
+  }
+}

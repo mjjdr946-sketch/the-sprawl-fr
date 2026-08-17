@@ -1,0 +1,2168 @@
+/* ------------------------------------------------------- */
+/*   THE SPRAWL [FR] — POPULATE ALL MOVES                   */
+/*   134 manœuvres : 17 basiques + 112 livrets + 5 matrice       */
+/* ------------------------------------------------------- */
+
+const ALL_MOVES = [
+  {
+    name: "Acquérir une concession funéraire",
+    type: "move",
+    system: {
+      description: `<p>Quand tu atteins 24h00 sur ton Compte à rebours de Blessure, lance 2d6+Chair.</p>`,
+      moveType: "basic",
+      rollType: "meat",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Tu survis jusqu'à ce que les secours arrivent.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Tu survis à un prix. Choisis : +endetté, -1 à une stat, ou cybernétique endommagée.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>Tu te vides de ton sang dans le caniveau.</p>` },
+      }
+    }
+  },
+  {
+    name: "Administrer les premiers soins",
+    type: "move",
+    system: {
+      description: `<p>Quand tu soignes des blessures avec le matériel médical approprié, lance 2d6+Cran.</p>`,
+      moveType: "basic",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Blessure ≤21h: -2 segments. Blessure >21h: -1 segment.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>-1 segment. Si >21h: -1 continu jusqu'à soins suffisants.</p>` },
+      }
+    }
+  },
+  {
+    name: "Aider ou Interférer",
+    type: "move",
+    system: {
+      description: `<p>Quand tu aides ou entraves un autre personnage, lance 2d6+Liens.</p>`,
+      moveType: "basic",
+      rollType: "formula",
+      rollFormula: "2d6",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "7+", value: `<p>Choisis s'il gagne +1 ou -2 à son jet.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Tu es impliqué dans le résultat (danger, prix, représailles).</p>` },
+      }
+    }
+  },
+  {
+    name: "Agir sous pression",
+    type: "move",
+    system: {
+      description: `<p>Quand tu agis contre la montre, face au danger ou pour éviter un danger, lance 2d6+Cran.</p>`,
+      moveType: "basic",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Tu le fais sans problème.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Tu recules, trébuches ou hésites ; le MC présente un choix désagréable.</p>` },
+      }
+    }
+  },
+  {
+    name: "Baratiner",
+    type: "move",
+    system: {
+      description: `<p>Quand tu convaincs quelqu'un par promesses, mensonges ou paroles en l'air, lance 2d6+Style.</p>`,
+      moveType: "basic",
+      rollType: "style",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>PNJ: obéissent. PJ: choisissent (XP ou Agir sous pression).</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>PNJ obéissent mais qqn s'en rend compte. PJ: une option au choix.</p>` },
+      }
+    }
+  },
+  {
+    name: "Battre le pavé",
+    type: "move",
+    system: {
+      description: `<p>Quand tu te rapproches d'un Contact pour obtenir de l'aide, lance 2d6+Style.</p>`,
+      moveType: "basic",
+      rollType: "style",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Obtiens ce que tu veux + bonus ([info] ou [matos]).</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Obtiens ce que tu veux + 2 complications.</p>` },
+      }
+    }
+  },
+  {
+    name: "Blessure",
+    type: "move",
+    system: {
+      description: `<p>Quand tu subis des dégâts, retranche l'armure, coche les segments, lance 2d6+dégâts subis.</p>`,
+      moveType: "basic",
+      rollType: "formula",
+      rollFormula: "2d6",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Tu choisis: hors-de-combat / dégâts complets / cyber perdue / membre perdu.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Le MC choisit: perds pied / perds objet / perds trace / qqn prend le dessus.</p>` },
+      }
+    }
+  },
+  {
+    name: "Déclarer un Contact",
+    type: "move",
+    system: {
+      description: `<p>Quand tu as besoin d'un nouveau Contact, nomme-le et décris-le. Une fois par Mission.</p>`,
+      moveType: "basic",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Effectuer une recherche",
+    type: "move",
+    system: {
+      description: `<p>Quand tu enquêtes sur une personne, lieu, objet ou service, pose une question et lance 2d6+Esprit.</p>`,
+      moveType: "basic",
+      rollType: "mind",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>[info] + question + question supplémentaire.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>[info] + réponse à la question.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>Réponse… mais le MC effectue une Manœuvre.</p>` },
+      }
+    }
+  },
+  {
+    name: "Employer la manière forte",
+    type: "move",
+    system: {
+      description: `<p>Quand tu emploies la violence face à une force armée, annonce ton objectif et lance 2d6+Chair.</p>`,
+      moveType: "basic",
+      rollType: "meat",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Tu atteins ton objectif.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Objectif atteint + 2 complications au choix.</p>` },
+      }
+    }
+  },
+  {
+    name: "Évaluer",
+    type: "move",
+    system: {
+      description: `<p>Quand tu étudies une personne, lieu ou situation, lance 2d6+Pro.</p>`,
+      moveType: "basic",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Retiens 3.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Retiens 1.</p>` },
+      }
+    }
+  },
+  {
+    name: "Montrer les dents",
+    type: "move",
+    system: {
+      description: `<p>Quand tu menaces de violence et es prêt à exécuter, lance 2d6+Pro.</p>`,
+      moveType: "basic",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>PJ: obéir ou conséquences. PNJ: obéissent.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>PNJ: le MC choisit. PJ: +1 pour agir contre toi.</p>` },
+      }
+    }
+  },
+  {
+    name: "Obtenir le taf",
+    type: "move",
+    system: {
+      description: `<p>Quand tu négocies les termes d'une Mission, lance 2d6+Pro.</p>`,
+      moveType: "basic",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Choisis 3 options.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Choisis 1 option.</p>` },
+      }
+    }
+  },
+  {
+    name: "Passer sur le billard",
+    type: "move",
+    system: {
+      description: `<p>Quand tu installes un implant cybernétique chez un doc de rue, lance 2d6+dépense Cred (max +2).</p>`,
+      moveType: "basic",
+      rollType: "formula",
+      rollFormula: "2d6",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Succès complet.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Problème: +douloureux/+dégradation/+médiocre/+défaillant</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>Complications.</p>` },
+      }
+    }
+  },
+  {
+    name: "Produire du matériel",
+    type: "move",
+    system: {
+      description: `<p>Quand tu produis l'équipement nécessaire au bon moment, décris comment et dépense [matos].</p>`,
+      moveType: "basic",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Révéler une info",
+    type: "move",
+    system: {
+      description: `<p>Quand tu révèles une info sur l'opposition, décris comment tu l'as découverte et dépense [info]. +1 au prochain jet.</p>`,
+      moveType: "basic",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Se faire payer",
+    type: "move",
+    system: {
+      description: `<p>Quand tu te fais payer par ton employeur, lance 2d6+segments d'Investigation non remplis.</p>`,
+      moveType: "basic",
+      rollType: "formula",
+      rollFormula: "2d6",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Choisis 3 options.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Choisis 1 option.</p>` },
+      }
+    }
+  },
+  {
+    name: "Je connais du monde",
+    type: "move",
+    system: {
+      description: `<p>Une fois par Mission, tu peux introduire un nouveau Contact. Nomme-le, dis ce qu'il sait faire, puis lance 2d6+Style.</p>`,
+      moveType: "playbook",
+      rollType: "style",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Tu as déjà travaillé avec ce Contact ; il est doué.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Vous ne vous êtes jamais rencontrés ; il constitue une inconnue.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>Oh tu le connais bien. Raconte au MC pourquoi il ne peut pas te piffer.</p>` },
+      }
+    }
+  },
+  {
+    name: "Magouilles",
+    type: "move",
+    system: {
+      description: `<p>Des gens accomplissent des boulots pour toi. Tu démarres avec 2-équipe et deux jobs. Entre les Missions, choisis un nombre de jobs ≤ ton équipe, décris chacun, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Tous tes jobs sont des Profits.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>L'un d'eux est un Désastre.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>Merdier complet. Le MC fera une Manœuvre pour chaque job.</p>` },
+      }
+    }
+  },
+  {
+    name: "Baron des rues",
+    type: "move",
+    system: {
+      description: `<p>Gagne +1 équipe et choisis un job supplémentaire.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Chromé (Fixeur)",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique lors de la création ou durant un temps mort.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Face-à-face",
+    type: "move",
+    system: {
+      description: `<p>En conversation de visu sans technologie, gagne +1 sur le prochain baratiner.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Ingénieur technico-commercial",
+    type: "move",
+    system: {
+      description: `<p>Quand tu produis du matériel, +1 sur le prochain jet avec cette pièce d'équipement.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Injoignable",
+    type: "move",
+    system: {
+      description: `<p>Quand tu bats le pavé (7-9), choisis une option en moins.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Jongler avec plusieurs balles",
+    type: "move",
+    system: {
+      description: `<p>Gagne +1 équipe et choisis un job supplémentaire.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "L'affaire du siècle",
+    type: "move",
+    system: {
+      description: `<p>Quand tu bats le pavé pour vendre (7-9), choisis une option en moins.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Le bruit qui court",
+    type: "move",
+    system: {
+      description: `<p>En effectuant une recherche via les ragots, gagne [info] supplémentaire, même sur raté.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Mielleux",
+    type: "move",
+    system: {
+      description: `<p>Quand tu aides ou interfères, lance 2d6+Style au lieu de Liens.</p>`,
+      moveType: "playbook",
+      rollType: "style",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Renforts",
+    type: "move",
+    system: {
+      description: `<p>Tu embauches un petit Gang (5-10 gros bras 2-dégâts +petit +employé 1-armure). Tu obtiens le job Protection et +1 équipe.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Réputation",
+    type: "move",
+    system: {
+      description: `<p>Quand tu rencontres quelqu'un d'important qui peut avoir entendu parler de toi, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Raconte ce qu'il sait et gagne +1 sur le prochain jet.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Raconte ce qu'il sait.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>Le MC décide. Cette personne devient importante.</p>` },
+      }
+    }
+  },
+  {
+    name: "Branché (Hacker)",
+    type: "move",
+    system: {
+      description: `<p>Quand tu es immergé dans la Matrice, tu as accès aux Manœuvres de Matrice.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Cowboy informatique",
+    type: "move",
+    system: {
+      description: `<p>Quand tu te connectes à un système sécurisé, lance 2d6+Esprit.</p>`,
+      moveType: "playbook",
+      rollType: "mind",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Retiens 3.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Retiens 1.</p>` },
+      }
+    }
+  },
+  {
+    name: "Anonyme",
+    type: "move",
+    system: {
+      description: `<p>Ta console a +2 Furtivité.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Ceinture noire",
+    type: "move",
+    system: {
+      description: `<p>Quand une Glace Noire t'attaque, le MC ne choisit que deux options.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Chromé (Hacker)",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique lors de la création ou durant un temps mort.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Cicatrices neurales",
+    type: "move",
+    system: {
+      description: `<p>Tu possèdes 1-armure contre les Glaces Noires.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Optimisation de recherche",
+    type: "move",
+    system: {
+      description: `<p>Sur une recherche dans la Matrice, tu peux toujours poser une question supplémentaire. Sur 10+, gagne [info] additionnelle.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Programmation à la volée",
+    type: "move",
+    system: {
+      description: `<p>Quand tu compromets un système avec succès, retiens 1 supplémentaire.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Renom (Hacker)",
+    type: "move",
+    system: {
+      description: `<p>Avec un avatar reconnaissable, lance 2d6+Synth pour baratiner et montrer les dents.</p>`,
+      moveType: "playbook",
+      rollType: "synth",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Support technique",
+    type: "move",
+    system: {
+      description: `<p>Connecté à la Matrice, lance 2d6+Esprit pour aider au lieu de Liens.</p>`,
+      moveType: "playbook",
+      rollType: "mind",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Tueur de Glace",
+    type: "move",
+    system: {
+      description: `<p>Une fois par plongée, annule une routine exécutée contre toi.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Entrée subreptice",
+    type: "move",
+    system: {
+      description: `<p>Quand tu t'infiltres seul dans une zone sécurisée, lance 2d6+Cran.</p>`,
+      moveType: "playbook",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne 3 retenues.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Gagne 1 retenue.</p>` },
+      }
+    }
+  },
+  {
+    name: "Haute voltige",
+    type: "move",
+    system: {
+      description: `<p>Après avoir dépensé toutes tes retenues d'entrée subreptice par la furtivité, gagne [matos].</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Imposteur",
+    type: "move",
+    system: {
+      description: `<p>Après avoir dépensé toutes tes retenues d'entrée subreptice par le charisme, gagne [info].</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Agent furtif",
+    type: "move",
+    system: {
+      description: `<p>Quand tu évalues sans être repéré (12+), diminue le Compte à rebours d'Action d'un segment.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Assassin",
+    type: "move",
+    system: {
+      description: `<p>Quand tu attaques par surprise, pose une question gratuite de la liste d'évaluer.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Branché (Infiltré)",
+    type: "move",
+    system: {
+      description: `<p>Immergé dans la Matrice, accès aux Manœuvres de Matrice.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Chromé (Infiltré)",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Guerre psychologique",
+    type: "move",
+    system: {
+      description: `<p>Influence le moral de tes adversaires en laissant des preuves, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>C'est toi qui choisis.</p>` },
+      }
+    }
+  },
+  {
+    name: "Maître des artifices",
+    type: "move",
+    system: {
+      description: `<p>Déguisé et couverture intacte, un 12+ sur baratiner diminue le CA d'Action d'un segment.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Mère Gigogne",
+    type: "move",
+    system: {
+      description: `<p>Quand tu t'infiltres, tu peux emmener ton équipe.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Plan B",
+    type: "move",
+    system: {
+      description: `<p>Quand tu dois te faire la malle, désigne ton issue, lance 2d6+Cran.</p>`,
+      moveType: "playbook",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Nickel, t'es parti.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Prix à payer : abandonner ou emporter qqch.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>Position désavantageuse.</p>` },
+      }
+    }
+  },
+  {
+    name: "Repérage",
+    type: "move",
+    system: {
+      description: `<p>Étudie un lieu pour trouver des failles, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne 3 [infos].</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Gagne 1 [info].</p>` },
+      }
+    }
+  },
+  {
+    name: "Mais c'est bien sûr !",
+    type: "move",
+    system: {
+      description: `<p>Au début d'une Mission, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne 3 retenues.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Gagne 1 retenue.</p>` },
+      }
+    }
+  },
+  {
+    name: "Toujours à l'écoute",
+    type: "move",
+    system: {
+      description: `<p>En circulant dans un quartier ou un groupe, tu peux effectuer une recherche.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Agrandissement, stop",
+    type: "move",
+    system: {
+      description: `<p>Quand tu examines des preuves, gagne [info] et lance effectuer une recherche avec Pro au lieu d'Esprit.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Chasseur de gros gibier",
+    type: "move",
+    system: {
+      description: `<p>Tends un piège à une cible enquêtée, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>À ta merci ; utilise Pro au lieu de Chair pour employer la manière forte.</p>` },
+      }
+    }
+  },
+  {
+    name: "Chromé (Limier)",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Le sens de l'observation",
+    type: "move",
+    system: {
+      description: `<p>Quand tu surveilles un individu ou lieu, gagne [info] et effectue un évaluer.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Remonter la trace",
+    type: "move",
+    system: {
+      description: `<p>Désigne une cible. Dépense 3 [infos] pour que le MC décrive où elle se trouve.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Sale rat",
+    type: "move",
+    system: {
+      description: `<p>En battant le pavé, pas de -1 pour éviter les problèmes de Contacts.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Sous tous les angles",
+    type: "move",
+    system: {
+      description: `<p>Au début de la Phase d'Action, gagne [info] et [matos].</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Théâtre d'opération humain",
+    type: "move",
+    system: {
+      description: `<p>En enquêtant sur un groupe, dépense [info] pour le cibler. +1 continu contre lui.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Tireur embusqué",
+    type: "move",
+    system: {
+      description: `<p>Établis un site couvert, lance 2d6+Cran.</p>`,
+      moveType: "playbook",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Choisis 3 options.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Choisis 2 options.</p>` },
+      }
+    }
+  },
+  {
+    name: "Caisse",
+    type: "move",
+    system: {
+      description: `<p>Tu démarres avec un véhicule câblé personnalisé (Châssis, Modèle, Profil Puissance/Aspect/Défaut/Armure, avantages, armements).</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Seconde peau",
+    type: "move",
+    system: {
+      description: `<p>Connecté par interface neurale à un véhicule câblé, tu ajoutes ses stats à tes jets.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Belle bagnole",
+    type: "move",
+    system: {
+      description: `<p>Bat le pavé dans ton véhicule, lance 2d6+Style+Aspect.</p>`,
+      moveType: "playbook",
+      rollType: "style",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Casse-cou",
+    type: "move",
+    system: {
+      description: `<p>En conduisant au-devant du danger, +1 armure. Si tu subis 1+ dégâts, gagne XP.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Chromé (Pilote)",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "De glace",
+    type: "move",
+    system: {
+      description: `<p>Quand tu baratines, lance 2d6+Cran.</p>`,
+      moveType: "playbook",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "L'outil adapté à la tâche",
+    type: "move",
+    system: {
+      description: `<p>Tu as deux véhicules câblés supplémentaires.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Opérateur de drones",
+    type: "move",
+    system: {
+      description: `<p>Tu démarres avec deux drones configurés.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Un œil dans le ciel",
+    type: "move",
+    system: {
+      description: `<p>Aide ou interfère en pilotant un drone, lance 2d6+Pro au lieu de Liens.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Un putain d'as du volant",
+    type: "move",
+    system: {
+      description: `<p>Conduis un véhicule câblé sous haute tension, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne 3 retenues.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Gagne 1 retenue.</p>` },
+      }
+    }
+  },
+  {
+    name: "Déterminé",
+    type: "move",
+    system: {
+      description: `<p>Au début d'une Mission qui promeut ta vision, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne 3 retenues.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Gagne 1 retenue.</p>` },
+      }
+    }
+  },
+  {
+    name: "Visionnaire",
+    type: "move",
+    system: {
+      description: `<p>Crée une connexion émotionnelle et prône ta vision, lance 2d6+Style.</p>`,
+      moveType: "playbook",
+      rollType: "style",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne 2 retenues.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Gagne 1 retenue.</p>` },
+      }
+    }
+  },
+  {
+    name: "Adeptes",
+    type: "move",
+    system: {
+      description: `<p>Tu fais partie d'un groupe. Aide, ressources, planque. Compte comme un Contact.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Agitateur",
+    type: "move",
+    system: {
+      description: `<p>Tu peux utiliser visionnaire sur une foule.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Beau parleur",
+    type: "move",
+    system: {
+      description: `<p>Baratiner 7+, gagne [info] en plus.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Célèbre",
+    type: "move",
+    system: {
+      description: `<p>Reconnu, +1 contre ceux qui te reconnaissent.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Cercle intérieur",
+    type: "move",
+    system: {
+      description: `<p>Petit Gang de 5-10 adeptes (2-dégâts +petit +loyal 1-armure).</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Chromé (Provocateur)",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Opportuniste",
+    type: "move",
+    system: {
+      description: `<p>Aide ou interfère, lance 2d6+Pro au lieu de Liens.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Ramener au bercail",
+    type: "move",
+    system: {
+      description: `<p>Réussite visionnaire : gagne 1 retenue additionnelle.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Sociable",
+    type: "move",
+    system: {
+      description: `<p>Bat le pavé parmi ceux qui partagent ta vision (7-9) : choisis une option en moins.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Un million de points lumineux",
+    type: "move",
+    system: {
+      description: `<p>Après visionnaire réussi, pose des questions à ta cible.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Du flair pour les nouvelles",
+    type: "move",
+    system: {
+      description: `<p>Au début d'une Mission, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne 3 retenues.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Gagne 1 retenue.</p>` },
+      }
+    }
+  },
+  {
+    name: "En direct live",
+    type: "move",
+    system: {
+      description: `<p>Prends l'antenne depuis le terrain, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "7+", value: `<p>Cliché obtenu, raccompagné vers un lieu sûr.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Ton histoire irrite ta cible, qqn est blessé, ça énerve l'employeur, ou récit compris de travers.</p>` },
+      }
+    }
+  },
+  {
+    name: "Rassembler les preuves",
+    type: "move",
+    system: {
+      description: `<p>Réunis les preuves pour un scoop, lance 2d6+Esprit.</p>`,
+      moveType: "playbook",
+      rollType: "mind",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Preuves obtenues, avance CA d'Affaire.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Preuves obtenues mais atouts révélés.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>MC avance CA de Tapage et manœuvre.</p>` },
+      }
+    }
+  },
+  {
+    name: "24 heures sur 24, 7 jours sur 7",
+    type: "move",
+    system: {
+      description: `<p>Recherche via les flux : question supplémentaire. 10+ : [info] additionnelle.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Carte de presse",
+    type: "move",
+    system: {
+      description: `<p>Révèle ton identité pour baratiner un accès : 10+ automatique. Gagne [info].</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Chromé (Reporter)",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Correspondant de guerre",
+    type: "move",
+    system: {
+      description: `<p>Agir sous pression en danger physique : 2d6+Pro au lieu de Cran.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Fouille-merde",
+    type: "move",
+    system: {
+      description: `<p>Dépense [info] pour conseiller l'équipe : +1 au prochain jet, tu gagnes XP.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Pitbull",
+    type: "move",
+    system: {
+      description: `<p>Accule qqn et harcèle de questions, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Il dit la vérité.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Il en dit assez puis réagit (peur/colère/calme).</p>` },
+      }
+    }
+  },
+  {
+    name: "Sources sûres",
+    type: "move",
+    system: {
+      description: `<p>Fais appel à tes informateurs, lance 2d6+Style au lieu d'Esprit pour une recherche.</p>`,
+      moveType: "playbook",
+      rollType: "style",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "J'adore quand un plan se déroule sans accroc",
+    type: "move",
+    system: {
+      description: `<p>Au début d'une Mission, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne 3 retenues.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Gagne 1 retenue.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>Gagne 1 retenue mais le MC avance le CA d'Investigation.</p>` },
+      }
+    }
+  },
+  {
+    name: "Voici le plan",
+    type: "move",
+    system: {
+      description: `<p>Quand tu planifies, ceux qui suivent le plan gagnent +1 continu.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Aura de professionnalisme",
+    type: "move",
+    system: {
+      description: `<p>Obtenir le taf et se faire payer : option supplémentaire, même sur raté.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Chromé (Soldat)",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Gestion directe",
+    type: "move",
+    system: {
+      description: `<p>Employer la manière forte en commandant : 2d6+Esprit au lieu de Chair.</p>`,
+      moveType: "playbook",
+      rollType: "mind",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Glissant comme une anguille",
+    type: "move",
+    system: {
+      description: `<p>Après une Mission avec fausses preuves, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>MC recule un CA de Corporation d'un segment.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>MC crée ou avance un CA de Menace.</p>` },
+      }
+    }
+  },
+  {
+    name: "Opérations tactiques",
+    type: "move",
+    system: {
+      description: `<p>Évaluer en commandant : retiens 1 supplémentaire, même sur raté.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Présence rassurante",
+    type: "move",
+    system: {
+      description: `<p>Motiver qqn : aide comme un 10+.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Recruteur",
+    type: "move",
+    system: {
+      description: `<p>Recrute un spécialiste, lance 2d6+Pro.</p>`,
+      moveType: "playbook",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>2 options.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>1 option.</p>` },
+      }
+    }
+  },
+  {
+    name: "Savoirs corporatifs (Soldat)",
+    type: "move",
+    system: {
+      description: `<p>Recherche sur une corporation : question supplémentaire. 10+ : [info] additionnelle.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Solution de repli",
+    type: "move",
+    system: {
+      description: `<p>Faire la malle, lance 2d6+Esprit.</p>`,
+      moveType: "playbook",
+      rollType: "mind",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Choisis ce que tu abandonnes.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Choisis-en deux.</p>` },
+      }
+    }
+  },
+  {
+    name: "Bidouilleur",
+    type: "move",
+    system: {
+      description: `<p>Identifie et modifie la technologie familière. Le MC fixe les conditions.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Bric-à-brac",
+    type: "move",
+    system: {
+      description: `<p>Fouille ton fatras après une Mission, lance 2d6+Esprit.</p>`,
+      moveType: "playbook",
+      rollType: "mind",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>3 [matos].</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>1 [matos].</p>` },
+      }
+    }
+  },
+  {
+    name: "Expert",
+    type: "move",
+    system: {
+      description: `<p>Choisis une sphère d'expertise : Armurier, Artificier, Cybernéticien, Électronicien, Mécano ou Médecin.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Analytique",
+    type: "move",
+    system: {
+      description: `<p>Évaluer : 2d6+Esprit au lieu de Pro.</p>`,
+      moveType: "playbook",
+      rollType: "mind",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Chromé (Tech)",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Court-circuitage",
+    type: "move",
+    system: {
+      description: `<p>Neutralise des mesures de sécurité, lance 2d6+Cran.</p>`,
+      moveType: "playbook",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne [info].</p>` },
+      }
+    }
+  },
+  {
+    name: "Homme de la Renaissance",
+    type: "move",
+    system: {
+      description: `<p>Sphère d'expertise supplémentaire.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Intérêts diversifiés",
+    type: "move",
+    system: {
+      description: `<p>Sphère d'expertise supplémentaire.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Je suis sur le coup",
+    type: "move",
+    system: {
+      description: `<p>Aider/interférer via ta sphère : 2d6+Cran au lieu de Liens.</p>`,
+      moveType: "playbook",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Obsessionnel",
+    type: "move",
+    system: {
+      description: `<p>Étudie un problème technologique : effectue une recherche, n'importe quelle question.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Se fondre dans la masse (Tech)",
+    type: "move",
+    system: {
+      description: `<p>Sur le point de te faire prendre, agis comme à ta place, lance 2d6+Cran.</p>`,
+      moveType: "playbook",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Plus personne ne s'inquiète.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Tout va bien si tu t'esquives.</p>` },
+      }
+    }
+  },
+  {
+    name: "Touche-à-tout",
+    type: "move",
+    system: {
+      description: `<p>Sphère d'expertise supplémentaire.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Arme personnalisée",
+    type: "move",
+    system: {
+      description: `<p>Choisis une base (arme de poing, fusil à pompe, fusil, lame, fouet) et deux options.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Armé jusqu'aux dents",
+    type: "move",
+    system: {
+      description: `<p>Choisis une autre arme personnalisée.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Dépourvu de sentiments",
+    type: "move",
+    system: {
+      description: `<p>Montrer les dents : 2d6+Synth au lieu de Pro.</p>`,
+      moveType: "playbook",
+      rollType: "synth",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Dur à cuire",
+    type: "move",
+    system: {
+      description: `<p>Blessure : soustrais ta Chair au jet.</p>`,
+      moveType: "playbook",
+      rollType: "meat",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Membre des Forces Spéciales",
+    type: "move",
+    system: {
+      description: `<p>Employer la manière forte : tu comptes comme un petit Gang.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Œil exercé",
+    type: "move",
+    system: {
+      description: `<p>Jauger une cible, lance 2d6+Cran.</p>`,
+      moveType: "playbook",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>+1 continu contre cette cible.</p>` },
+      }
+    }
+  },
+  {
+    name: "Passé militaire (Tueur)",
+    type: "move",
+    system: {
+      description: `<p>Battre le pavé pour matos militaire (7-9) : choisis une option en moins.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Plus machine qu'homme",
+    type: "move",
+    system: {
+      description: `<p>Choisis un autre implant cybernétique.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "Regard de dur",
+    type: "move",
+    system: {
+      description: `<p>Situation tendue, lance 2d6+Style.</p>`,
+      moveType: "playbook",
+      rollType: "style",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+        success: { key: "success", label: "10+", value: `<p>Gagne 2 retenues.</p>` },
+        partial: { key: "partial", label: "7-9", value: `<p>Gagne 1 retenue.</p>` },
+        failure: { key: "failure", label: "6-", value: `<p>Identifié comme menace.</p>` },
+      }
+    }
+  },
+  {
+    name: "Secrets corporatifs (Tueur)",
+    type: "move",
+    system: {
+      description: `<p>Recherche sur corporation : question supplémentaire. 10+ : [info] additionnelle.</p>`,
+      moveType: "playbook",
+      rollType: "",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {}
+    }
+  },
+  {
+    name: "S'authentifier",
+    type: "move",
+    system: {
+      description: `<p>Quand tu tentes d'accéder à un système, lance 2d6+Synth.</p>`,
+      moveType: "matrix",
+      rollType: "synth",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+      }
+    }
+  },
+  {
+    name: "Compromettre la sécurité",
+    type: "move",
+    system: {
+      description: `<p>Quand tu tentes de compromettre la sécurité d'un sous-système, lance 2d6+Esprit.</p>`,
+      moveType: "matrix",
+      rollType: "mind",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+      }
+    }
+  },
+  {
+    name: "Manipuler un système",
+    type: "move",
+    system: {
+      description: `<p>Quand tu manipules le dispositif d'un bâtiment contrôlé électroniquement, lance 2d6+Synth.</p>`,
+      moveType: "matrix",
+      rollType: "synth",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+      }
+    }
+  },
+  {
+    name: "Briser la Glace",
+    type: "move",
+    system: {
+      description: `<p>Quand tu esquives, détruis ou neutralises une Glace active, lance 2d6+Pro.</p>`,
+      moveType: "matrix",
+      rollType: "edge",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+      }
+    }
+  },
+  {
+    name: "Se débrancher",
+    type: "move",
+    system: {
+      description: `<p>Quand une Glace est sur le point de te nuire, tente de te débrancher. Lance 2d6+Cran.</p>`,
+      moveType: "matrix",
+      rollType: "cool",
+      rollFormula: "",
+      rollMod: 0,
+      uses: 0,
+      actorType: "character",
+      choices: "",
+      moveResults: {
+      }
+    }
+  },
+];
+
+async function populateAllMoves() {
+  const pack = game.packs.get("the-sprawl-fr.moves");
+  if (!pack) { ui.notifications.error(`Compendium introuvable.`); return; }
+  console.log(`THE SPRAWL | ${ALL_MOVES.length} manœuvres.`);
+  const ex = await pack.getDocuments();
+  if (ex.length > 0) await Document.deleteDocuments(ex.map(d => d.uuid));
+  let c=0,f=0;
+  for (const md of ALL_MOVES) {
+    try { const item = await Item.create(md,{temporary:true}); await pack.importDocument(item); c++; }
+    catch(e) { f++; console.error(`  ❌ ${md.name}:`,e); }
+  }
+  console.log(`THE SPRAWL | ✅ ${c}/${c+f} manœuvres.`);
+  ui.notifications.info(`The Sprawl: ${c} manœuvres importées.`);
+  return {c,f};
+}
+populateAllMoves().catch(e => console.error('THE SPRAWL | Erreur:',e));

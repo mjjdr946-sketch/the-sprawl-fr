@@ -1,0 +1,147 @@
+{
+  "description": "Tous les livrets (playbooks) pour The Sprawl [FR]",
+  "system": "pbta",
+  "game": "The Sprawl",
+  "playbooks": [
+    {
+      "name": "Le Fixeur",
+      "slug": "fixeur",
+      "stats": {
+        "Pro": 1,
+        "Esprit": 0,
+        "Cran": 0,
+        "Synth": 0,
+        "Style": 2,
+        "Chair": -1
+      },
+      "moves_count": 13,
+      "status": "complet"
+    },
+    {
+      "name": "Le Hacker",
+      "slug": "hacker",
+      "stats": {
+        "Pro": 0,
+        "Esprit": 2,
+        "Cran": 1,
+        "Synth": 1,
+        "Style": 0,
+        "Chair": -1
+      },
+      "moves_count": 11,
+      "status": "complet"
+    },
+    {
+      "name": "L'Infiltré",
+      "slug": "infiltre",
+      "stats": {
+        "Pro": 1,
+        "Esprit": 0,
+        "Cran": 2,
+        "Synth": 0,
+        "Style": 1,
+        "Chair": -1
+      },
+      "moves_count": 12,
+      "status": "complet"
+    },
+    {
+      "name": "Le Limier",
+      "slug": "limier",
+      "stats": {
+        "Pro": 2,
+        "Esprit": 1,
+        "Cran": 1,
+        "Synth": 0,
+        "Style": 0,
+        "Chair": -1
+      },
+      "moves_count": 11,
+      "status": "complet"
+    },
+    {
+      "name": "Le Pilote",
+      "slug": "pilote",
+      "stats": {
+        "Pro": 1,
+        "Esprit": 0,
+        "Cran": 1,
+        "Synth": 0,
+        "Style": 2,
+        "Chair": -1
+      },
+      "moves_count": 10,
+      "status": "complet"
+    },
+    {
+      "name": "Le Provocateur",
+      "slug": "provocateur",
+      "stats": {
+        "Pro": 0,
+        "Esprit": 0,
+        "Cran": 1,
+        "Synth": 0,
+        "Style": 2,
+        "Chair": -1
+      },
+      "moves_count": 12,
+      "status": "complet"
+    },
+    {
+      "name": "Le Reporter",
+      "slug": "reporter",
+      "stats": {
+        "Pro": 2,
+        "Esprit": 0,
+        "Cran": 1,
+        "Synth": 0,
+        "Style": 1,
+        "Chair": -1
+      },
+      "moves_count": 10,
+      "status": "complet"
+    },
+    {
+      "name": "Le Soldat",
+      "slug": "soldat",
+      "stats": {
+        "Pro": 2,
+        "Esprit": 0,
+        "Cran": 1,
+        "Synth": -1,
+        "Style": 0,
+        "Chair": 1
+      },
+      "moves_count": 11,
+      "status": "complet"
+    },
+    {
+      "name": "Le Tech",
+      "slug": "tech",
+      "stats": {
+        "Pro": 0,
+        "Esprit": 2,
+        "Cran": 1,
+        "Synth": 1,
+        "Style": 0,
+        "Chair": -1
+      },
+      "moves_count": 12,
+      "status": "complet"
+    },
+    {
+      "name": "Le Tueur",
+      "slug": "tueur",
+      "stats": {
+        "Pro": 1,
+        "Esprit": -1,
+        "Cran": 0,
+        "Synth": 2,
+        "Style": 0,
+        "Chair": 1
+      },
+      "moves_count": 10,
+      "status": "complet"
+    }
+  ]
+}
