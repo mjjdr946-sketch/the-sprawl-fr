@@ -1,0 +1,31 @@
+{
+  "_id": "4c4f3c3d214ee6a5",
+  "name": "Savoirs corporatifs (Soldat)",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486229,
+    "modifiedTime": 1787159486229,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Recherche sur une corporation : question supplémentaire. 10+ : [info] additionnelle.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "6bcc9cde1021fefb",
+  "name": "Interface neurale",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486196,
+    "modifiedTime": 1787159486196,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Interface cérébrale retranscrivant les impulsions nerveuses en signaux pour contrôler des engins extérieurs. Permet de prendre Seconde peau (Pilote) ou Branché (Hacker) comme avancement. Choisis une option : Logiciel de visée, Module de contrôle à distance, ou Stockage de données.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+interface, +matrice, +implant cérébral",
+    "uses": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "a9584f4d93ee83b7",
+  "name": "Taser de poing",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486185,
+    "modifiedTime": 1787159486185,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Arme électrique non-létale.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+assommant, +contact, +recharge",
+    "uses": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "24bc26c3f567de2c",
+  "name": "Je suis sur le coup",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486231,
+    "modifiedTime": 1787159486231,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Aider/interférer via ta sphère : 2d6+Cran au lieu de Liens.</p>",
+    "moveType": "playbook",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

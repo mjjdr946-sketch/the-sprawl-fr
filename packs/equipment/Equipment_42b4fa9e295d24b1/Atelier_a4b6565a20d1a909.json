@@ -1,0 +1,27 @@
+{
+  "_id": "a4b6565a20d1a909",
+  "name": "Atelier",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486191,
+    "modifiedTime": 1787159486191,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Atelier spécialisé dans une sphère d'expertise (armurerie, chimie, cybernétique, électronique, mécanique, médical).</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+atelier",
+    "uses": 0
+  }
+}

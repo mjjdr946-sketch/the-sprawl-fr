@@ -1,0 +1,42 @@
+{
+  "_id": "09a85fe4178a2e24",
+  "name": "Se faire payer",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486207,
+    "modifiedTime": 1787159486207,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Quand tu te fais payer par ton employeur, lance 2d6+segments d'Investigation non remplis.</p>",
+    "moveType": "basic",
+    "rollType": "formula",
+    "rollFormula": "2d6",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Choisis 3 options.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Choisis 1 option.</p>"
+      }
+    }
+  }
+}

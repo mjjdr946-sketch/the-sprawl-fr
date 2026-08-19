@@ -1,0 +1,27 @@
+{
+  "_id": "093df6eb89613fa6",
+  "name": "Bras cybernétique (arme intégrée)",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486198,
+    "modifiedTime": 1787159486198,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Bras de remplacement avec arme intégrée. Choisis : lames rétractables (2-dégâts +contact +carnage), arme à feu cachée (2-dégâts +courte +bruyant), ou fouet à monofilament (4-dégâts +contact +carnage +zone +dangereux).</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+arme, +implant",
+    "uses": 0
+  }
+}

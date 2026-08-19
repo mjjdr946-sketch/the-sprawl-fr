@@ -1,0 +1,27 @@
+{
+  "_id": "04c95c74c6fb2258",
+  "name": "Pistolet-mitrailleur silencieux",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486186,
+    "modifiedTime": 1787159486186,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>PM avec silencieux intégré pour les opérations discrètes.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+courte/proche, +automatique, +discret, 2-dégâts",
+    "uses": 0
+  }
+}

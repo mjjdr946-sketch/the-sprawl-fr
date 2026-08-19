@@ -1,0 +1,27 @@
+{
+  "_id": "b1664a87f253ea31",
+  "name": "Console matricielle (performante)",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486203,
+    "modifiedTime": 1787159486203,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Console performante : Résistance 1, Pare-feu 1, Processeur 2, Furtivité 2. Avec 3 programmes.</p>",
+    "equipmentType": "vehicle",
+    "quantity": 1,
+    "tags": "+matrice, +performante",
+    "uses": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "567ebafdc237226b",
+  "name": "Gilet pare-balles",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486189,
+    "modifiedTime": 1787159486189,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Gilet offrant une protection balistique standard.</p>",
+    "equipmentType": "armor",
+    "quantity": 1,
+    "tags": "1-armure, +voyant",
+    "uses": 0
+  }
+}

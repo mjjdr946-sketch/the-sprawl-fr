@@ -1,0 +1,27 @@
+{
+  "_id": "a68255f11bb103b7",
+  "name": "Armure dermique",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486198,
+    "modifiedTime": 1787159486198,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Plaques hypodermiques d'armure synthétique. Blessure : soustrais 2 au jet (3 si +fléchettes).</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+armure, +dermique, +implant",
+    "uses": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "5ed5b036779b5f25",
+  "name": "Réflexes augmentés",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486197,
+    "modifiedTime": 1787159486197,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Amélioration des réflexes par implants neuromusculaires. +1 pour agir sous pression quand la réaction compte.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+réflexes, +combat, +implant",
+    "uses": 0
+  }
+}

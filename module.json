@@ -35,7 +35,7 @@
     {
       "name": "playbooks",
       "label": "Livrets (The Sprawl)",
-      "path": "packs/playbooks.db",
+      "path": "packs/playbooks",
       "type": "Item",
       "system": "pbta",
       "flags": {}
@@ -43,7 +43,7 @@
     {
       "name": "moves",
       "label": "Manœuvres (The Sprawl)",
-      "path": "packs/moves.db",
+      "path": "packs/moves",
       "type": "Item",
       "system": "pbta",
       "flags": {}
@@ -51,7 +51,7 @@
     {
       "name": "equipment",
       "label": "Équipement (The Sprawl)",
-      "path": "packs/equipment.db",
+      "path": "packs/equipment",
       "type": "Item",
       "system": "pbta",
       "flags": {}

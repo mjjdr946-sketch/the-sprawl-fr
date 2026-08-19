@@ -1,0 +1,27 @@
+{
+  "_id": "ac72a61d123b3b66",
+  "name": "Fusil de combat",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486187,
+    "modifiedTime": 1787159486187,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Fusil automatique lourd pour l'assaut.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+courte/proche, +bruyant, +carnage, +automatique, 3-dégâts",
+    "uses": 0
+  }
+}

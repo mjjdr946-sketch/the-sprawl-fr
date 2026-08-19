@@ -1,0 +1,27 @@
+{
+  "_id": "9d7eaf344faa4c7a",
+  "name": "Instruments de musique",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486195,
+    "modifiedTime": 1787159486195,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Instruments de musique. Choisis 2 étiquettes parmi : +enregistrement, +relais satellite, +simsense.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+musique, +enregistrement",
+    "uses": 0
+  }
+}

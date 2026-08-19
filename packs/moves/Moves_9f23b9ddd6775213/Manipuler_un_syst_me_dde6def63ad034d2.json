@@ -1,0 +1,42 @@
+{
+  "_id": "dde6def63ad034d2",
+  "name": "Manipuler un système",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486236,
+    "modifiedTime": 1787159486236,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Quand tu manipules le dispositif d'un bâtiment contrôlé électroniquement, lance 2d6+Synth.</p>",
+    "moveType": "matrix",
+    "rollType": "synth",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "10+": {
+        "key": "10+",
+        "label": "10+",
+        "value": "<p>Retiens 3 sur le sous-système manipulé.</p>"
+      },
+      "7-9": {
+        "key": "7-9",
+        "label": "7-9",
+        "value": "<p>Retiens 1 sur le sous-système manipulé.</p>"
+      }
+    }
+  }
+}

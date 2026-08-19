@@ -1,0 +1,27 @@
+{
+  "_id": "d59c898ceba4291c",
+  "name": "Fusil d'assaut",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787159486182,
+    "modifiedTime": 1787159486182,
+    "lastModifiedBy": "the-sprawl-fr"
+  },
+  "system": {
+    "description": "<p>Fusil automatique standard, polyvalent.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+proche/longue, +bruyant, +automatique, 2-dégâts",
+    "uses": 0
+  }
+}
