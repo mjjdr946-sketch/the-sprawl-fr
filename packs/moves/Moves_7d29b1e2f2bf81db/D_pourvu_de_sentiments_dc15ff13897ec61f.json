@@ -1,0 +1,36 @@
+{
+  "_id": "dc15ff13897ec61f",
+  "name": "Dépourvu de sentiments",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": "7d29b1e2f2bf81db",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787160203831,
+    "modifiedTime": 1787160203831,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dc15ff13897ec61f",
+  "system": {
+    "description": "<p>Montrer les dents : 2d6+Synth au lieu de Pro.</p>",
+    "moveType": "playbook",
+    "rollType": "synth",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

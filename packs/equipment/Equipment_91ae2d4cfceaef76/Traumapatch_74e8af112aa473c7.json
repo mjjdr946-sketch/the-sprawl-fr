@@ -1,0 +1,32 @@
+{
+  "_id": "74e8af112aa473c7",
+  "name": "Traumapatch",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": "91ae2d4cfceaef76",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787160203795,
+    "modifiedTime": 1787160203795,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!74e8af112aa473c7",
+  "system": {
+    "description": "<p>Patch médical d'urgence pour blessures jusqu'à 21h00.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+jetable, +premiers soins",
+    "uses": 0
+  }
+}

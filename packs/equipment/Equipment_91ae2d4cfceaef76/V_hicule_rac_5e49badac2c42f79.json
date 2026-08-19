@@ -1,0 +1,32 @@
+{
+  "_id": "5e49badac2c42f79",
+  "name": "Véhicule +racé",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": "91ae2d4cfceaef76",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787160203805,
+    "modifiedTime": 1787160203805,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5e49badac2c42f79",
+  "system": {
+    "description": "<p>Moto, voiture ou hélicoptère racé.</p>",
+    "equipmentType": "vehicle",
+    "quantity": 1,
+    "tags": "+véhicule, +racé",
+    "uses": 0
+  }
+}

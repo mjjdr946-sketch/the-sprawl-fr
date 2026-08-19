@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Equipment",
+  "color": "#00ff41",
+  "sorting": "a",
+  "_id": "91ae2d4cfceaef76",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787160203785,
+    "modifiedTime": 1787160203785,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!91ae2d4cfceaef76"
+}

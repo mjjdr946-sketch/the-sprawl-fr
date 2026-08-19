@@ -1,0 +1,32 @@
+{
+  "_id": "111e259e7874b083",
+  "name": "Véhicule câblé",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": "91ae2d4cfceaef76",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787160203805,
+    "modifiedTime": 1787160203805,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!111e259e7874b083",
+  "system": {
+    "description": "<p>Véhicule personnalisé avec interface neurale. Puissance, Aspect, Défaut et Armure variables selon le modèle.</p>",
+    "equipmentType": "vehicle",
+    "quantity": 1,
+    "tags": "+véhicule, +câblé",
+    "uses": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "eec8c3e57cb234dc",
+  "name": "Stockage de données",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": "91ae2d4cfceaef76",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787160203801,
+    "modifiedTime": 1787160203801,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eec8c3e57cb234dc",
+  "system": {
+    "description": "<p>Option de l'Interface neurale. Communication pensée avec système/Matrice. Recherche dans données stockées : [info] supplémentaire sur succès. Choisis 2 parmi : +vitesse élevée, +large capacité, +crypté, +partition inaccessible.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+interface, +mémoire, +implant",
+    "uses": 0
+  }
+}

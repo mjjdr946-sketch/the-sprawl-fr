@@ -1,0 +1,32 @@
+{
+  "_id": "0d7ac4eec3cd85ca",
+  "name": "Explosifs",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": "91ae2d4cfceaef76",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787160203791,
+    "modifiedTime": 1787160203791,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0d7ac4eec3cd85ca",
+  "system": {
+    "description": "<p>Grenades, charges ou autres explosifs.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+courte, +dangereux, 4-dégâts, +carnage",
+    "uses": 0
+  }
+}
