@@ -35,9 +35,7 @@ Configuration complète pour **The Sprawl** (PbtA cyberpunk) sur Foundry VTT v14
 |---|---|
 | `module.json` | Manifeste du module |
 | `scripts/main.mjs` | Injection automatique de la configuration pbta |
-| `scripts/populate-moves.mjs` | Script de peuplement du compendium des manœuvres (134 manœuvres : 17 basiques + 112 livrets + 5 matrice) |
-| `scripts/populate-playbooks.mjs` | Script de peuplement du compendium des livrets (après les manœuvres) |
-| `scripts/populate-equipment.mjs` | Script de peuplement du compendium d'équipement (84 items : 23 armes, 5 armures, 24 matériels, 25 cyberwares, 7 véhicules/consoles) |
+| `scripts/rebuild-leveldb.cjs` | (dev) Régénération des LevelDB si nécessaire |
 | `styles/sprawl.css` | Thème visuel cyberpunk |
 | `sprawl.toml` | Configuration TOML de référence pour The Sprawl |
 | `data/moves.json` | Données de référence des manœuvres (format lisible) |
@@ -47,22 +45,14 @@ Configuration complète pour **The Sprawl** (PbtA cyberpunk) sur Foundry VTT v14
 | `packs/moves.db/` | Manœuvres (moves) |
 | `packs/equipment.db/` | Équipement (armes, protection, cyberware, programmes, etc.) |
 
-## Peuplement des compendiums
+## Contenu pré-rempli
 
-Les compendiums sont initialement vides (`.gitkeep`). Pour les remplir :
+Les 3 compendiums sont inclus directement dans le module (fichiers LevelDB) :
 
-### Ordre d'exécution
+| Compendium | Contenu |
+|------------|---------|
+| **Équipement (The Sprawl)** | 84 items : 23 armes, 5 armures, 24 matériels, 25 cyberwares, 7 véhicules/consoles |
+| **Manœuvres (The Sprawl)** | 134 manœuvres : 17 basiques + 112 livrets + 5 matricielles |
+| **Livrets (The Sprawl)** | 10 playbooks avec liens UUID vers leurs manœuvres et équipement |
 
-1. **Équipement** : exécute `scripts/populate-equipment.mjs` pour importer les **84 items** (23 armes, 5 armures, 24 matériels, 25 cyberwares, 7 véhicules/consoles)
-2. **Manœuvres** : exécute `scripts/populate-moves.mjs` pour importer les **134 manœuvres** (17 basiques + 112 livrets + 5 matrice)
-3. **Livrets** : exécute `scripts/populate-playbooks.mjs` pour importer les **10 livrets** avec leurs manœuvres et équipement de départ liés automatiquement
-
-### Procédure
-
-1. Active le module **The Sprawl [FR]** dans un monde Foundry VTT
-2. Ouvre la console développeur (F12)
-3. Copie-colle le contenu de `scripts/populate-moves.mjs` et exécute
-4. Copie-colle le contenu de `scripts/populate-playbooks.mjs` et exécute
-5. Les fichiers LevelDB générés (`packs/*.db/*.ldb`) sont à commiter dans le repo
-
-> **Alternative :** Tu peux aussi créer les manœuvres et livrets manuellement dans Foundry VTT.
+Aucune manipulation supplémentaire n'est nécessaire — les compendiums sont prêts à l'emploi dès l'activation du module.
