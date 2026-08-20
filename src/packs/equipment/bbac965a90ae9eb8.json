@@ -1,0 +1,32 @@
+{
+  "_id": "bbac965a90ae9eb8",
+  "name": "Outils d'investigation de terrain",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!bbac965a90ae9eb8",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "38f9819f1212707e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Kit complet : lampe UV, empreintes, enregistreur.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+investigation",
+    "uses": 0
+  }
+}

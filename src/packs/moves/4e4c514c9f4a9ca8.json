@@ -1,0 +1,36 @@
+{
+  "_id": "4e4c514c9f4a9ca8",
+  "name": "Cicatrices neurales",
+  "type": "move",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!4e4c514c9f4a9ca8",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "c9235be8865e8e70",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Tu possèdes 1-armure contre les Glaces Noires.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

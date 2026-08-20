@@ -1,0 +1,32 @@
+{
+  "_id": "d7b79873f018bcf8",
+  "name": "Poumon filtrant",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d7b79873f018bcf8",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "f05ac3bf3f157dc6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Implant pulmonaire filtrant les toxines et agents chimiques.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+filtre, +survie, +implant",
+    "uses": 0
+  }
+}

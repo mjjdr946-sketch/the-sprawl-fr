@@ -1,0 +1,32 @@
+{
+  "_id": "d8dbd524f55922a0",
+  "name": "Arme à feu cachée",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d8dbd524f55922a0",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "608afc3015d7d577",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Arme à feu implantée dans le corps. Variante de l'Armement incorporé.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+courte, +bruyant, +implant, +dissimulé, 2-dégâts",
+    "uses": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "123780bf1869232a",
+  "name": "Machette",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!123780bf1869232a",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "9f04e3952d49febc",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Lame large et lourde, dévastatrice au corps à corps.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+contact, +carnage, 3-dégâts",
+    "uses": 0
+  }
+}

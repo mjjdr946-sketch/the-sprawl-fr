@@ -1,0 +1,32 @@
+{
+  "_id": "3013c8a008a188c6",
+  "name": "Véhicule +racé",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!3013c8a008a188c6",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "49e1eeab5cf1e6c4",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Moto, voiture ou hélicoptère racé.</p>",
+    "equipmentType": "vehicle",
+    "quantity": 1,
+    "tags": "+véhicule, +racé",
+    "uses": 0
+  }
+}

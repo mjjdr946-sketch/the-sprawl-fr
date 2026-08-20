@@ -1,0 +1,47 @@
+{
+  "_id": "27db15bcd52e51c7",
+  "name": "Employer la manière forte",
+  "type": "move",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!27db15bcd52e51c7",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "e673c19e60f24f74",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu emploies la violence face à une force armée, annonce ton objectif et lance 2d6+Chair.</p>",
+    "moveType": "basic",
+    "rollType": "meat",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Tu atteins ton objectif.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Objectif atteint + 2 complications au choix.</p>"
+      }
+    }
+  }
+}

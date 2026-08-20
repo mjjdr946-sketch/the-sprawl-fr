@@ -1,0 +1,52 @@
+{
+  "_id": "764c010cb1b61203",
+  "name": "Compromettre la sécurité",
+  "type": "move",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!764c010cb1b61203",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "2669194b05e758db",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu tentes de compromettre la sécurité d'un sous-système, lance 2d6+Esprit.</p>",
+    "moveType": "matrix",
+    "rollType": "mind",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "10+": {
+        "key": "10+",
+        "label": "10+",
+        "value": "<p>Retiens 3 sur le sous-système compromis.</p>"
+      },
+      "7-9": {
+        "key": "7-9",
+        "label": "7-9",
+        "value": "<p>Retiens 1 sur le sous-système compromis.</p>"
+      },
+      "6-": {
+        "key": "6-",
+        "label": "6-",
+        "value": "<p>Tu déclenches une alerte, avec conséquences supplémentaires.</p>"
+      }
+    }
+  }
+}

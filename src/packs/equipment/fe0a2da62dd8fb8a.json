@@ -1,0 +1,32 @@
+{
+  "_id": "fe0a2da62dd8fb8a",
+  "name": "Bras cybernétique (arme intégrée)",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!fe0a2da62dd8fb8a",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "52660e75355de28e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Bras de remplacement avec arme intégrée. Choisis : lames rétractables (2-dégâts +contact +carnage), arme à feu cachée (2-dégâts +courte +bruyant), ou fouet à monofilament (4-dégâts +contact +carnage +zone +dangereux).</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+arme, +implant",
+    "uses": 0
+  }
+}

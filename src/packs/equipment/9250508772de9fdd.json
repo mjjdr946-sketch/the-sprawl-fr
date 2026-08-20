@@ -1,0 +1,32 @@
+{
+  "_id": "9250508772de9fdd",
+  "name": "Combinaison de cuir synthétique",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!9250508772de9fdd",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "625827f1198abf7a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Soustrait 1 lors des jets de blessure.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "0-armure, +discret",
+    "uses": 0
+  }
+}

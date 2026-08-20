@@ -12,7 +12,7 @@ function genId() { return randomBytes(8).toString('hex'); }
 const EQ_TYPE_MAP = { weapons: 'weapon', armors: 'armor', gear: 'gear', cyberware: 'cyberware', vehicles: 'vehicle' };
 
 function makeStats(ts) {
-  return { systemId: 'pbta', systemVersion: '1.2.0', coreVersion: '14.366',
+  return { systemId: 'pbta', systemVersion: '1.2.0', coreVersion: '14.367',
     createdTime: ts, modifiedTime: ts, lastModifiedBy: genId(),
     compendiumSource: null, duplicateSource: null, exportSource: null };
 }
@@ -43,7 +43,7 @@ async function build() {
       const _id = genId();
       equipStore[item.n] = _id;
       await writeJSON(eqDir, {
-        _id, name: item.n, type: 'equipment', img: 'icons/svg/backpack.svg',
+        _id, name: item.n, type: 'equipment', img: '',
         folder: null, sort: 0, ownership: { default: 2 }, flags: {}, effects: [],
         _key: '!items!' + _id,
         _stats: makeStats(ts),
@@ -61,7 +61,7 @@ async function build() {
     const _id = genId();
     movesStore[m.name] = _id;
     await writeJSON(mvDir, {
-      _id, name: m.name, type: 'move', img: 'icons/svg/dice-target.svg',
+      _id, name: m.name, type: 'move', img: '',
       folder: null, sort: 0, ownership: { default: 2 }, flags: {}, effects: [],
       _key: '!items!' + _id,
       _stats: makeStats(ts),
@@ -134,7 +134,7 @@ async function build() {
 
     const _id = genId();
     await writeJSON(pbDir, {
-      _id, name: names[slug], type: 'playbook', img: 'icons/svg/book.svg',
+      _id, name: names[slug], type: 'playbook', img: '',
       folder: null, sort: 0, ownership: { default: 2 }, flags: {}, effects: [],
       _key: '!items!' + _id,
       _stats: makeStats(ts),

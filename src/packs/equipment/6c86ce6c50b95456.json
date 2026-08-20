@@ -1,0 +1,32 @@
+{
+  "_id": "6c86ce6c50b95456",
+  "name": "Vêtements renforcés",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6c86ce6c50b95456",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "c0e359c7e4d1995f",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Vêtements tactiques avec renforts discrets. Soustrait 1 lors des jets de Blessure.</p>",
+    "equipmentType": "armor",
+    "quantity": 1,
+    "tags": "0-armure, +discret",
+    "uses": 0
+  }
+}

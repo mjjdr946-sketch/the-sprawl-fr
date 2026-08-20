@@ -1,0 +1,32 @@
+{
+  "_id": "05b605571754e9fa",
+  "name": "Grenades à gaz",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!05b605571754e9fa",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "2f3416dfde013b8a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Grenade libérant un gaz incapacitant.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+assommant, +proche, +zone, +recharge, +gaz",
+    "uses": 0
+  }
+}

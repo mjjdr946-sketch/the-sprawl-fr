@@ -1,0 +1,32 @@
+{
+  "_id": "f40386039009d23e",
+  "name": "Kit de Traitement Médical d'Urgence",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!f40386039009d23e",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "718873485fff0c8e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Kit complet pour les blessures graves au-delà de 21h00.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+médical, +encombrant",
+    "uses": 0
+  }
+}

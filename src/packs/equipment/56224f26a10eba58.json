@@ -1,0 +1,32 @@
+{
+  "_id": "56224f26a10eba58",
+  "name": "Fourgon ou camion",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!56224f26a10eba58",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "bcc8953b26006d6d",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Fourgon utilitaire. Choisis un avantage (+robuste, +tout-terrain, +immense, +performant) et un défaut (+lent, +exigu, +bruyant).</p>",
+    "equipmentType": "vehicle",
+    "quantity": 1,
+    "tags": "+véhicule, +utilitaire",
+    "uses": 0
+  }
+}

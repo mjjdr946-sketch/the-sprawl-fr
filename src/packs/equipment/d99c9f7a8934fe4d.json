@@ -1,0 +1,32 @@
+{
+  "_id": "d99c9f7a8934fe4d",
+  "name": "Pistolet semi-automatique silencieux",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d99c9f7a8934fe4d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "0cc72400b7ecb223",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Pistolet équipé d'un silencieux.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+courte, +rapide, +discret, 2-dégâts",
+    "uses": 0
+  }
+}

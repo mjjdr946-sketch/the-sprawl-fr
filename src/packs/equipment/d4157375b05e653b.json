@@ -1,0 +1,32 @@
+{
+  "_id": "d4157375b05e653b",
+  "name": "Gilet de protection",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d4157375b05e653b",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "930db49d7c472332",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Gilet balistique standard de niveau protection de base.</p>",
+    "equipmentType": "armor",
+    "quantity": 1,
+    "tags": "1-armure",
+    "uses": 0
+  }
+}

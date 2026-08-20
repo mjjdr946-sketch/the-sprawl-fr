@@ -1,0 +1,32 @@
+{
+  "_id": "afa27d8d3b2dc0c4",
+  "name": "Stimulateur adrénaline",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!afa27d8d3b2dc0c4",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787258467345,
+    "modifiedTime": 1787258467345,
+    "lastModifiedBy": "df385d4eaa21b0f8",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Libération contrôlée d'adrénaline. Une fois par mission, +1 sur un jet de Chair ou Cran.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+stimulant, +adrénaline, +implant",
+    "uses": 0
+  }
+}
