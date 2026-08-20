@@ -1,0 +1,36 @@
+{
+  "_id": "313c452764d3a0b9",
+  "name": "Belle bagnole",
+  "type": "move",
+  "img": "",
+  "folder": "aeb4fe792cfe7040",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!313c452764d3a0b9",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "70f8b793274b9e73",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Bat le pavé dans ton véhicule, lance 2d6+Style+Aspect.</p>",
+    "moveType": "playbook",
+    "rollType": "style",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

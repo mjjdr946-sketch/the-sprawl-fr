@@ -1,0 +1,47 @@
+{
+  "_id": "5b8ebabdab6b341c",
+  "name": "Administrer les premiers soins",
+  "type": "move",
+  "img": "",
+  "folder": "89f4291dde0fffd0",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5b8ebabdab6b341c",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "9737d5b6caa416c6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu soignes des blessures avec le matériel médical approprié, lance 2d6+Cran.</p>",
+    "moveType": "basic",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Blessure ≤21h: -2 segments. Blessure >21h: -1 segment.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>-1 segment. Si >21h: -1 continu jusqu'à soins suffisants.</p>"
+      }
+    }
+  }
+}

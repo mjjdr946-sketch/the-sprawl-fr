@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Le Hacker",
+  "color": "#ff6b35",
+  "sorting": "a",
+  "_id": "b882070151536f6b",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708452,
+    "modifiedTime": 1787259708452,
+    "lastModifiedBy": "61fb76327a5c25d4",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!b882070151536f6b"
+}

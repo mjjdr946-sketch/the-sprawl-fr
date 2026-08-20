@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Le Tueur",
+  "color": "#ff6b35",
+  "sorting": "a",
+  "_id": "6843f5699e36434f",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708501,
+    "modifiedTime": 1787259708501,
+    "lastModifiedBy": "7a5eb154e0648574",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!6843f5699e36434f"
+}

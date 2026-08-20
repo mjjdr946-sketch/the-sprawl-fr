@@ -1,0 +1,47 @@
+{
+  "_id": "c1978e28afec4306",
+  "name": "Baratiner",
+  "type": "move",
+  "img": "",
+  "folder": "89f4291dde0fffd0",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!c1978e28afec4306",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "9dbbc0caaf37e6ba",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu convaincs quelqu'un par promesses, mensonges ou paroles en l'air, lance 2d6+Style.</p>",
+    "moveType": "basic",
+    "rollType": "style",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>PNJ: obéissent. PJ: choisissent (XP ou Agir sous pression).</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>PNJ obéissent mais qqn s'en rend compte. PJ: une option au choix.</p>"
+      }
+    }
+  }
+}

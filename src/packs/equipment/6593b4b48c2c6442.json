@@ -1,0 +1,32 @@
+{
+  "_id": "6593b4b48c2c6442",
+  "name": "Jumelles",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6593b4b48c2c6442",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "496bb6af364a14fe",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Jumelles. Choisis 2 étiquettes parmi : +thermographique, +amplification lumineuse, +zoom, +anti-flash, +enregistrement.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+vision",
+    "uses": 0
+  }
+}

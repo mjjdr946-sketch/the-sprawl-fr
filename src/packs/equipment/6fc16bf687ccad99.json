@@ -1,0 +1,32 @@
+{
+  "_id": "6fc16bf687ccad99",
+  "name": "Armature synthétique",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6fc16bf687ccad99",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "7b232675c5ea7d3b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Renforcement du squelette et des muscles. +1 armure contre les dégâts physiques.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+armature, +résistance, +implant",
+    "uses": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "da09a5a6971c48f0",
+  "name": "Haute voltige",
+  "type": "move",
+  "img": "",
+  "folder": "117d09c8584ea788",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!da09a5a6971c48f0",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "fb58c59aba6782d6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Après avoir dépensé toutes tes retenues d'entrée subreptice par la furtivité, gagne [matos].</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

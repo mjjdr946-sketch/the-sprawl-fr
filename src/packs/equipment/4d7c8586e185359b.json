@@ -1,0 +1,32 @@
+{
+  "_id": "4d7c8586e185359b",
+  "name": "Gilet pare-balles",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!4d7c8586e185359b",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "ea720b423926367e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Gilet offrant une protection balistique standard.</p>",
+    "equipmentType": "armor",
+    "quantity": 1,
+    "tags": "1-armure, +voyant",
+    "uses": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "9a3d3962a9982ca5",
+  "name": "Se faire payer",
+  "type": "move",
+  "img": "",
+  "folder": "89f4291dde0fffd0",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!9a3d3962a9982ca5",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "279b892aab477db6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu te fais payer par ton employeur, lance 2d6+segments d'Investigation non remplis.</p>",
+    "moveType": "basic",
+    "rollType": "formula",
+    "rollFormula": "2d6",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Choisis 3 options.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Choisis 1 option.</p>"
+      }
+    }
+  }
+}

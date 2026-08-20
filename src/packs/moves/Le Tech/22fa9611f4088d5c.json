@@ -1,0 +1,36 @@
+{
+  "_id": "22fa9611f4088d5c",
+  "name": "Expert",
+  "type": "move",
+  "img": "",
+  "folder": "c0eee9a6b4b515d1",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!22fa9611f4088d5c",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "537534550074a008",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Choisis une sphère d'expertise : Armurier, Artificier, Cybernéticien, Électronicien, Mécano ou Médecin.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

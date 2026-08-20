@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Manœuvres générales",
+  "color": "#00ff41",
+  "sorting": "a",
+  "_id": "89f4291dde0fffd0",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708435,
+    "modifiedTime": 1787259708435,
+    "lastModifiedBy": "4b3f3ddbb74b8891",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!89f4291dde0fffd0"
+}

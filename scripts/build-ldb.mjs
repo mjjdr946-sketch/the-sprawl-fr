@@ -18,8 +18,18 @@ function makeStats(ts) {
 }
 
 function writeJSON(dir, data) {
-  fs.mkdir(dir, { recursive: true });
   return fs.writeFile(path.join(dir, data._id + '.json'), JSON.stringify(data, null, 2) + '\n', 'utf8');
+}
+
+function writeFolder(dir, folderId, name, color) {
+  return fs.writeFile(path.join(dir, '_Folder.json'), JSON.stringify({
+    type: 'Item', folder: null, name, color, sorting: 'a',
+    _id: folderId, description: '', sort: 100000, flags: {},
+    _stats: { systemId: 'pbta', systemVersion: '1.2.0', coreVersion: '14.367',
+      createdTime: Date.now(), modifiedTime: Date.now(), lastModifiedBy: genId(),
+      compendiumSource: null, duplicateSource: null, exportSource: null },
+    _key: '!folders!' + folderId
+  }, null, 2) + '\n', 'utf8');
 }
 
 async function build() {
@@ -53,22 +63,72 @@ async function build() {
   }
   console.log('  ' + Object.keys(equipStore).length + ' items');
 
-  // 2. MOVES
+  // 2. MOVES - WITH FOLDERS
   console.log('2. Moves...');
   const movesStore = {};
   const mvDir = path.join(SRC, 'moves');
+
+  // Define folder structure: { "folderName": { color, moves: [moveName, ...] } }
+  const moveFolders = {};
+
+  // Basic moves -> "Manœuvres générales"
+  const basicNames = ['Acquérir une concession funéraire','Administrer les premiers soins','Aider ou Interférer','Agir sous pression','Baratiner','Battre le pavé','Blessure','Déclarer un Contact','Effectuer une recherche','Employer la manière forte','Évaluer','Montrer les dents','Obtenir le taf','Passer sur le billard','Produire du matériel','Révéler une info','Se faire payer'];
+  moveFolders['Manœuvres générales'] = { color: '#00ff41', items: basicNames };
+
+  // Matrix moves -> "Manœuvres de matrice"
+  const matrixNames = ["S'authentifier", 'Compromettre la sécurité', 'Manipuler un système', 'Briser la Glace', 'Se débrancher'];
+  moveFolders['Manœuvres de matrice'] = { color: '#00e5ff', items: matrixNames };
+
+  // Playbook moves by playbook
+  const pbMoveMap = {
+    'Le Fixeur': { color: '#ff6b35', items: ['Je connais du monde','Magouilles','Baron des rues','Chromé (Fixeur)','Face-à-face','Ingénieur technico-commercial','Injoignable','Jongler avec plusieurs balles','L\'affaire du siècle','Le bruit qui court','Mielleux','Renforts','Réputation'] },
+    'Le Hacker': { color: '#ff6b35', items: ['Branché (Hacker)','Cowboy informatique','Anonyme','Ceinture noire','Chromé (Hacker)','Cicatrices neurales','Optimisation de recherche','Programmation à la volée','Renom (Hacker)','Support technique','Tueur de Glace'] },
+    'L\'Infiltré': { color: '#ff6b35', items: ['Entrée subreptice','Haute voltige','Imposteur','Agent furtif','Assassin','Branché (Infiltré)','Chromé (Infiltré)','Guerre psychologique','Maître des artifices','Mère Gigogne','Plan B','Repérage'] },
+    'Le Limier': { color: '#ff6b35', items: ['Mais c\'est bien sûr !','Toujours à l\'écoute','Agrandissement, stop','Chasseur de gros gibier','Chromé (Limier)','Le sens de l\'observation','Remonter la trace','Sale rat','Sous tous les angles','Théâtre d\'opération humain','Tireur embusqué'] },
+    'Le Pilote': { color: '#ff6b35', items: ['Caisse','Seconde peau','Belle bagnole','Casse-cou','Chromé (Pilote)','De glace','L\'outil adapté à la tâche','Opérateur de drones','Un œil dans le ciel','Un putain d\'as du volant'] },
+    'Le Provocateur': { color: '#ff6b35', items: ['Déterminé','Visionnaire','Adeptes','Agitateur','Beau parleur','Célèbre','Cercle intérieur','Chromé (Provocateur)','Opportuniste','Ramener au bercail','Sociable','Un million de points lumineux'] },
+    'Le Reporter': { color: '#ff6b35', items: ['Du flair pour les nouvelles','En direct live','Rassembler les preuves','24 heures sur 24, 7 jours sur 7','Carte de presse','Chromé (Reporter)','Correspondant de guerre','Fouille-merde','Pitbull','Sources sûres'] },
+    'Le Soldat': { color: '#ff6b35', items: ['J\'adore quand un plan se déroule sans accroc','Voici le plan','Aura de professionnalisme','Chromé (Soldat)','Gestion directe','Glissant comme une anguille','Opérations tactiques','Présence rassurante','Recruteur','Savoirs corporatifs (Soldat)','Solution de repli'] },
+    'Le Tech': { color: '#ff6b35', items: ['Bidouilleur','Bric-à-brac','Expert','Analytique','Chromé (Tech)','Court-circuitage','Homme de la Renaissance','Intérêts diversifiés','Je suis sur le coup','Obsessionnel','Se fondre dans la masse (Tech)','Touche-à-tout'] },
+    'Le Tueur': { color: '#ff6b35', items: ['Arme personnalisée','Armé jusqu\'aux dents','Dépourvu de sentiments','Dur à cuire','Membre des Forces Spéciales','Œil exercé','Passé militaire (Tueur)','Plus machine qu\'homme','Regard de dur','Secrets corporatifs (Tueur)'] }
+  };
+  Object.assign(moveFolders, pbMoveMap);
+
+  // Build a reverse map: moveName -> folderName
+  const moveToFolder = {};
+  for (const [folderName, folderData] of Object.entries(moveFolders)) {
+    for (const itemName of folderData.items) {
+      moveToFolder[itemName] = folderName;
+    }
+  }
+
+  // Create folders and write moves
+  const folderIds = {};
   for (const m of movesData.moves) {
     const _id = genId();
     movesStore[m.name] = _id;
-    await writeJSON(mvDir, {
+    const folderName = moveToFolder[m.name] || 'Manœuvres générales';
+    
+    // Create folder directory if not exists
+    const folderDir = path.join(mvDir, folderName);
+    try { await fs.mkdir(folderDir, { recursive: true }); } catch(e) {}
+    
+    // Write _Folder.json if not yet created
+    if (!folderIds[folderName]) {
+      folderIds[folderName] = genId();
+      await writeFolder(folderDir, folderIds[folderName], folderName, moveFolders[folderName].color);
+    }
+    
+    // Write move in the folder subdirectory
+    await writeJSON(folderDir, {
       _id, name: m.name, type: 'move', img: '',
-      folder: null, sort: 0, ownership: { default: 2 }, flags: {}, effects: [],
+      folder: folderIds[folderName], sort: 0, ownership: { default: 2 }, flags: {}, effects: [],
       _key: '!items!' + _id,
       _stats: makeStats(ts),
       system: m.system
     });
   }
-  console.log('  ' + Object.keys(movesStore).length + ' items');
+  console.log('  ' + Object.keys(movesStore).length + ' items in ' + Object.keys(folderIds).length + ' folders');
 
   // 3. PLAYBOOKS
   console.log('3. Playbooks...');
@@ -126,8 +186,8 @@ async function build() {
 
   for (const slug of Object.keys(allPbMoves)) {
     const s = pbStats[slug];
-    const moveChoices = (allPbMoves[slug] || []).map(n => movesStore[n] ? { uuid: movesStore[n], img: 'icons/svg/dice-target.svg', granted: true, advancement: 0 } : null).filter(Boolean);
-    const equipChoices = (allPbEquip[slug] || []).map(n => equipStore[n] ? { uuid: equipStore[n], img: 'icons/svg/backpack.svg', granted: true, advancement: 0 } : null).filter(Boolean);
+    const moveChoices = (allPbMoves[slug] || []).map(n => movesStore[n] ? { uuid: movesStore[n], img: '', granted: true, advancement: 0 } : null).filter(Boolean);
+    const equipChoices = (allPbEquip[slug] || []).map(n => equipStore[n] ? { uuid: equipStore[n], img: '', granted: true, advancement: 0 } : null).filter(Boolean);
     const choiceSets = [];
     if (moveChoices.length) choiceSets.push({ title: 'Manœuvres de livret', desc: 'Les manœuvres spécifiques à ce livret.', type: 'multi', repeatable: false, grantOn: 0, advancement: 0, granted: false, choices: moveChoices });
     if (equipChoices.length) choiceSets.push({ title: 'Équipement de départ', desc: 'Armes, armures, cyberware et matériel.', type: 'multi', repeatable: false, grantOn: 0, advancement: 0, granted: false, choices: equipChoices });
@@ -155,7 +215,6 @@ async function build() {
     await fs.rm(dst, { recursive: true, force: true });
     console.log('  Compiling ' + pack + '...');
     await compilePack(src, dst, { yaml: false, recursive: true });
-    // Verify
     const files = await fs.readdir(dst);
     const ldbFiles = files.filter(f => f.endsWith('.ldb'));
     console.log('    ' + ldbFiles.length + ' .ldb files');

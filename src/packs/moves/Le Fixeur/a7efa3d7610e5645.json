@@ -1,0 +1,36 @@
+{
+  "_id": "a7efa3d7610e5645",
+  "name": "Renforts",
+  "type": "move",
+  "img": "",
+  "folder": "9b9e4a1f49de8ee6",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!a7efa3d7610e5645",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "52582f4c85c8a6e1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Tu embauches un petit Gang (5-10 gros bras 2-dégâts +petit +employé 1-armure). Tu obtiens le job Protection et +1 équipe.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

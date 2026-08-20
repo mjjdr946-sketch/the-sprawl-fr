@@ -1,0 +1,36 @@
+{
+  "_id": "547c488befb3ba95",
+  "name": "Renom (Hacker)",
+  "type": "move",
+  "img": "",
+  "folder": "b882070151536f6b",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!547c488befb3ba95",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "bab1dac44f83c03b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Avec un avatar reconnaissable, lance 2d6+Synth pour baratiner et montrer les dents.</p>",
+    "moveType": "playbook",
+    "rollType": "synth",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

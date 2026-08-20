@@ -1,0 +1,32 @@
+{
+  "_id": "08870fa9f39b1180",
+  "name": "Atelier",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!08870fa9f39b1180",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "d95e161d4f6a1b02",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Atelier spécialisé dans une sphère d'expertise (armurerie, chimie, cybernétique, électronique, mécanique, médical).</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+atelier",
+    "uses": 0
+  }
+}

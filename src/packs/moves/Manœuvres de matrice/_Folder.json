@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Manœuvres de matrice",
+  "color": "#00e5ff",
+  "sorting": "a",
+  "_id": "417e4dbb688dfdfd",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708508,
+    "modifiedTime": 1787259708508,
+    "lastModifiedBy": "523c159f76ef67fe",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!417e4dbb688dfdfd"
+}

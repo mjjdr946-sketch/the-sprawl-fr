@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Le Tech",
+  "color": "#ff6b35",
+  "sorting": "a",
+  "_id": "c0eee9a6b4b515d1",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708493,
+    "modifiedTime": 1787259708493,
+    "lastModifiedBy": "0a8f40bd4faf0297",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!c0eee9a6b4b515d1"
+}

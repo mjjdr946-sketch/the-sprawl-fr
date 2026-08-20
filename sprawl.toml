@@ -71,7 +71,7 @@ statToggle = true
   # 4. GROUPES DE MANŒUVRES (Moves)
   [character.moveTypes]
     basic = "Manoeuvres de base"
-    playbook = "Livret"
+    playbook = "Spécifiques"
     matrix = "Matrice"
     mission = "Mission"
     reputation = "Réputation"

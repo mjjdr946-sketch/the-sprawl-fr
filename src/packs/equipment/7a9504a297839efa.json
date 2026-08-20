@@ -1,0 +1,32 @@
+{
+  "_id": "7a9504a297839efa",
+  "name": "Implant interne d'assassinat",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7a9504a297839efa",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1787259708401,
+    "modifiedTime": 1787259708401,
+    "lastModifiedBy": "7475cfed7f796d72",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Implant discret conçu pour l'assassinat silencieux à bout portant.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+intime, +lent, +implant, 4-dégâts",
+    "uses": 0
+  }
+}
