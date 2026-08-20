@@ -1,0 +1,36 @@
+{
+  "_id": "4c460de0f596f6a2",
+  "name": "Le sens de l'observation",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!4c460de0f596f6a2",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu surveilles un individu ou lieu, gagne [info] et effectue un évaluer.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

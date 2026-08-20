@@ -1,0 +1,36 @@
+{
+  "_id": "e665ee71a5989d06",
+  "name": "Remonter la trace",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!e665ee71a5989d06",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Désigne une cible. Dépense 3 [infos] pour que le MC décrive où elle se trouve.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

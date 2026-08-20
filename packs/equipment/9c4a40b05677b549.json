@@ -1,0 +1,32 @@
+{
+  "_id": "9c4a40b05677b549",
+  "name": "Yeux cybernétiques",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!9c4a40b05677b549",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Yeux de remplacement offrant des capacités visuelles supérieures. Choisis 2 options parmi : +thermographique, +amplification lumineuse, +zoom, +anti-flash, +enregistrement, +crypté, +partition inaccessible. Quand ta vision améliorée peut aider, lance 2d6+Synth pour évaluer.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+zoom, +amplification lumineuse, +enregistrement, +implant",
+    "uses": 0
+  }
+}

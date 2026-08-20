@@ -1,0 +1,52 @@
+{
+  "_id": "ceb3f35dd5469b9f",
+  "name": "J'adore quand un plan se déroule sans accroc",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ceb3f35dd5469b9f",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Au début d'une Mission, lance 2d6+Pro.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Gagne 3 retenues.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Gagne 1 retenue.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Gagne 1 retenue mais le MC avance le CA d'Investigation.</p>"
+      }
+    }
+  }
+}

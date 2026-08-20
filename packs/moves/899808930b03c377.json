@@ -1,0 +1,47 @@
+{
+  "_id": "899808930b03c377",
+  "name": "Entrée subreptice",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!899808930b03c377",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu t'infiltres seul dans une zone sécurisée, lance 2d6+Cran.</p>",
+    "moveType": "playbook",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Gagne 3 retenues.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Gagne 1 retenue.</p>"
+      }
+    }
+  }
+}

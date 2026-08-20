@@ -40,6 +40,7 @@ async function build() {
       writeJSON(eqDir, {
         _id, name: item.n, type: "equipment", img: "icons/svg/backpack.svg",
         folder: null, sort: 0, ownership: { default: 2 }, flags: {}, effects: [],
+        _key: "!items!" + _id,
         _stats: makeStats(ts),
         system: { description: "<p>" + item.d + "</p>", equipmentType: EQ_TYPE_MAP[cat], quantity: 1, tags: item.t, uses: 0 }
       });
@@ -57,6 +58,7 @@ async function build() {
     writeJSON(mvDir, {
       _id, name: m.name, type: "move", img: "icons/svg/dice-target.svg",
       folder: null, sort: 0, ownership: { default: 2 }, flags: {}, effects: [],
+      _key: "!items!" + _id,
       _stats: makeStats(ts),
       system: m.system
     });
@@ -139,6 +141,7 @@ async function build() {
     writeJSON(pbDir, {
       _id, name, type: "playbook", img: "icons/svg/book.svg",
       folder: null, sort: 0, ownership: { default: 2 }, flags: {}, effects: [],
+      _key: "!items!" + _id,
       _stats: makeStats(ts),
       system: {
         slug, actorType: "character", description: pbDesc[slug],

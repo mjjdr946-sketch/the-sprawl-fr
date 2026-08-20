@@ -1,0 +1,52 @@
+{
+  "_id": "5916d4b1083729b5",
+  "name": "Réputation",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5916d4b1083729b5",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu rencontres quelqu'un d'important qui peut avoir entendu parler de toi, lance 2d6+Pro.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Raconte ce qu'il sait et gagne +1 sur le prochain jet.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Raconte ce qu'il sait.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Le MC décide. Cette personne devient importante.</p>"
+      }
+    }
+  }
+}

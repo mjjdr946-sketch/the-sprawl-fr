@@ -1,0 +1,32 @@
+{
+  "_id": "5a4cb94dd07984a9",
+  "name": "Grenades à gaz",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5a4cb94dd07984a9",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Grenade libérant un gaz incapacitant.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+assommant, +proche, +zone, +recharge, +gaz",
+    "uses": 0
+  }
+}

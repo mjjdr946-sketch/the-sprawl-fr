@@ -1,0 +1,32 @@
+{
+  "_id": "52d79ff8d00a07a7",
+  "name": "Matériel d'enregistrement",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!52d79ff8d00a07a7",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Matériel audio/vidéo. Choisis jusqu'à 2 étiquettes : +audio, +vidéo, +discret, +encrypté.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+enregistrement",
+    "uses": 0
+  }
+}

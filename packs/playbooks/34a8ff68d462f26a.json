@@ -1,0 +1,268 @@
+{
+  "_id": "34a8ff68d462f26a",
+  "name": "Le Tueur",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!34a8ff68d462f26a",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "tueur",
+    "actorType": "character",
+    "description": "<p><strong>« Je ne laisse pas de traces. »</strong></p><p>Le Tueur est une arme.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 1
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": -1
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 0
+      },
+      "synth": {
+        "label": "Synth",
+        "value": 2
+      },
+      "style": {
+        "label": "Style",
+        "value": 0
+      },
+      "meat": {
+        "label": "Chair",
+        "value": 1
+      }
+    },
+    "statsDetail": "+1 Pro, -1 Esprit, +0 Cran, +2 Synth, +0 Style, +1 Chair",
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de livret",
+        "desc": "Les manœuvres spécifiques à ce livret.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "15f530917f7ba04e",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "8b1fccfce89228e9",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "9a55f9ca67ab51fe",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "b7873269f9a481ab",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "564925dfda86c96b",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "7bfcb51d44b20463",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "6171d32dba8f8f47",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "d58753c2d9fde540",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "49602603d9205751",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "e93a328560d3a627",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Armes, armures, cyberware et matériel.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "b736cbefaba3d008",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "13bcbd63752dd2d1",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "90137c6b0bede957",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "724faae6a5074afc",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "1d8755cf67e130f1",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "a0d651f0b83129e8",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "b331af80c0d653f7",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "e51c0aea13fad6af",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ae90ce18308649e6",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ee45b346e0272c84",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "23718fca6f7fd384",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "9ed9c4e0f3b51b29",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "2fd10480e012552c",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "c27e59984dd796f2",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "612f7fd67fe5da88",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "14204e78186b5651",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "319541962382998f",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "0aec2cfa289f1475",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "187fd237c3bd6bc1",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "27cf83a61fdcb7b9",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "9c4a40b05677b549",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

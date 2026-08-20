@@ -1,0 +1,238 @@
+{
+  "_id": "486b7997524eff07",
+  "name": "Le Provocateur",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!486b7997524eff07",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "provocateur",
+    "actorType": "character",
+    "description": "<p><strong>« Les révolutions se gagnent avec des idées. »</strong></p><p>Le Provocateur est un meneur.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 0
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": 0
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 1
+      },
+      "synth": {
+        "label": "Synth",
+        "value": 0
+      },
+      "style": {
+        "label": "Style",
+        "value": 2
+      },
+      "meat": {
+        "label": "Chair",
+        "value": -1
+      }
+    },
+    "statsDetail": "+0 Pro, +0 Esprit, +1 Cran, +0 Synth, +2 Style, -1 Chair",
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de livret",
+        "desc": "Les manœuvres spécifiques à ce livret.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "f87c8d92cb12ed84",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "c38145870e83e44a",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "2f870935b22933ce",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "abc0cea02b6b167e",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "981c959b7995c4a2",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ba25deb3a74aa803",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "36cb844ae1c0a449",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "437b44694a4a2305",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "269e3bc810046021",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "fec1cd184d067e05",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ff00db0dc2a101a0",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "eb1f4da5b3d44770",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Armes, armures, cyberware et matériel.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "8e480974bc082f06",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "b91032e5ea19bd76",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "e409c243b4f65c80",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "15bc046a07fec9a0",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "12e69d03785ee38d",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "74a0821e851f5a63",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "c9ca8838ade20e74",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "a4d6b301639f4cfa",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "b16062da7452c3fc",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "e51c0aea13fad6af",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ee45b346e0272c84",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "23718fca6f7fd384",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "9ed9c4e0f3b51b29",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "2fd10480e012552c",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "6011889eb25869fa",
+  "name": "Magouilles",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6011889eb25869fa",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Des gens accomplissent des boulots pour toi. Tu démarres avec 2-équipe et deux jobs. Entre les Missions, choisis un nombre de jobs ≤ ton équipe, décris chacun, lance 2d6+Pro.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Tous tes jobs sont des Profits.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>L'un d'eux est un Désastre.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Merdier complet. Le MC fera une Manœuvre pour chaque job.</p>"
+      }
+    }
+  }
+}

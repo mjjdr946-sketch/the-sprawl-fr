@@ -1,0 +1,202 @@
+{
+  "_id": "51b3af6a11687357",
+  "name": "Le Fixeur",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!51b3af6a11687357",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "fixeur",
+    "actorType": "character",
+    "description": "<p><strong>« Tout a un prix. Tout se négocie. Et moi, je connais tout le monde. »</strong></p><p>Le Fixeur est la plaque tournante du marché noir.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 1
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": 0
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 0
+      },
+      "synth": {
+        "label": "Synth",
+        "value": 0
+      },
+      "style": {
+        "label": "Style",
+        "value": 2
+      },
+      "meat": {
+        "label": "Chair",
+        "value": -1
+      }
+    },
+    "statsDetail": "+1 Pro, +0 Esprit, +0 Cran, +0 Synth, +2 Style, -1 Chair",
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de livret",
+        "desc": "Les manœuvres spécifiques à ce livret.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "c1f99aa7606c001d",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "6011889eb25869fa",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "a782d943370a9266",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "18b74d1735ff8c28",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "7e503e48cc131bd0",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "dc551a5ea5acaa48",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "f71f379071b4d91b",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "cc2ed9c7882ac619",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ce0a576cff4a181a",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "bdb99b80ecd19fe9",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "603100d13d6290f8",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "afe37f28be8cf31e",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "5916d4b1083729b5",
+            "img": "icons/svg/dice-target.svg",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Armes, armures, cyberware et matériel.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "8e480974bc082f06",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "e409c243b4f65c80",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "b331af80c0d653f7",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "12e69d03785ee38d",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "f93ae237bbadb741",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "e51c0aea13fad6af",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "c8d473cda41464a8",
+            "img": "icons/svg/backpack.svg",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "07657b944071f905",
+  "name": "Fusil de précision",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!07657b944071f905",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Fusil à longue portée pour le tir d'élite.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+longue/extrême, +bruyant, +recharge, 4-dégâts",
+    "uses": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "14204e78186b5651",
+  "name": "Bras cybernétique (outils intégrés)",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!14204e78186b5651",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Bras de remplacement avec outils intégrés. +1 sur le prochain jet pour réparer, trafiquer ou court-circuiter un appareil.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+outils, +bricolage, +implant",
+    "uses": 0
+  }
+}

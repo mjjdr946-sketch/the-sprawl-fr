@@ -1,0 +1,32 @@
+{
+  "_id": "9ed9c4e0f3b51b29",
+  "name": "Fouet à monofilament",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!9ed9c4e0f3b51b29",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211290932,
+    "modifiedTime": 1787211290932,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Fouet à monofilament implanté, capable de trancher presque tout. Variante de l'Armement incorporé.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+contact, +carnage, +zone, +dangereux, +implant, 4-dégâts",
+    "uses": 0
+  }
+}
