@@ -1,0 +1,31 @@
+{
+  "_id": "50be3961ecf42d5c",
+  "name": "Cybercoms",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211146175,
+    "modifiedTime": 1787211146175,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Communications internes par impulsions mentales. Choisis 2 parmi : +brouillage, +relais satellite, +enregistrement, +crypté, +partition inaccessible. Surveiller des communications : 2d6+Synth pour évaluer.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+communication, +implant",
+    "uses": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "f6b107df3db21227",
+  "name": "Réfrigérateur blindé",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211146175,
+    "modifiedTime": 1787211146175,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Coffre blindé pour protéger du matériel sensible.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "3-armure, +immobile",
+    "uses": 0
+  }
+}

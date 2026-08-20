@@ -1,0 +1,31 @@
+{
+  "_id": "2026faf0a1da939b",
+  "name": "Console d'infiltration",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211146175,
+    "modifiedTime": 1787211146175,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Console spécialisée : Résistance 1, Pare-feu 1, Processeur 1, Furtivité 2. Avec Protection d'identité, Traitement de données, Verrouillage.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+matrice, +infiltration",
+    "uses": 0
+  }
+}

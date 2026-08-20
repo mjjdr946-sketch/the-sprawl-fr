@@ -1,0 +1,31 @@
+{
+  "_id": "dec5c1be2854e589",
+  "name": "Implant interne d'assassinat",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211146175,
+    "modifiedTime": 1787211146175,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Implant discret conçu pour l'assassinat silencieux à bout portant.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+intime, +lent, +implant, 4-dégâts",
+    "uses": 0
+  }
+}

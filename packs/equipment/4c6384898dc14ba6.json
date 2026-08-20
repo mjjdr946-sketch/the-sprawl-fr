@@ -1,0 +1,31 @@
+{
+  "_id": "4c6384898dc14ba6",
+  "name": "Logiciel de visée",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211146175,
+    "modifiedTime": 1787211146175,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Option de l'Interface neurale. Lien neural direct avec une arme +connectée. Inflige dégâts supplémentaires = Synth. Lance 2d6+Synth au lieu de Chair pour employer la manière forte. Précision de zone avec +automatique.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+interface, +visée, +implant",
+    "uses": 0
+  }
+}

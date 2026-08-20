@@ -1,0 +1,31 @@
+{
+  "_id": "abaeb0e981d9b05f",
+  "name": "Drone de reconnaissance",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211146175,
+    "modifiedTime": 1787211146175,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Petit drone discret pour la surveillance et l'exploration.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+drone, +volant, +discret",
+    "uses": 0
+  }
+}

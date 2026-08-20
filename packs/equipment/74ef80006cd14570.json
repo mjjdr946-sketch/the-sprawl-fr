@@ -1,0 +1,31 @@
+{
+  "_id": "74ef80006cd14570",
+  "name": "Poumon filtrant",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211146175,
+    "modifiedTime": 1787211146175,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Implant pulmonaire filtrant les toxines et agents chimiques.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+filtre, +survie, +implant",
+    "uses": 0
+  }
+}

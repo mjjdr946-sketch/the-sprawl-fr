@@ -1,0 +1,31 @@
+{
+  "_id": "bd874485ccf000d9",
+  "name": "Pistolet à fléchettes",
+  "type": "equipment",
+  "img": "icons/svg/backpack.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.366",
+    "createdTime": 1787211146175,
+    "modifiedTime": 1787211146175,
+    "lastModifiedBy": "the-sprawl-fr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Pistolet tirant des fléchettes tranquillisantes ou empoisonnées.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+courte/proche, +rapide, +fléchettes, 3-dégâts",
+    "uses": 0
+  }
+}
