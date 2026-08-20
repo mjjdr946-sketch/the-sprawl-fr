@@ -153,6 +153,13 @@ async function populatePack(packId, items) {
     return existing.length;
   }
 
+  // Déverrouiller le compendium pour permettre l'import
+  const wasLocked = pack.locked;
+  if (wasLocked) {
+    await pack.configure({ locked: false });
+    console.log(`THE SPRAWL | ${pack.metadata.label} déverrouillé ✓`);
+  }
+
   console.log(`THE SPRAWL | Peuplement de ${pack.metadata.label}...`);
   let count = 0;
   
@@ -166,6 +173,12 @@ async function populatePack(packId, items) {
     }
   }
   
+  // Re-verrouiller si nécessaire
+  if (wasLocked) {
+    await pack.configure({ locked: true });
+    console.log(`THE SPRAWL | ${pack.metadata.label} re-verrouillé ✓`);
+  }
+
   console.log(`THE SPRAWL | ${count} items importés dans ${pack.metadata.label}`);
   return count;
 }
