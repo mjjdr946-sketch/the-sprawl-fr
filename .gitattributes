@@ -4,6 +4,3 @@ packs/**/*.log binary
 packs/**/CURRENT binary
 packs/**/LOCK binary
 packs/**/MANIFEST-* binary
-
-# Les .gitkeep de placeholder sont des fichiers texte normaux
-packs/**/.gitkeep text

@@ -38,6 +38,10 @@
       "path": "packs/playbooks",
       "type": "Item",
       "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -46,6 +50,10 @@
       "path": "packs/moves",
       "type": "Item",
       "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
@@ -54,6 +62,10 @@
       "path": "packs/equipment",
       "type": "Item",
       "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     }
   ],
