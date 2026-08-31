@@ -1,0 +1,32 @@
+{
+  "_id": "62648929e651d902",
+  "name": "Matériel de communication +encryptée",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!62648929e651d902",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "d6e07700ab06f1d9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Système de communication crypté, résistant aux interceptions.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+communication, +encrypté",
+    "uses": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "886fa796dce6319d",
+  "name": "Baratiner",
+  "type": "move",
+  "img": "",
+  "folder": "94d56229bc9a11b8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!886fa796dce6319d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "fab39a1e41167169",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu convaincs quelqu'un par promesses, mensonges ou paroles en l'air, lance 2d6+Style.</p>",
+    "moveType": "basic",
+    "rollType": "style",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>PNJ: obéissent. PJ: choisissent (XP ou Agir sous pression).</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>PNJ obéissent mais qqn s'en rend compte. PJ: une option au choix.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; la supercherie est percée à jour et le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "fc54ffd26fe1216a",
+  "name": "Lance-missile",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!fc54ffd26fe1216a",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "5abfcca9d7f59583",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Système lance-missile guidé.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+longue, +zone, +carnage, +antiblindage, +encombrant, 5-dégâts",
+    "uses": 0
+  }
+}

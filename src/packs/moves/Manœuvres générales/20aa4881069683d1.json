@@ -1,0 +1,52 @@
+{
+  "_id": "20aa4881069683d1",
+  "name": "Effectuer une recherche",
+  "type": "move",
+  "img": "",
+  "folder": "94d56229bc9a11b8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!20aa4881069683d1",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "591bcc2baf157bb6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu enquêtes sur une personne, lieu, objet ou service, pose une question et lance 2d6+Esprit.</p>",
+    "moveType": "basic",
+    "rollType": "mind",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>[info] + question + question supplémentaire.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>[info] + réponse à la question.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Réponse… mais le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

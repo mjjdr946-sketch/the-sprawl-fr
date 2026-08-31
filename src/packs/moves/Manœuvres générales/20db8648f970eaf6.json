@@ -1,0 +1,52 @@
+{
+  "_id": "20db8648f970eaf6",
+  "name": "Aider ou Interférer",
+  "type": "move",
+  "img": "",
+  "folder": "94d56229bc9a11b8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!20db8648f970eaf6",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "319001bd3103d286",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu aides ou entraves un autre personnage, lance 2d6+Liens.</p><p><strong>Objets de la Manœuvre</strong> : si tu aides, la cible gagne +1 ; si tu interfères, elle subit -2.</p>",
+    "moveType": "basic",
+    "rollType": "formula",
+    "rollFormula": "2d6",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Tu es impliqué dans le résultat (danger, prix, représailles).</p>"
+      },
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Choisis s'il gagne +1 ou -2 à son jet.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; le MC effectue une Manœuvre directement contre toi.</p>"
+      }
+    }
+  }
+}

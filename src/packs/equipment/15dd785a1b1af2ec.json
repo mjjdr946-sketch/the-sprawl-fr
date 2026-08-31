@@ -1,0 +1,32 @@
+{
+  "_id": "15dd785a1b1af2ec",
+  "name": "Stockage de données",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!15dd785a1b1af2ec",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "6e1654d4447943c6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Option de l'Interface neurale. Communication pensée avec système/Matrice. Recherche dans données stockées : [info] supplémentaire sur succès. Choisis 2 parmi : +vitesse élevée, +large capacité, +crypté, +partition inaccessible.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+interface, +mémoire, +implant",
+    "uses": 0
+  }
+}

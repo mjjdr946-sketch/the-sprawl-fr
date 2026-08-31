@@ -1,0 +1,52 @@
+{
+  "_id": "a294d19e5a1630cb",
+  "name": "S'authentifier",
+  "type": "move",
+  "img": "",
+  "folder": "b547ee863bc31a76",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!a294d19e5a1630cb",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "1fa1c9f4743b2623",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu tentes d'accéder à un système, lance 2d6+Synth.</p>",
+    "moveType": "matrix",
+    "rollType": "synth",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "10+",
+        "label": "10+",
+        "value": "<p>Tu t'es connecté sans problème.</p>"
+      },
+      "partial": {
+        "key": "7-9",
+        "label": "7-9",
+        "value": "<p>Tu es connecté mais choisis une option : Trace +1, une Glace activée, une alerte déclenchée, ou autorisation limitée (-1 continu).</p>"
+      },
+      "failure": {
+        "key": "6-",
+        "label": "6-",
+        "value": "<p>Tu es connecté mais le MC choisit deux options.</p>"
+      }
+    }
+  }
+}

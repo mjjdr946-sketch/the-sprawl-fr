@@ -1,0 +1,32 @@
+{
+  "_id": "bb377ddf333292aa",
+  "name": "Bras cybernétique (force augmentée)",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!bb377ddf333292aa",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "5eb4c4febbd590e7",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Bras de remplacement avec force augmentée. +2 dégâts en utilisant une arme de mêlée qui dépend de la force physique.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+force, +mêlée, +implant",
+    "uses": 0
+  }
+}

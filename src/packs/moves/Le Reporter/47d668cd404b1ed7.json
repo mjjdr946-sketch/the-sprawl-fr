@@ -1,0 +1,52 @@
+{
+  "_id": "47d668cd404b1ed7",
+  "name": "Rassembler les preuves",
+  "type": "move",
+  "img": "",
+  "folder": "c317acf0230dddbe",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!47d668cd404b1ed7",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "b64cb16b9adfb324",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Réunis les preuves pour un scoop, lance 2d6+Esprit.</p>",
+    "moveType": "playbook",
+    "rollType": "mind",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Preuves obtenues, avance CA d'Affaire.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Preuves obtenues mais atouts révélés.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>MC avance CA de Tapage et manœuvre.</p>"
+      }
+    }
+  }
+}

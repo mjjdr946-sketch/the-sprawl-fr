@@ -1,0 +1,32 @@
+{
+  "_id": "7c2e0edd0c16a658",
+  "name": "Épée",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7c2e0edd0c16a658",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "25eb9a1768d5edf6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Lame longue tranchante, efficace au combat.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+contact, +carnage, 3-dégâts",
+    "uses": 0
+  }
+}

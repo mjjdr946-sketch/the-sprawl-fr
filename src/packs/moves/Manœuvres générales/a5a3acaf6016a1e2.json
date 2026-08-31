@@ -1,0 +1,52 @@
+{
+  "_id": "a5a3acaf6016a1e2",
+  "name": "Passer sur le billard",
+  "type": "move",
+  "img": "",
+  "folder": "94d56229bc9a11b8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!a5a3acaf6016a1e2",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "133aea3a2e7cba21",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu installes un implant cybernétique chez un doc de rue, lance 2d6+dépense Cred (max +2).</p><p><strong>Options (sur 7-9)</strong> — la cybernétique fonctionne imparfaitement, choisis une étiquette négative :</p><ul><li>+douloureux (douleurs aiguës, dommages nerveux).</li><li>+dégradation (usure progressive inéluctable).</li><li>+médiocre (efficacité réduite).</li><li>+défaillant (dysfonctionnements aléatoires).</li></ul>",
+    "moveType": "basic",
+    "rollType": "formula",
+    "rollFormula": "2d6",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Succès complet.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Problème: +douloureux/+dégradation/+médiocre/+défaillant</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Complications.</p>"
+      }
+    }
+  }
+}

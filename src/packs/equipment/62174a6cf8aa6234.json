@@ -1,0 +1,32 @@
+{
+  "_id": "62174a6cf8aa6234",
+  "name": "Couteau",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!62174a6cf8aa6234",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "056057bf8378e6da",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Couteau polyvalent, arme de poing discrète.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+contact, 2-dégâts",
+    "uses": 0
+  }
+}

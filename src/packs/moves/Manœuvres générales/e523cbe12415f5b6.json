@@ -1,0 +1,52 @@
+{
+  "_id": "e523cbe12415f5b6",
+  "name": "Montrer les dents",
+  "type": "move",
+  "img": "",
+  "folder": "94d56229bc9a11b8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!e523cbe12415f5b6",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "0f032f2751d38b8b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu menaces de violence et es prêt à exécuter, lance 2d6+Pro.</p>",
+    "moveType": "basic",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>PJ: obéir ou conséquences. PNJ: obéissent.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>PNJ: le MC choisit. PJ: +1 pour agir contre toi.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; la cible réagit agressivement et le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

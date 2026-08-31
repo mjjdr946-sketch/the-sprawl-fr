@@ -2,7 +2,7 @@
   "id": "the-sprawl-fr",
   "title": "The Sprawl [FR]",
   "description": "Configuration complète et Playbooks pour The Sprawl (PbtA) — Compatible Foundry VTT v14",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "compatibility": {
     "minimum": "14.0.0",
     "verified": "14.367"
@@ -70,8 +70,8 @@
     }
   ],
   "url": "https://github.com/mjjdr946-sketch/the-sprawl-fr",
-  "manifest": "https://raw.githubusercontent.com/mjjdr946-sketch/the-sprawl-fr/v1.2.1/module.json",
-  "download": "https://github.com/mjjdr946-sketch/the-sprawl-fr/archive/refs/tags/v1.2.1.zip",
+  "manifest": "https://raw.githubusercontent.com/mjjdr946-sketch/the-sprawl-fr/v1.2.2/module.json",
+  "download": "https://github.com/mjjdr946-sketch/the-sprawl-fr/archive/refs/tags/v1.2.2.zip",
   "flags": {
     "attachable": true
   }

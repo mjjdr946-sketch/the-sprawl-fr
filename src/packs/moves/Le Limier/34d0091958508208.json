@@ -1,0 +1,42 @@
+{
+  "_id": "34d0091958508208",
+  "name": "Chasseur de gros gibier",
+  "type": "move",
+  "img": "",
+  "folder": "666ac9163a02b01c",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!34d0091958508208",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "e75877873a0e8585",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Tends un piège à une cible enquêtée, lance 2d6+Pro.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>À ta merci ; utilise Pro au lieu de Chair pour employer la manière forte.</p>"
+      }
+    }
+  }
+}

@@ -56,6 +56,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>-1 segment. Si >21h: -1 continu jusqu'à soins suffisants.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -64,7 +69,7 @@
       "name": "Aider ou Interférer",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu aides ou entraves un autre personnage, lance 2d6+Liens.</p>",
+        "description": "<p>Quand tu aides ou entraves un autre personnage, lance 2d6+Liens.</p><p><strong>Objets de la Manœuvre</strong> : si tu aides, la cible gagne +1 ; si tu interfères, elle subit -2.</p>",
         "moveType": "basic",
         "rollType": "formula",
         "rollFormula": "2d6",
@@ -80,8 +85,13 @@
           },
           "success": {
             "key": "success",
-            "label": "7+",
+            "label": "10+",
             "value": "<p>Choisis s'il gagne +1 ou -2 à son jet.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; le MC effectue une Manœuvre directement contre toi.</p>"
           }
         }
       }
@@ -108,6 +118,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>Tu recules, trébuches ou hésites ; le MC présente un choix désagréable.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; le danger se concrétise et le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -134,6 +149,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>PNJ obéissent mais qqn s'en rend compte. PJ: une option au choix.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; la supercherie est percée à jour et le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -142,7 +162,7 @@
       "name": "Battre le pavé",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu te rapproches d'un Contact pour obtenir de l'aide, lance 2d6+Style.</p>",
+        "description": "<p>Quand tu te rapproches d'un Contact pour obtenir de l'aide, lance 2d6+Style.</p><p><strong>Options & Retenues (sur 7-9)</strong> — tu obtiens ce que tu veux, mais choisis 2 options :</p><ul><li>Ta requête va te coûter cher.</li><li>Ta requête va prendre du temps à organiser.</li><li>Ta requête va attirer l'attention ou une complication.</li><li>Ton Contact a besoin d'un coup de main (refuser = -1 continu).</li></ul>",
         "moveType": "basic",
         "rollType": "style",
         "rollFormula": "",
@@ -160,6 +180,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>Obtiens ce que tu veux + 2 complications.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; la demande tourne mal et le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -168,7 +193,7 @@
       "name": "Blessure",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu subis des dégâts, retranche l'armure, coche les segments, lance 2d6+dégâts subis.</p>",
+        "description": "<p>Quand tu subis des dégâts, retranche l'armure, coche les segments, lance 2d6+dégâts subis.</p><p><em>Note : jet inversé — les scores faibles sont favorables.</em></p><p><strong>Options (sur 7-9)</strong> — le MC choisit : perds pied, perds prise, perds trace, ou quelqu'un prend le dessus.</p><p><strong>Options (sur 10+)</strong> — tu choisis : hors-de-combat, dégâts complets, cybernétique perdue, ou membre perdu.</p>",
         "moveType": "basic",
         "rollType": "formula",
         "rollFormula": "2d6",
@@ -186,6 +211,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>Le MC choisit: perds pied / perds objet / perds trace / qqn prend le dessus.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Tu encaisses le choc sans complication supplémentaire immédiate. (Jet inversé : 6- est favorable).</p>"
           }
         }
       }
@@ -240,7 +270,7 @@
       "name": "Employer la manière forte",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu emploies la violence face à une force armée, annonce ton objectif et lance 2d6+Chair.</p>",
+        "description": "<p>Quand tu emploies la violence face à une force armée, annonce ton objectif et lance 2d6+Chair.</p><p><strong>Complications (sur 7-9, choisis 2)</strong> :</p><ul><li>Tu fais trop de remue-ménage (un Compte à rebours est avancé).</li><li>Tu subis des dégâts.</li><li>Un allié subit des dégâts.</li><li>Quelque chose de valeur est cassé.</li></ul>",
         "moveType": "basic",
         "rollType": "meat",
         "rollFormula": "",
@@ -258,6 +288,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>Objectif atteint + 2 complications au choix.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; tu n'atteins pas ton objectif et le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -266,7 +301,7 @@
       "name": "Évaluer",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu étudies une personne, lieu ou situation, lance 2d6+Pro.</p>",
+        "description": "<p>Quand tu étudies une personne, lieu ou situation, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> : dépense 1 retenue à n'importe quel moment pour poser une question de la liste (le MC répond honnêtement), et gagne +1 sur ton prochain jet quand tu agis sur la base de la réponse :</p><ul><li>De quelle potentielle complication devrais-je me méfier ?</li><li>Qu'est-ce que je remarque en dépit de l'effort fait pour le cacher ?</li><li>En quoi ______ m'est-il vulnérable ?</li><li>Comment puis-je éviter les ennuis ou me cacher ici ?</li><li>Quelle est la meilleure façon de m'infiltrer / m'exfiltrer / traverser ?</li><li>Où puis-je obtenir le meilleur avantage ?</li><li>Quelle est la plus grande menace dans cette situation ?</li><li>Qui est ou qu'est-ce qui est aux commandes ici ?</li></ul>",
         "moveType": "basic",
         "rollType": "edge",
         "rollFormula": "",
@@ -284,6 +319,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>Retiens 1.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -310,6 +350,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>PNJ: le MC choisit. PJ: +1 pour agir contre toi.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; la cible réagit agressivement et le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -318,7 +363,7 @@
       "name": "Obtenir le taf",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu négocies les termes d'une Mission, lance 2d6+Pro.</p>",
+        "description": "<p>Quand tu négocies les termes d'une Mission, lance 2d6+Pro.</p><p><strong>Options disponibles</strong> : employeur fournit [info] · employeur fournit [matos] · le travail paie bien (x3) · la rencontre n'attire pas l'attention · l'employeur est identifiable.</p>",
         "moveType": "basic",
         "rollType": "edge",
         "rollFormula": "",
@@ -336,6 +381,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>Choisis 1 option.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; l'employeur dicte ses conditions sans concession.</p>"
           }
         }
       }
@@ -344,7 +394,7 @@
       "name": "Passer sur le billard",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu installes un implant cybernétique chez un doc de rue, lance 2d6+dépense Cred (max +2).</p>",
+        "description": "<p>Quand tu installes un implant cybernétique chez un doc de rue, lance 2d6+dépense Cred (max +2).</p><p><strong>Options (sur 7-9)</strong> — la cybernétique fonctionne imparfaitement, choisis une étiquette négative :</p><ul><li>+douloureux (douleurs aiguës, dommages nerveux).</li><li>+dégradation (usure progressive inéluctable).</li><li>+médiocre (efficacité réduite).</li><li>+défaillant (dysfonctionnements aléatoires).</li></ul>",
         "moveType": "basic",
         "rollType": "formula",
         "rollFormula": "2d6",
@@ -405,7 +455,7 @@
       "name": "Se faire payer",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu te fais payer par ton employeur, lance 2d6+segments d'Investigation non remplis.</p>",
+        "description": "<p>Quand tu te fais payer par ton employeur, lance 2d6+segments d'Investigation non remplis.</p><p><strong>Options disponibles</strong> : pas de traquenard · paiement en totalité (x2/x3) · employeur identifiable · pas d'attention de tiers · tout le monde gagne en expérience.</p>",
         "moveType": "basic",
         "rollType": "formula",
         "rollFormula": "2d6",
@@ -423,6 +473,11 @@
             "key": "partial",
             "label": "7-9",
             "value": "<p>Choisis 1 option.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; l'employeur trahit ou tend un piège, le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -689,7 +744,7 @@
       "name": "Cowboy informatique",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu te connectes à un système sécurisé, lance 2d6+Esprit.</p>",
+        "description": "<p>Quand tu te connectes à un système sécurisé, lance 2d6+Esprit.</p><p><strong>Dépense de retenues</strong> (tant que tu restes dans le système) :</p><ul><li>Empêcher une construction virtuelle d'activer une alarme</li><li>Empêcher une Glace d'exécuter une routine contre toi</li><li>Retenir 1 supplémentaire sur une sécurité compromise ou un système manipulé</li></ul>",
         "moveType": "playbook",
         "rollType": "mind",
         "rollFormula": "",
@@ -850,7 +905,7 @@
       "name": "Entrée subreptice",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu t'infiltres seul dans une zone sécurisée, lance 2d6+Cran.</p>",
+        "description": "<p>Quand tu t'infiltres seul dans une zone sécurisée, lance 2d6+Cran.</p><p><strong>Dépense de retenues</strong> (une par une, pendant la description du MC) :</p><ul><li>Esquiver un système de sécurité ou un garde</li><li>Désactiver un système de sécurité que tu as esquivé</li><li>Neutraliser un garde</li><li>Éviter d'être repéré</li></ul>",
         "moveType": "playbook",
         "rollType": "cool",
         "rollFormula": "",
@@ -1048,7 +1103,7 @@
       "name": "Repérage",
       "type": "move",
       "system": {
-        "description": "<p>Étudie un lieu pour trouver des failles, lance 2d6+Pro.</p>",
+        "description": "<p>Étudie un lieu pour trouver des failles, lance 2d6+Pro.</p><p>Tu gagnes des [infos] que tu peux dépenser comme d'habitude, ou en dépenser une pour poser une question de la liste d'<em>évaluer</em> ou d'<em>effectuer une recherche</em>.</p>",
         "moveType": "playbook",
         "rollType": "edge",
         "rollFormula": "",
@@ -1074,7 +1129,7 @@
       "name": "Mais c'est bien sûr !",
       "type": "move",
       "system": {
-        "description": "<p>Au début d'une Mission, lance 2d6+Pro.</p>",
+        "description": "<p>Au début d'une Mission, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> : dépense une retenue à n'importe quel moment pour poser une question de la liste d'<em>effectuer une recherche</em>.</p>",
         "moveType": "playbook",
         "rollType": "edge",
         "rollFormula": "",
@@ -1402,7 +1457,7 @@
       "name": "Un putain d'as du volant",
       "type": "move",
       "system": {
-        "description": "<p>Conduis un véhicule câblé sous haute tension, lance 2d6+Pro.</p>",
+        "description": "<p>Conduis un véhicule câblé sous haute tension, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> (une par une) :</p><ul><li>Éviter un danger externe (missile, tir en rafale, collision)</li><li>Échapper à un poursuivant</li><li>Maintenir le contrôle de ton véhicule</li><li>Impressionner, démoraliser ou effrayer quelqu'un</li></ul>",
         "moveType": "playbook",
         "rollType": "edge",
         "rollFormula": "",
@@ -1428,7 +1483,7 @@
       "name": "Déterminé",
       "type": "move",
       "system": {
-        "description": "<p>Au début d'une Mission qui promeut ta vision, lance 2d6+Pro.</p>",
+        "description": "<p>Au début d'une Mission qui promeut ta vision, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> : dépense une retenue avant de lancer n'importe quelle autre Manœuvre pour gagner <strong>+1</strong> sur ton jet ou <strong>-2</strong> sur le jet d'un adversaire.</p>",
         "moveType": "playbook",
         "rollType": "edge",
         "rollFormula": "",
@@ -1454,7 +1509,7 @@
       "name": "Visionnaire",
       "type": "move",
       "system": {
-        "description": "<p>Crée une connexion émotionnelle et prône ta vision, lance 2d6+Style.</p>",
+        "description": "<p>Crée une connexion émotionnelle et prône ta vision, lance 2d6+Style.</p><p><strong>Dépense de retenues (sur un PNJ)</strong> :</p><ul><li>Il te donne quelque chose que tu veux</li><li>Il fait quelque chose que tu demandes</li><li>Il combat pour te protéger, toi ou ta cause</li><li>Il désobéit à un ordre d'une autorité</li></ul><p><strong>Dépense de retenues (sur un PJ)</strong> : dépense 1 retenue pour aider (<strong>+1</strong>) ou interférer (<strong>-2</strong>) comme sur un 10+.</p>",
         "moveType": "playbook",
         "rollType": "style",
         "rollFormula": "",
@@ -1495,9 +1550,9 @@
       "name": "Agitateur",
       "type": "move",
       "system": {
-        "description": "<p>Tu peux utiliser visionnaire sur une foule.</p>",
+        "description": "<p>Tu peux utiliser <em>visionnaire</em> pour influencer une foule potentiellement favorable. Lance 2d6+Style.</p>",
         "moveType": "playbook",
-        "rollType": "",
+        "rollType": "style",
         "rollFormula": "",
         "rollMod": 0,
         "uses": 0,
@@ -1630,7 +1685,7 @@
       "name": "Du flair pour les nouvelles",
       "type": "move",
       "system": {
-        "description": "<p>Au début d'une Mission, lance 2d6+Pro.</p>",
+        "description": "<p>Au début d'une Mission, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> (une par une, pendant la Mission) :</p><ul><li>Poser une question de la liste d'<em>effectuer une recherche</em></li><li>Prendre <strong>+1</strong> sur ton prochain jet de <em>pitbull</em></li><li>Trouver une preuve reliant la Mission à une histoire en cours</li></ul>",
         "moveType": "playbook",
         "rollType": "edge",
         "rollFormula": "",
@@ -1829,7 +1884,7 @@
       "name": "J'adore quand un plan se déroule sans accroc",
       "type": "move",
       "system": {
-        "description": "<p>Au début d'une Mission, lance 2d6+Pro.</p>",
+        "description": "<p>Au début d'une Mission, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> (une par une) :</p><ul><li>Tu as le matériel dont tu as besoin, maintenant</li><li>Tu apparais dans une scène où on a besoin de toi, maintenant</li></ul><p><em>Note : sur un 6-, tu gagnes tout de même 1 retenue, mais tes adversaires ont prévu tes mouvements.</em></p>",
         "moveType": "playbook",
         "rollType": "edge",
         "rollFormula": "",
@@ -2377,7 +2432,7 @@
       "name": "Regard de dur",
       "type": "move",
       "system": {
-        "description": "<p>Situation tendue, lance 2d6+Style.</p>",
+        "description": "<p>Situation tendue, lance 2d6+Style.</p><p><strong>Dépense de retenues</strong> : dépense une retenue pour fixer un PNJ — il se fige ou hésite et ne peut agir tant que tu maintiens le contact visuel.</p>",
         "moveType": "playbook",
         "rollType": "style",
         "rollFormula": "",
@@ -2432,17 +2487,17 @@
         "actorType": "character",
         "choices": "",
         "moveResults": {
-          "10+": {
+          "success": {
             "key": "10+",
             "label": "10+",
             "value": "<p>Tu t'es connecté sans problème.</p>"
           },
-          "7-9": {
+          "partial": {
             "key": "7-9",
             "label": "7-9",
             "value": "<p>Tu es connecté mais choisis une option : Trace +1, une Glace activée, une alerte déclenchée, ou autorisation limitée (-1 continu).</p>"
           },
-          "6-": {
+          "failure": {
             "key": "6-",
             "label": "6-",
             "value": "<p>Tu es connecté mais le MC choisit deux options.</p>"
@@ -2454,7 +2509,7 @@
       "name": "Compromettre la sécurité",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu tentes de compromettre la sécurité d'un sous-système, lance 2d6+Esprit.</p>",
+        "description": "<p>Quand tu tentes de compromettre la sécurité d'un sous-système, lance 2d6+Esprit.</p><p><strong>Dépense de retenues</strong> : dépense 1 retenue pour activer une mesure de sécurité dans ce sous-système (déclencher/annuler une alerte locale, activer/désactiver une Glace du nœud, ouvrir/fermer des accès logiciels).</p>",
         "moveType": "matrix",
         "rollType": "mind",
         "rollFormula": "",
@@ -2463,17 +2518,17 @@
         "actorType": "character",
         "choices": "",
         "moveResults": {
-          "10+": {
+          "success": {
             "key": "10+",
             "label": "10+",
             "value": "<p>Retiens 3 sur le sous-système compromis.</p>"
           },
-          "7-9": {
+          "partial": {
             "key": "7-9",
             "label": "7-9",
             "value": "<p>Retiens 1 sur le sous-système compromis.</p>"
           },
-          "6-": {
+          "failure": {
             "key": "6-",
             "label": "6-",
             "value": "<p>Tu déclenches une alerte, avec conséquences supplémentaires.</p>"
@@ -2485,7 +2540,7 @@
       "name": "Manipuler un système",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu manipules le dispositif d'un bâtiment contrôlé électroniquement, lance 2d6+Synth.</p>",
+        "description": "<p>Quand tu manipules le dispositif d'un bâtiment contrôlé électroniquement, lance 2d6+Synth.</p><p><strong>Dépense de retenues</strong> : dépense 1 retenue pour activer une routine dans ce sous-système (verrouiller/déverrouiller des portes, éteindre/allumer les lumières, modifier la ventilation, déclencher les extincteurs).</p>",
         "moveType": "matrix",
         "rollType": "synth",
         "rollFormula": "",
@@ -2494,15 +2549,20 @@
         "actorType": "character",
         "choices": "",
         "moveResults": {
-          "10+": {
+          "success": {
             "key": "10+",
             "label": "10+",
             "value": "<p>Retiens 3 sur le sous-système manipulé.</p>"
           },
-          "7-9": {
+          "partial": {
             "key": "7-9",
             "label": "7-9",
             "value": "<p>Retiens 1 sur le sous-système manipulé.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -2511,7 +2571,7 @@
       "name": "Briser la Glace",
       "type": "move",
       "system": {
-        "description": "<p>Quand tu esquives, détruis ou neutralises une Glace active, lance 2d6+Pro.</p>",
+        "description": "<p>Quand tu esquives, détruis ou neutralises une Glace active, lance 2d6+Pro.</p><p><strong>Effets au choix du joueur</strong> :</p><ul><li><em>Détruire</em> : élimine définitivement la Glace (laisse des traces visibles).</li><li><em>Neutraliser</em> : désactive la Glace temporairement pour travailler sur le nœud.</li><li><em>Esquiver</em> : laisse la Glace active derrière soi (menace pour un intrus non autorisé).</li></ul><p><strong>En cas de 7-9</strong>, la Glace exécute une routine avant désactivation : Bleue = 1 option, Rouge = 2 options, Noire = 3 options.</p>",
         "moveType": "matrix",
         "rollType": "edge",
         "rollFormula": "",
@@ -2520,15 +2580,20 @@
         "actorType": "character",
         "choices": "",
         "moveResults": {
-          "7+": {
-            "key": "7+",
-            "label": "7+",
-            "value": "<p>Tu esquives, détruis ou neutralises temporairement le système.</p>"
-          },
-          "7-9": {
+          "partial": {
             "key": "7-9",
             "label": "7-9",
             "value": "<p>Le système exécute une routine avant désactivation.</p>"
+          },
+          "success": {
+            "key": "7+",
+            "label": "10+",
+            "value": "<p>Tu esquives, détruis ou neutralises temporairement le système.</p>"
+          },
+          "failure": {
+            "key": "failure",
+            "label": "6-",
+            "value": "<p>Échec ; la Glace exécute sa routine complète sans être neutralisée et le MC effectue une Manœuvre.</p>"
           }
         }
       }
@@ -2546,17 +2611,17 @@
         "actorType": "character",
         "choices": "",
         "moveResults": {
-          "10+": {
+          "success": {
             "key": "10+",
             "label": "10+",
             "value": "<p>Tu te déconnectes avant des dégâts sérieux.</p>"
           },
-          "7-9": {
+          "partial": {
             "key": "7-9",
             "label": "7-9",
             "value": "<p>Tu te déconnectes mais choisis : perte de données, conséquences partielles, ou localisation tracée.</p>"
           },
-          "6-": {
+          "failure": {
             "key": "6-",
             "label": "6-",
             "value": "<p>Tu subis les conséquences et restes connecté.</p>"

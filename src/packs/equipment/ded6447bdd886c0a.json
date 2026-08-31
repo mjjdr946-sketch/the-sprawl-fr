@@ -1,0 +1,32 @@
+{
+  "_id": "ded6447bdd886c0a",
+  "name": "Matraque",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ded6447bdd886c0a",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "a44fc7485b9b64e0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Bâton de défense ou matraque.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+contact, 2-dégâts",
+    "uses": 0
+  }
+}

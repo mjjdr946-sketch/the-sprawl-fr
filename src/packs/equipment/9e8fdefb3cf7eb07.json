@@ -1,0 +1,32 @@
+{
+  "_id": "9e8fdefb3cf7eb07",
+  "name": "Trousse à outils de spécialiste",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!9e8fdefb3cf7eb07",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "cfe5d7dbe872cb48",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Kit thématique (survie, crochetage). 3 charges : +1 sur le prochain jet de manœuvre liée par charge.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+outils, +spécialisé, 3-charges",
+    "uses": 0
+  }
+}

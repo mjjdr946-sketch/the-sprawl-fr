@@ -1,0 +1,36 @@
+{
+  "_id": "147387726116c250",
+  "name": "Caisse",
+  "type": "move",
+  "img": "",
+  "folder": "7d8531283e4308e1",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!147387726116c250",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "4589271f9ecea129",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Tu démarres avec un véhicule câblé personnalisé (Châssis, Modèle, Profil Puissance/Aspect/Défaut/Armure, avantages, armements).</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

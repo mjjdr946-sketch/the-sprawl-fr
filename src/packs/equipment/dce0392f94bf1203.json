@@ -1,0 +1,32 @@
+{
+  "_id": "dce0392f94bf1203",
+  "name": "Greffe musculaire",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!dce0392f94bf1203",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "81a07333e47ac22b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Fibres synthétiques greffées. Arme de mêlée pour employer la manière forte : 2d6+Synth au lieu de Chair, +1 dégât.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+muscle, +force, +mêlée, +implant",
+    "uses": 0
+  }
+}

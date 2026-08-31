@@ -1,0 +1,52 @@
+{
+  "_id": "a586529df7ee2aef",
+  "name": "Regard de dur",
+  "type": "move",
+  "img": "",
+  "folder": "9e6f2734a86b15b0",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!a586529df7ee2aef",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "24ea021f2e236964",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Situation tendue, lance 2d6+Style.</p><p><strong>Dépense de retenues</strong> : dépense une retenue pour fixer un PNJ — il se fige ou hésite et ne peut agir tant que tu maintiens le contact visuel.</p>",
+    "moveType": "playbook",
+    "rollType": "style",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Gagne 2 retenues.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Gagne 1 retenue.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Identifié comme menace.</p>"
+      }
+    }
+  }
+}

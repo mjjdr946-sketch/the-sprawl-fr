@@ -1,0 +1,52 @@
+{
+  "_id": "372557e1b87addaa",
+  "name": "Évaluer",
+  "type": "move",
+  "img": "",
+  "folder": "94d56229bc9a11b8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!372557e1b87addaa",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "1cc8552f6b59c5ba",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu étudies une personne, lieu ou situation, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> : dépense 1 retenue à n'importe quel moment pour poser une question de la liste (le MC répond honnêtement), et gagne +1 sur ton prochain jet quand tu agis sur la base de la réponse :</p><ul><li>De quelle potentielle complication devrais-je me méfier ?</li><li>Qu'est-ce que je remarque en dépit de l'effort fait pour le cacher ?</li><li>En quoi ______ m'est-il vulnérable ?</li><li>Comment puis-je éviter les ennuis ou me cacher ici ?</li><li>Quelle est la meilleure façon de m'infiltrer / m'exfiltrer / traverser ?</li><li>Où puis-je obtenir le meilleur avantage ?</li><li>Quelle est la plus grande menace dans cette situation ?</li><li>Qui est ou qu'est-ce qui est aux commandes ici ?</li></ul>",
+    "moveType": "basic",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Retiens 3.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Retiens 1.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

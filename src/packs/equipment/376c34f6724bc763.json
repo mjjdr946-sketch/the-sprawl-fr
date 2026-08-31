@@ -1,0 +1,32 @@
+{
+  "_id": "376c34f6724bc763",
+  "name": "Relais de communication",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!376c34f6724bc763",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "3cc47491d57f7099",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Relais de communication. Choisis 2 étiquettes parmi +encrypté, +brouillage.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+communication, +relais",
+    "uses": 0
+  }
+}

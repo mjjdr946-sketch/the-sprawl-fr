@@ -1,0 +1,36 @@
+{
+  "_id": "5ecb5ee4f8874304",
+  "name": "Optimisation de recherche",
+  "type": "move",
+  "img": "",
+  "folder": "0ed63baaef46c435",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5ecb5ee4f8874304",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "27ffda0345db5874",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Sur une recherche dans la Matrice, tu peux toujours poser une question supplémentaire. Sur 10+, gagne [info] additionnelle.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

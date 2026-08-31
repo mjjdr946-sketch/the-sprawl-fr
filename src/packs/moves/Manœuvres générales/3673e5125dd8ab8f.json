@@ -1,0 +1,52 @@
+{
+  "_id": "3673e5125dd8ab8f",
+  "name": "Employer la manière forte",
+  "type": "move",
+  "img": "",
+  "folder": "94d56229bc9a11b8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!3673e5125dd8ab8f",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "cd2208cede7de2a9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu emploies la violence face à une force armée, annonce ton objectif et lance 2d6+Chair.</p><p><strong>Complications (sur 7-9, choisis 2)</strong> :</p><ul><li>Tu fais trop de remue-ménage (un Compte à rebours est avancé).</li><li>Tu subis des dégâts.</li><li>Un allié subit des dégâts.</li><li>Quelque chose de valeur est cassé.</li></ul>",
+    "moveType": "basic",
+    "rollType": "meat",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Tu atteins ton objectif.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Objectif atteint + 2 complications au choix.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; tu n'atteins pas ton objectif et le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

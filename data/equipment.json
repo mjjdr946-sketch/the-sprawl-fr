@@ -3,9 +3,9 @@
   "system": "pbta",
   "game": "The Sprawl",
   "categories": {
-    "weapons": 23,
-    "armors": 5,
-    "gear": 24,
+    "weapons": 34,
+    "armors": 6,
+    "gear": 33,
     "cyberware": 25,
     "vehicles": 7
   },
@@ -33,12 +33,12 @@
       },
       {
         "n": "Fusil d'assaut",
-        "t": "+proche/longue, +bruyant, +automatique, 2-dégâts",
+        "t": "+proche/longue, +bruyant, +automatique, 3-dégâts",
         "d": "Fusil automatique standard, polyvalent."
       },
       {
         "n": "Fusil de précision",
-        "t": "+longue/extrême, +bruyant, +recharge, 4-dégâts",
+        "t": "+longue/extrême, +bruyant, +encombrant, 3-dégâts",
         "d": "Fusil à longue portée pour le tir d'élite."
       },
       {
@@ -125,6 +125,61 @@
         "n": "Pistolet (Soldat)",
         "t": "+courte/proche, +bruyant, 3-dégâts",
         "d": "Pistolet militaire lourd."
+      },
+      {
+        "n": "Revolver de petit calibre",
+        "t": "+courte/proche, +recharge, +bruyant, +rapide, 2-dégâts",
+        "d": "Révolver léger à tir rapide."
+      },
+      {
+        "n": "Fusil de chasse",
+        "t": "+longue/extrême, +bruyant, 2-dégâts",
+        "d": "Carabine de chasse à longue portée."
+      },
+      {
+        "n": "Arbalète ou arc de chasse",
+        "t": "+courte/proche/longue, +recharge, 2-dégâts",
+        "d": "Arme de chasse silencieuse à projectiles."
+      },
+      {
+        "n": "Mitrailleuse légère",
+        "t": "+proche/longue, +bruyant, +carnage, +automatique, +encombrant, 3-dégâts",
+        "d": "Arme de soutien automatique."
+      },
+      {
+        "n": "Fusil antichar",
+        "t": "+longue/extrême, +bruyant, +carnage, +antiblindage, +encombrant, 3-dégâts",
+        "d": "Fusil lourd antiblindage."
+      },
+      {
+        "n": "Lance-roquette",
+        "t": "+proche/longue, +zone, +bruyant, +carnage, +encombrant, 4-dégâts",
+        "d": "Lance-roquette antichar."
+      },
+      {
+        "n": "Lance-roquette à usage unique",
+        "t": "+proche, +zone, +recharge, +bruyant, +carnage, 4-dégâts",
+        "d": "Roquette jetable."
+      },
+      {
+        "n": "Canon antichar",
+        "t": "+proche/longue, +zone, +carnage, +antiblindage, +encombrant, 4-dégâts",
+        "d": "Canon lourd antichar."
+      },
+      {
+        "n": "Lance-missile",
+        "t": "+longue, +zone, +carnage, +antiblindage, +encombrant, 5-dégâts",
+        "d": "Système lance-missile guidé."
+      },
+      {
+        "n": "Couteau",
+        "t": "+contact, 2-dégâts",
+        "d": "Couteau polyvalent, arme de poing discrète."
+      },
+      {
+        "n": "Matraque",
+        "t": "+contact, 2-dégâts",
+        "d": "Bâton de défense ou matraque."
       }
     ],
     "armors": [
@@ -152,6 +207,11 @@
         "n": "Gilet de protection",
         "t": "1-armure",
         "d": "Gilet balistique standard de niveau protection de base."
+      },
+      {
+        "n": "Armure militaire intégrale",
+        "t": "3-armure, +encombrant",
+        "d": "Armure complète avec plaques balistiques. Gêne les mouvements."
       }
     ],
     "gear": [
@@ -274,6 +334,51 @@
         "n": "Berline +quelconque",
         "t": "+véhicule, +quelconque",
         "d": "Berline discrète qui ne se fait pas remarquer."
+      },
+      {
+        "n": "Appareil de communication",
+        "t": "+communication",
+        "d": "Émetteur-récepteur portable. Étiquettes optionnelles : +encrypté, +brouillage, +relais satellite, +enregistrement."
+      },
+      {
+        "n": "Combinaison ailée / Aéronef ultraléger",
+        "t": "+volant, +infiltration",
+        "d": "Appareil individuel pour infiltrations aériennes et largages."
+      },
+      {
+        "n": "Équipement d'escalade / de rappel",
+        "t": "+escalade, +équipement",
+        "d": "Matériel complet d'ascension verticale."
+      },
+      {
+        "n": "Équipement de plongée sous-marine",
+        "t": "+plongée, +équipement",
+        "d": "Bouteilles, détendeurs et combinaison étanche."
+      },
+      {
+        "n": "Exosquelette gyroscopique",
+        "t": "+exosquelette, +encombrant",
+        "d": "Harnais de stabilisation moteur permettant de porter des armes +encombrant sans malus."
+      },
+      {
+        "n": "Explosifs industriels / C4",
+        "t": "+perforant, +dangereux, +carnage, +bruyant, +antiblindage, 4-dégâts",
+        "d": "Matériel de brèche et démolition."
+      },
+      {
+        "n": "Salle d'opération / Chirurgie portable",
+        "t": "+médical, +encombrant",
+        "d": "Unité médicale autonome pour blessures critiques et implantation cybernétique."
+      },
+      {
+        "n": "Silencieux / Modérateur de son",
+        "t": "+silencieux, +accessoire",
+        "d": "Accessoire d'arme retirant l'étiquette +bruyant. Incompatible avec +carnage ou +antiblindage."
+      },
+      {
+        "n": "Trousse à outils de spécialiste",
+        "t": "+outils, +spécialisé, 3-charges",
+        "d": "Kit thématique (survie, crochetage). 3 charges : +1 sur le prochain jet de manœuvre liée par charge."
       }
     ],
     "cyberware": [

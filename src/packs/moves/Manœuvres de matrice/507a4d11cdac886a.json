@@ -1,0 +1,52 @@
+{
+  "_id": "507a4d11cdac886a",
+  "name": "Se débrancher",
+  "type": "move",
+  "img": "",
+  "folder": "b547ee863bc31a76",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!507a4d11cdac886a",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "508423d0c9e4bc2b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand une Glace est sur le point de te nuire, tente de te débrancher. Lance 2d6+Cran.</p>",
+    "moveType": "matrix",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "10+",
+        "label": "10+",
+        "value": "<p>Tu te déconnectes avant des dégâts sérieux.</p>"
+      },
+      "partial": {
+        "key": "7-9",
+        "label": "7-9",
+        "value": "<p>Tu te déconnectes mais choisis : perte de données, conséquences partielles, ou localisation tracée.</p>"
+      },
+      "failure": {
+        "key": "6-",
+        "label": "6-",
+        "value": "<p>Tu subis les conséquences et restes connecté.</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "bf4240e43c9df043",
+  "name": "Remonter la trace",
+  "type": "move",
+  "img": "",
+  "folder": "666ac9163a02b01c",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!bf4240e43c9df043",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "7be49f2e7fa38460",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Désigne une cible. Dépense 3 [infos] pour que le MC décrive où elle se trouve.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

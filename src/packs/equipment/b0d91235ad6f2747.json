@@ -1,0 +1,32 @@
+{
+  "_id": "b0d91235ad6f2747",
+  "name": "Taser de poing",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!b0d91235ad6f2747",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "10ee6444dfcb540a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Arme électrique non-létale.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+assommant, +contact, +recharge",
+    "uses": 0
+  }
+}

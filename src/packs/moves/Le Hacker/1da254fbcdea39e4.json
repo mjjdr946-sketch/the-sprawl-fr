@@ -1,0 +1,47 @@
+{
+  "_id": "1da254fbcdea39e4",
+  "name": "Cowboy informatique",
+  "type": "move",
+  "img": "",
+  "folder": "0ed63baaef46c435",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!1da254fbcdea39e4",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "b06eb6d40c063862",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu te connectes à un système sécurisé, lance 2d6+Esprit.</p><p><strong>Dépense de retenues</strong> (tant que tu restes dans le système) :</p><ul><li>Empêcher une construction virtuelle d'activer une alarme</li><li>Empêcher une Glace d'exécuter une routine contre toi</li><li>Retenir 1 supplémentaire sur une sécurité compromise ou un système manipulé</li></ul>",
+    "moveType": "playbook",
+    "rollType": "mind",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Retiens 3.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Retiens 1.</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "fb0a2bdc158b7719",
+  "name": "Sources sûres",
+  "type": "move",
+  "img": "",
+  "folder": "c317acf0230dddbe",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!fb0a2bdc158b7719",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "61acd8fd41ebbe2f",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Fais appel à tes informateurs, lance 2d6+Style au lieu d'Esprit pour une recherche.</p>",
+    "moveType": "playbook",
+    "rollType": "style",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

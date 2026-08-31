@@ -1,0 +1,47 @@
+{
+  "_id": "2a004703bc407142",
+  "name": "En direct live",
+  "type": "move",
+  "img": "",
+  "folder": "c317acf0230dddbe",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!2a004703bc407142",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788216886305,
+    "modifiedTime": 1788216886305,
+    "lastModifiedBy": "1d30e2bdc1bcc1b9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Prends l'antenne depuis le terrain, lance 2d6+Pro.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Ton histoire irrite ta cible, qqn est blessé, ça énerve l'employeur, ou récit compris de travers.</p>"
+      },
+      "success": {
+        "key": "success",
+        "label": "7+",
+        "value": "<p>Cliché obtenu, raccompagné vers un lieu sûr.</p>"
+      }
+    }
+  }
+}
