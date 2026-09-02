@@ -1,7 +1,7 @@
 {
   "id": "the-sprawl-fr",
   "title": "The Sprawl [FR]",
-  "description": "Configuration complète et Playbooks pour The Sprawl (PbtA) — Compatible Foundry VTT v14",
+  "description": "Configuration complète et Playbooks pour The Sprawl (PbtA) — Compatible Foundry VTT v14.\nInstallation : https://raw.githubusercontent.com/mjjdr946-sketch/the-sprawl-fr/v1.2.2/module.json\n\nContient : 146 manœuvres (base + livrets + matrice), 105 équipements (armes, armures, cyberware, matériel, véhicules), 10 livrets pré-remplis. Thème cyberpunk inclus.",
   "version": "1.2.2",
   "compatibility": {
     "minimum": "14.0.0",
