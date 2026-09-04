@@ -1,0 +1,32 @@
+{
+  "_id": "d1d2cc5ca455d821",
+  "name": "Console d'infiltration",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d1d2cc5ca455d821",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "2cb5077fca76b909",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Console spécialisée : Résistance 1, Pare-feu 1, Processeur 1, Furtivité 2. Avec Protection d'identité, Traitement de données, Verrouillage.</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "+matrice, +infiltration",
+    "uses": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "a8c19c1f87c9fcd4",
+  "name": "Un œil dans le ciel",
+  "type": "move",
+  "img": "",
+  "folder": "05cf25604725acfa",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!a8c19c1f87c9fcd4",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "10cd9c8be598bb72",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Aide ou interfère en pilotant un drone, lance 2d6+Pro au lieu de Liens.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

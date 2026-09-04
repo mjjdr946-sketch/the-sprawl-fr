@@ -1,0 +1,32 @@
+{
+  "_id": "2de4d56f9af8905c",
+  "name": "Véhicule +voyant",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!2de4d56f9af8905c",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "beb74ec4eb5cb8e9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Moto, voiture de sport ou hors-bord voyant.</p>",
+    "equipmentType": "vehicle",
+    "quantity": 1,
+    "tags": "+véhicule, +voyant",
+    "uses": 0
+  }
+}

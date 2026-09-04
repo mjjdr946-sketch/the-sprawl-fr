@@ -1,0 +1,36 @@
+{
+  "_id": "31f08280e7fad904",
+  "name": "Expert",
+  "type": "move",
+  "img": "",
+  "folder": "b63dc8e8454ae6b0",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!31f08280e7fad904",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "829ee0860b529046",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Choisis une sphère d'expertise :</p><ul><li><em>Armurier</em> : Débute avec la manœuvre Arme personnalisée du Tueur.</li><li><em>Artificier</em> : Ignore l'étiquette +dangereux des explosifs.</li><li><em>Cybernéticien</em> : Débute avec un implant cybernétique gratuit supplémentaire.</li><li><em>Électronicien</em> : Console matricielle (5 pts, max 2/score) et processeur+1 programmes.</li><li><em>Mécano</em> : Deux drones construits selon la manœuvre Opérateur de drones du Pilote.</li><li><em>Médecin</em> : Premiers soins : soigne un segment additionnel, même sur un raté.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

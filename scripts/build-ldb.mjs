@@ -9,7 +9,7 @@ const DST = path.join(ROOT, 'packs');
 
 function genId() { return randomBytes(8).toString('hex'); }
 
-const EQ_TYPE_MAP = { weapons: 'weapon', armors: 'armor', gear: 'gear', cyberware: 'cyberware', vehicles: 'vehicle' };
+const EQ_TYPE_MAP = { weapons: 'weapon', armors: 'armor', gear: 'gear', cyberware: 'cyberware', vehicles: 'vehicle', programs: 'program' };
 
 function makeStats(ts) {
   return { systemId: 'pbta', systemVersion: '1.2.0', coreVersion: '14.367',
@@ -81,16 +81,16 @@ async function build() {
 
   // Playbook moves by playbook
   const pbMoveMap = {
-    'Le Fixeur': { color: '#ff6b35', items: ['Je connais du monde','Magouilles','Baron des rues','Chromé (Fixeur)','Face-à-face','Ingénieur technico-commercial','Injoignable','Jongler avec plusieurs balles','L\'affaire du siècle','Le bruit qui court','Mielleux','Renforts','Réputation'] },
-    'Le Hacker': { color: '#ff6b35', items: ['Branché (Hacker)','Cowboy informatique','Anonyme','Ceinture noire','Chromé (Hacker)','Cicatrices neurales','Optimisation de recherche','Programmation à la volée','Renom (Hacker)','Support technique','Tueur de Glace'] },
-    'L\'Infiltré': { color: '#ff6b35', items: ['Entrée subreptice','Haute voltige','Imposteur','Agent furtif','Assassin','Branché (Infiltré)','Chromé (Infiltré)','Guerre psychologique','Maître des artifices','Mère Gigogne','Plan B','Repérage'] },
-    'Le Limier': { color: '#ff6b35', items: ['Mais c\'est bien sûr !','Toujours à l\'écoute','Agrandissement, stop','Chasseur de gros gibier','Chromé (Limier)','Le sens de l\'observation','Remonter la trace','Sale rat','Sous tous les angles','Théâtre d\'opération humain','Tireur embusqué'] },
-    'Le Pilote': { color: '#ff6b35', items: ['Caisse','Seconde peau','Belle bagnole','Casse-cou','Chromé (Pilote)','De glace','L\'outil adapté à la tâche','Opérateur de drones','Un œil dans le ciel','Un putain d\'as du volant'] },
-    'Le Provocateur': { color: '#ff6b35', items: ['Déterminé','Visionnaire','Adeptes','Agitateur','Beau parleur','Célèbre','Cercle intérieur','Chromé (Provocateur)','Opportuniste','Ramener au bercail','Sociable','Un million de points lumineux'] },
-    'Le Reporter': { color: '#ff6b35', items: ['Du flair pour les nouvelles','En direct live','Rassembler les preuves','24 heures sur 24, 7 jours sur 7','Carte de presse','Chromé (Reporter)','Correspondant de guerre','Fouille-merde','Pitbull','Sources sûres'] },
-    'Le Soldat': { color: '#ff6b35', items: ['J\'adore quand un plan se déroule sans accroc','Voici le plan','Aura de professionnalisme','Chromé (Soldat)','Gestion directe','Glissant comme une anguille','Opérations tactiques','Présence rassurante','Recruteur','Savoirs corporatifs (Soldat)','Solution de repli'] },
-    'Le Tech': { color: '#ff6b35', items: ['Bidouilleur','Bric-à-brac','Expert','Analytique','Chromé (Tech)','Court-circuitage','Homme de la Renaissance','Intérêts diversifiés','Je suis sur le coup','Obsessionnel','Se fondre dans la masse (Tech)','Touche-à-tout'] },
-    'Le Tueur': { color: '#ff6b35', items: ['Arme personnalisée','Armé jusqu\'aux dents','Dépourvu de sentiments','Dur à cuire','Membre des Forces Spéciales','Œil exercé','Passé militaire (Tueur)','Plus machine qu\'homme','Regard de dur','Secrets corporatifs (Tueur)'] }
+    'Le Fixeur': { color: '#6366f1', items: ['Je connais du monde','Magouilles','Baron des rues','Chromé (Fixeur)','Face-à-face','Ingénieur technico-commercial','Injoignable','Jongler avec plusieurs balles','L\'affaire du siècle','Le bruit qui court','Mielleux','Renforts','Réputation'] },
+    'Le Hacker': { color: '#6366f1', items: ['Branché (Hacker)','Cowboy informatique','Anonyme','Ceinture noire','Chromé (Hacker)','Cicatrices neurales','Optimisation de recherche','Programmation à la volée','Renom (Hacker)','Support technique','Tueur de Glace'] },
+    'L\'Infiltré': { color: '#6366f1', items: ['Entrée subreptice','Haute voltige','Imposteur','Agent furtif','Assassin','Branché (Infiltré)','Chromé (Infiltré)','Guerre psychologique','Maître des artifices','Mère Gigogne','Plan B','Repérage'] },
+    'Le Limier': { color: '#6366f1', items: ['Mais c\'est bien sûr !','Toujours à l\'écoute','Agrandissement, stop','Chasseur de gros gibier','Chromé (Limier)','Le sens de l\'observation','Remonter la trace','Sale rat','Sous tous les angles','Théâtre d\'opération humain','Tireur embusqué'] },
+    'Le Pilote': { color: '#6366f1', items: ['Caisse','Seconde peau','Belle bagnole','Casse-cou','Chromé (Pilote)','De glace','L\'outil adapté à la tâche','Opérateur de drones','Un œil dans le ciel','Un putain d\'as du volant'] },
+    'Le Provocateur': { color: '#6366f1', items: ['Déterminé','Visionnaire','Adeptes','Agitateur','Beau parleur','Célèbre','Cercle intérieur','Chromé (Provocateur)','Opportuniste','Ramener au bercail','Sociable','Un million de points lumineux'] },
+    'Le Reporter': { color: '#6366f1', items: ['Du flair pour les nouvelles','En direct live','Rassembler les preuves','24 heures sur 24, 7 jours sur 7','Carte de presse','Chromé (Reporter)','Correspondant de guerre','Fouille-merde','Pitbull','Sources sûres'] },
+    'Le Soldat': { color: '#6366f1', items: ['J\'adore quand un plan se déroule sans accroc','Voici le plan','Aura de professionnalisme','Chromé (Soldat)','Gestion directe','Glissant comme une anguille','Opérations tactiques','Présence rassurante','Recruteur','Savoirs corporatifs (Soldat)','Solution de repli'] },
+    'Le Tech': { color: '#6366f1', items: ['Bidouilleur','Bric-à-brac','Expert','Analytique','Chromé (Tech)','Court-circuitage','Homme de la Renaissance','Intérêts diversifiés','Je suis sur le coup','Obsessionnel','Se fondre dans la masse (Tech)','Touche-à-tout'] },
+    'Le Tueur': { color: '#6366f1', items: ['Arme personnalisée','Armé jusqu\'aux dents','Dépourvu de sentiments','Dur à cuire','Membre des Forces Spéciales','Œil exercé','Passé militaire (Tueur)','Plus machine qu\'homme','Regard de dur','Secrets corporatifs (Tueur)'] }
   };
   Object.assign(moveFolders, pbMoveMap);
 

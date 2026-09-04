@@ -2,9 +2,9 @@
   "type": "Item",
   "folder": null,
   "name": "Le Pilote",
-  "color": "#ff6b35",
+  "color": "#6366f1",
   "sorting": "a",
-  "_id": "7d8531283e4308e1",
+  "_id": "05cf25604725acfa",
   "description": "",
   "sort": 100000,
   "flags": {},
@@ -12,12 +12,12 @@
     "systemId": "pbta",
     "systemVersion": "1.2.0",
     "coreVersion": "14.367",
-    "createdTime": 1788216886373,
-    "modifiedTime": 1788216886373,
-    "lastModifiedBy": "eed66d4ac8fae432",
+    "createdTime": 1788551789239,
+    "modifiedTime": 1788551789239,
+    "lastModifiedBy": "40d5f18513aba0aa",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!7d8531283e4308e1"
+  "_key": "!folders!05cf25604725acfa"
 }

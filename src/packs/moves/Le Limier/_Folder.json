@@ -2,9 +2,9 @@
   "type": "Item",
   "folder": null,
   "name": "Le Limier",
-  "color": "#ff6b35",
+  "color": "#6366f1",
   "sorting": "a",
-  "_id": "666ac9163a02b01c",
+  "_id": "d52e2ec42663251d",
   "description": "",
   "sort": 100000,
   "flags": {},
@@ -12,12 +12,12 @@
     "systemId": "pbta",
     "systemVersion": "1.2.0",
     "coreVersion": "14.367",
-    "createdTime": 1788216886368,
-    "modifiedTime": 1788216886368,
-    "lastModifiedBy": "bb2d2f57650291d7",
+    "createdTime": 1788551789235,
+    "modifiedTime": 1788551789235,
+    "lastModifiedBy": "f8b7d6b5fbd5022f",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!666ac9163a02b01c"
+  "_key": "!folders!d52e2ec42663251d"
 }

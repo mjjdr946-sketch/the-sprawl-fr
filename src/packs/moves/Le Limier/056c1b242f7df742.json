@@ -1,0 +1,47 @@
+{
+  "_id": "056c1b242f7df742",
+  "name": "Tireur embusqué",
+  "type": "move",
+  "img": "",
+  "folder": "d52e2ec42663251d",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!056c1b242f7df742",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "62df2c47059d73ac",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Établis un endroit couvert et dissimulé pour te cacher, lance 2d6+Cran.</p><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : Choisis 3 options.</li><li><em>7-9</em> : Choisis 2 options.</li><li><em>6-</em> : Échec.</li></ul><p><strong>Options disponibles</strong> :</p><ul><li>Ton site est bien caché.</li><li>Ton site dispose d'un excellent couvert.</li><li>Ton site t'octroie un excellent champ de vision.</li><li>Tu disposes d'un site de rechange, couvert et dissimulé.</li><li>Ton site est bien sécurisé.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Choisis 3 options.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Choisis 2 options.</p>"
+      }
+    }
+  }
+}

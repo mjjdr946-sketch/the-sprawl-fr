@@ -1,0 +1,52 @@
+{
+  "_id": "8ab88227d93a8ad0",
+  "name": "Acquérir une concession funéraire",
+  "type": "move",
+  "img": "",
+  "folder": "c3b5a0c83d14bd6a",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!8ab88227d93a8ad0",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "390fa8599138754a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu atteins 24h00 sur ton Compte à rebours de Blessure, lance 2d6+Chair.</p>",
+    "moveType": "basic",
+    "rollType": "meat",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Tu survis jusqu'à ce que les secours arrivent.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Tu survis à un prix. Choisis : +endetté, -1 à une stat, ou cybernétique endommagée.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Tu te vides de ton sang dans le caniveau.</p>"
+      }
+    }
+  }
+}

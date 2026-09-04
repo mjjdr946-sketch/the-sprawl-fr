@@ -1,0 +1,47 @@
+{
+  "_id": "7a3694fa0f27c032",
+  "name": "Du flair pour les nouvelles",
+  "type": "move",
+  "img": "",
+  "folder": "3dfa4accf519c6fe",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7a3694fa0f27c032",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "d3b06723ce935b3d",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Au début d'une Mission, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> (une par une, pendant la Mission) :</p><ul><li>Poser une question de la liste d'<em>effectuer une recherche</em></li><li>Prendre <strong>+1</strong> sur ton prochain jet de <em>pitbull</em></li><li>Trouver une preuve reliant la Mission à une histoire en cours</li></ul>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Gagne 3 retenues.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Gagne 1 retenue.</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "c1eb891477d2190f",
+  "name": "Programme : Éjection",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!c1eb891477d2190f",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "2f879b379bc7ac8c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>+1 sur le prochain jet pour se débrancher de la Matrice.</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "+matrice, +programme",
+    "uses": 0
+  }
+}

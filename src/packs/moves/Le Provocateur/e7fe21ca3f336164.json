@@ -1,0 +1,36 @@
+{
+  "_id": "e7fe21ca3f336164",
+  "name": "Ramener au bercail",
+  "type": "move",
+  "img": "",
+  "folder": "900113f96cd01eb8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!e7fe21ca3f336164",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "ea25e7d3318de2a9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu poses une question avec <em>Un million de points lumineux</em>, pose une question supplémentaire.</p><p>Sur une réussite avec <em>Visionnaire</em>, gagne 1 retenue additionnelle.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

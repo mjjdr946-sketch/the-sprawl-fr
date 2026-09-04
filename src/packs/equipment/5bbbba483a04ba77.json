@@ -1,0 +1,32 @@
+{
+  "_id": "5bbbba483a04ba77",
+  "name": "Enregistreur mnésique",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5bbbba483a04ba77",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "3a3573dd0abf4569",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Implant qui enregistre tout ce que tu vois et entends avec une capacité de stockage étendue.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+enregistrement, +mémoire, +implant",
+    "uses": 0
+  }
+}

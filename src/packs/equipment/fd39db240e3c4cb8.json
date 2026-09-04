@@ -1,0 +1,32 @@
+{
+  "_id": "fd39db240e3c4cb8",
+  "name": "Programme : Traitement de données",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!fd39db240e3c4cb8",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "2f70022b9b81ca3e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Sur un succès à Manipuler un système, retiens 1 supplémentaire.</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "+matrice, +programme",
+    "uses": 0
+  }
+}

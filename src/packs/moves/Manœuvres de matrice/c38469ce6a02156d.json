@@ -1,0 +1,52 @@
+{
+  "_id": "c38469ce6a02156d",
+  "name": "Compromettre la sécurité",
+  "type": "move",
+  "img": "",
+  "folder": "10a04917eae42aa5",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!c38469ce6a02156d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "d5c71dc5c933cd6b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu tentes de compromettre la sécurité d'un sous-système, lance 2d6+Esprit.</p><p><strong>Dépense de retenues</strong> : dépense 1 retenue pour activer une mesure de sécurité dans ce sous-système (déclencher/annuler une alerte locale, activer/désactiver une Glace du nœud, ouvrir/fermer des accès logiciels).</p>",
+    "moveType": "matrix",
+    "rollType": "mind",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "10+",
+        "label": "10+",
+        "value": "<p>Retiens 3 sur le sous-système compromis.</p>"
+      },
+      "partial": {
+        "key": "7-9",
+        "label": "7-9",
+        "value": "<p>Retiens 1 sur le sous-système compromis.</p>"
+      },
+      "failure": {
+        "key": "6-",
+        "label": "6-",
+        "value": "<p>Tu déclenches une alerte, avec conséquences supplémentaires.</p>"
+      }
+    }
+  }
+}

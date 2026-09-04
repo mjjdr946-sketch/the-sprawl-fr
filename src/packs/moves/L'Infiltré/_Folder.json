@@ -2,9 +2,9 @@
   "type": "Item",
   "folder": null,
   "name": "L'Infiltré",
-  "color": "#ff6b35",
+  "color": "#6366f1",
   "sorting": "a",
-  "_id": "9fc200665a1d234e",
+  "_id": "27cb722e15a4a376",
   "description": "",
   "sort": 100000,
   "flags": {},
@@ -12,12 +12,12 @@
     "systemId": "pbta",
     "systemVersion": "1.2.0",
     "coreVersion": "14.367",
-    "createdTime": 1788216886363,
-    "modifiedTime": 1788216886363,
-    "lastModifiedBy": "2611deba6c02be8a",
+    "createdTime": 1788551789230,
+    "modifiedTime": 1788551789230,
+    "lastModifiedBy": "ac4eb8db51a494b0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!9fc200665a1d234e"
+  "_key": "!folders!27cb722e15a4a376"
 }

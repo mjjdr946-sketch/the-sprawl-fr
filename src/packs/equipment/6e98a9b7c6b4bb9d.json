@@ -1,0 +1,32 @@
+{
+  "_id": "6e98a9b7c6b4bb9d",
+  "name": "Instruments de musique",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6e98a9b7c6b4bb9d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "4c07b302578f9261",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Instruments de musique. Choisis 2 étiquettes parmi : +enregistrement, +relais satellite, +simsense.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+musique, +enregistrement",
+    "uses": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "2231899882e3a0c4",
+  "name": "Fusil d'assaut",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!2231899882e3a0c4",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "80b5cbe72e445288",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Fusil automatique standard, polyvalent.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+proche/longue, +bruyant, +automatique, 3-dégâts",
+    "uses": 0
+  }
+}

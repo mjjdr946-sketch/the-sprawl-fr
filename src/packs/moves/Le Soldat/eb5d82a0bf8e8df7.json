@@ -1,0 +1,36 @@
+{
+  "_id": "eb5d82a0bf8e8df7",
+  "name": "Voici le plan",
+  "type": "move",
+  "img": "",
+  "folder": "12012fa7495ece3b",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!eb5d82a0bf8e8df7",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "98fe9d15685bd123",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu planifies une Mission, toute personne à qui tu assignes une tâche gagne +1 continu tant qu'elle l'accomplit conformément au plan.</p><p>Un raté ou une déviation fait perdre le bonus.</p><p>Si tu te fais payer, gagne en expérience.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "d75230969da0ecc1",
+  "name": "Repérage",
+  "type": "move",
+  "img": "",
+  "folder": "27cb722e15a4a376",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d75230969da0ecc1",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "48a81ee6bc0b048c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Étudie un lieu pour trouver des failles, lance 2d6+Pro.</p><p>Tu gagnes des [infos] que tu peux dépenser comme d'habitude, ou en dépenser une pour poser une question de la liste d'<em>évaluer</em> ou d'<em>effectuer une recherche</em>.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Gagne 3 [infos].</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Gagne 1 [info].</p>"
+      }
+    }
+  }
+}

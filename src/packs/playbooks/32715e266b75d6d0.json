@@ -1,0 +1,226 @@
+{
+  "_id": "32715e266b75d6d0",
+  "name": "Le Tech",
+  "type": "playbook",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!32715e266b75d6d0",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "33eecb23c2c47f14",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "tech",
+    "actorType": "character",
+    "description": "<p><strong>« Si ça a des circuits, je peux le réparer. »</strong></p><p>Le Tech est un génie de la technologie.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 0
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": 2
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 1
+      },
+      "synth": {
+        "label": "Synth",
+        "value": 1
+      },
+      "style": {
+        "label": "Style",
+        "value": 0
+      },
+      "meat": {
+        "label": "Chair",
+        "value": -1
+      }
+    },
+    "statsDetail": "+0 Pro, +2 Esprit, +1 Cran, +1 Synth, +0 Style, -1 Chair",
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de livret",
+        "desc": "Les manœuvres spécifiques à ce livret.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "6349581a036605c9",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "12a1a1b9947cce3e",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "31f08280e7fad904",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "2647ce2e3e641fa9",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "a1c77cbdf1a0d175",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "3650864cc0b0e3f5",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "8cb10090a3b54792",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "0059664aac27fc86",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "7b60a290cb138674",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "d13001cc8c3cee3a",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "50aa650bc7786f59",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "44dc9bee061bea6a",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Armes, armures, cyberware et matériel.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "9c692910cdcd6220",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "2231899882e3a0c4",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "84efd71b2337fefd",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "0927a825d82b0c0f",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "92a47a02585e34c6",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "42d9c249a81c8a01",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "de0cc2a877723485",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "cb00c977464d826e",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "0741269e3c4a327c",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "9231e07364cde263",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "53abe1b581d2a636",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "84db4f013d538ac3",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

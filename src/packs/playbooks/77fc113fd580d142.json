@@ -1,0 +1,238 @@
+{
+  "_id": "77fc113fd580d142",
+  "name": "Le Provocateur",
+  "type": "playbook",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!77fc113fd580d142",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "46ba6f7fdfcf1209",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "provocateur",
+    "actorType": "character",
+    "description": "<p><strong>« Les révolutions se gagnent avec des idées. »</strong></p><p>Le Provocateur est un meneur.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 0
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": 0
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 1
+      },
+      "synth": {
+        "label": "Synth",
+        "value": 0
+      },
+      "style": {
+        "label": "Style",
+        "value": 2
+      },
+      "meat": {
+        "label": "Chair",
+        "value": -1
+      }
+    },
+    "statsDetail": "+0 Pro, +0 Esprit, +1 Cran, +0 Synth, +2 Style, -1 Chair",
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de livret",
+        "desc": "Les manœuvres spécifiques à ce livret.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "dea0bb15ea9bb647",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "f30f3c1281fe53aa",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "b5f4fa3d05daf88e",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "bc17212c4c8fb175",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "7529de551d5a009d",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "8dffb224b633767c",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "46ff16be6d5c5d46",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "017d1515be5733fb",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "fa0e08313922a563",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "e7fe21ca3f336164",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ed65936220f00c00",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "c382a76e01af6bc8",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Armes, armures, cyberware et matériel.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "9c692910cdcd6220",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ec658e6dda0de9dc",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "9417a8226cef101c",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "f071c73e1a57d601",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "42d9c249a81c8a01",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "e11521bc72b13537",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "3187f42b2dd8f76c",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "6e98a9b7c6b4bb9d",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "9231e07364cde263",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "0741269e3c4a327c",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "f81bcc836c317d1c",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "2a00bb5cf7231060",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ce224300bfe0dbb8",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "60e34ba70f4712ff",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -7,7 +7,8 @@
     "armors": 6,
     "gear": 33,
     "cyberware": 25,
-    "vehicles": 7
+    "vehicles": 7,
+    "programs": 13
   },
   "equipment": {
     "weapons": [
@@ -236,11 +237,6 @@
         "d": "Kit complet : lampe UV, empreintes, enregistreur."
       },
       {
-        "n": "Console matricielle",
-        "t": "+matrice",
-        "d": "Console de decking avec processeur, mémoire et programmes."
-      },
-      {
         "n": "Atelier",
         "t": "+atelier",
         "d": "Atelier spécialisé dans une sphère d'expertise (armurerie, chimie, cybernétique, électronique, mécanique, médical)."
@@ -274,11 +270,6 @@
         "n": "Matériel d'enregistrement",
         "t": "+enregistrement",
         "d": "Matériel audio/vidéo. Choisis jusqu'à 2 étiquettes : +audio, +vidéo, +discret, +encrypté."
-      },
-      {
-        "n": "Console d'infiltration",
-        "t": "+matrice, +infiltration",
-        "d": "Console spécialisée : Résistance 1, Pare-feu 1, Processeur 1, Furtivité 2. Avec Protection d'identité, Traitement de données, Verrouillage."
       },
       {
         "n": "Matériel de communication +encryptée",
@@ -533,6 +524,18 @@
         "n": "Fourgon ou camion",
         "t": "+véhicule, +utilitaire",
         "d": "Fourgon utilitaire. Choisis un avantage (+robuste, +tout-terrain, +immense, +performant) et un défaut (+lent, +exigu, +bruyant)."
+      }
+    ],
+    "programs": [
+      {
+        "n": "Console matricielle",
+        "t": "+matrice",
+        "d": "Console de decking avec processeur, mémoire et programmes."
+      },
+      {
+        "n": "Console d'infiltration",
+        "t": "+matrice, +infiltration",
+        "d": "Console spécialisée : Résistance 1, Pare-feu 1, Processeur 1, Furtivité 2. Avec Protection d'identité, Traitement de données, Verrouillage."
       },
       {
         "n": "Console matricielle (défensive)",
@@ -543,6 +546,51 @@
         "n": "Console matricielle (performante)",
         "t": "+matrice, +performante",
         "d": "Console performante : Résistance 1, Pare-feu 1, Processeur 2, Furtivité 2. Avec 3 programmes."
+      },
+      {
+        "n": "Programme : Alerte",
+        "t": "+matrice, +programme",
+        "d": "Sur un succès à Évaluer dans la Matrice, choisis 1 option supplémentaire."
+      },
+      {
+        "n": "Programme : Défense",
+        "t": "+matrice, +programme",
+        "d": "Octroie +2 Pare-feu à la console."
+      },
+      {
+        "n": "Programme : Disjoncteur de sécurité",
+        "t": "+matrice, +programme",
+        "d": "Coupe l'alimentation lors d'une attaque de Glace Noire (0 dégât, déconnexion, console HS)."
+      },
+      {
+        "n": "Programme : Éjection",
+        "t": "+matrice, +programme",
+        "d": "+1 sur le prochain jet pour se débrancher de la Matrice."
+      },
+      {
+        "n": "Programme : Filtre",
+        "t": "+matrice, +programme",
+        "d": "+1 continu pour Effectuer une recherche ou chercher des données dans un serveur sécurisé."
+      },
+      {
+        "n": "Programme : Protection d'identité",
+        "t": "+matrice, +programme",
+        "d": "Octroie +2 Furtivité à la console."
+      },
+      {
+        "n": "Programme : Routines optimisées",
+        "t": "+matrice, +programme",
+        "d": "Octroie +2 Processeur à la console."
+      },
+      {
+        "n": "Programme : Traitement de données",
+        "t": "+matrice, +programme",
+        "d": "Sur un succès à Manipuler un système, retiens 1 supplémentaire."
+      },
+      {
+        "n": "Programme : Verrouillage",
+        "t": "+matrice, +programme",
+        "d": "Sur un succès à Compromettre la sécurité, retiens 1 supplémentaire."
       }
     ]
   }

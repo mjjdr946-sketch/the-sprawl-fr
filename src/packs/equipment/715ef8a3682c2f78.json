@@ -1,0 +1,32 @@
+{
+  "_id": "715ef8a3682c2f78",
+  "name": "Lame",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!715ef8a3682c2f78",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "88cc7bda28e5066f",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Couteau, machette ou autre arme blanche.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+contact, 2-dégâts",
+    "uses": 0
+  }
+}

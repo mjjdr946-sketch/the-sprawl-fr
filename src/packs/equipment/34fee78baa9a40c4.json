@@ -1,0 +1,32 @@
+{
+  "_id": "34fee78baa9a40c4",
+  "name": "Puce de compétence",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!34fee78baa9a40c4",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "c6538275271e92f9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Puce de compétence câblée pour Compétences câblées. Exemples : arts martiaux, crochetage, escalade, armes à feu, conduite extrême, premiers soins, parkour.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+puce, +compétence",
+    "uses": 0
+  }
+}

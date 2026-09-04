@@ -1,0 +1,52 @@
+{
+  "_id": "6a0ecddefba52dc3",
+  "name": "Baratiner",
+  "type": "move",
+  "img": "",
+  "folder": "c3b5a0c83d14bd6a",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6a0ecddefba52dc3",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "27291cc85b759bd9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu convaincs quelqu'un par promesses, mensonges ou paroles en l'air, lance 2d6+Style.</p><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : Les PNJ font ce que tu veux. Face à des PJ, ils choisissent : ils obéissent (gagnent XP) ou refusent (doivent agir sous pression).</li><li><em>7-9</em> : Les PNJ obéissent mais quelqu'un s'en rend compte. Face à des PJ, choisis : carotte (XP s'ils obéissent) ou bâton (agir sous pression s'ils refusent).</li><li><em>6-</em> : Échec ; la supercherie est percée à jour.</li></ul>",
+    "moveType": "basic",
+    "rollType": "style",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>PNJ: obéissent. PJ: choisissent (XP ou Agir sous pression).</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>PNJ obéissent mais qqn s'en rend compte. PJ: une option au choix.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; la supercherie est percée à jour et le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

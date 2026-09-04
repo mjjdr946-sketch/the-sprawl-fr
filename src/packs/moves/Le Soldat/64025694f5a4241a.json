@@ -1,0 +1,47 @@
+{
+  "_id": "64025694f5a4241a",
+  "name": "Recruteur",
+  "type": "move",
+  "img": "",
+  "folder": "12012fa7495ece3b",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!64025694f5a4241a",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "f7d7064aeb0a84bb",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Recrute un spécialiste ou une équipe pour t'assister durant la Mission, lance 2d6+Pro.</p><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : Choisis 2 options.</li><li><em>7-9</em> : Choisis 1 option.</li><li><em>6-</em> : Échec.</li></ul><p><strong>Options disponibles</strong> :</p><ul><li>Il s'agit de professionnel(s) sûr(s).</li><li>C'est une petite équipe (jusqu'à 5 membres).</li><li>Il(s) a(ont) le niveau de compétence requis.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>2 options.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>1 option.</p>"
+      }
+    }
+  }
+}

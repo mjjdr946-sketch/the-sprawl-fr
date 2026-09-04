@@ -1,0 +1,32 @@
+{
+  "_id": "9225e6366b8bbed1",
+  "name": "Kit de déguisement",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!9225e6366b8bbed1",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "ec49e61b2c2b66bd",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>+1 continu pour éviter d'être repéré en maintenant une fausse identité.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+déguisement",
+    "uses": 0
+  }
+}

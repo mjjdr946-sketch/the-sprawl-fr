@@ -1,0 +1,36 @@
+{
+  "_id": "46ff16be6d5c5d46",
+  "name": "Cercle intérieur",
+  "type": "move",
+  "img": "",
+  "folder": "900113f96cd01eb8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!46ff16be6d5c5d46",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "f6d9a66d4da0ce8d",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Petit Gang de 5-10 adeptes (2-dégâts +petit +loyal 1-armure).</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

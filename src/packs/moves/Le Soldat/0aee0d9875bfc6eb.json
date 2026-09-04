@@ -1,0 +1,52 @@
+{
+  "_id": "0aee0d9875bfc6eb",
+  "name": "J'adore quand un plan se déroule sans accroc",
+  "type": "move",
+  "img": "",
+  "folder": "12012fa7495ece3b",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!0aee0d9875bfc6eb",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "9336694ab2613657",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Au début d'une Mission, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> (une par une) :</p><ul><li>Tu as le matériel dont tu as besoin, maintenant</li><li>Tu apparais dans une scène où on a besoin de toi, maintenant</li></ul><p><em>Note : sur un 6-, tu gagnes tout de même 1 retenue, mais tes adversaires ont prévu tes mouvements.</em></p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Gagne 3 retenues.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Gagne 1 retenue.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Gagne 1 retenue mais le MC avance le CA d'Investigation.</p>"
+      }
+    }
+  }
+}

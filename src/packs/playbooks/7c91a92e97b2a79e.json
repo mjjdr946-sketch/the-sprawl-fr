@@ -1,0 +1,268 @@
+{
+  "_id": "7c91a92e97b2a79e",
+  "name": "Le Tueur",
+  "type": "playbook",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7c91a92e97b2a79e",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "f72490d20efe4a3c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "tueur",
+    "actorType": "character",
+    "description": "<p><strong>« Je ne laisse pas de traces. »</strong></p><p>Le Tueur est une arme.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 1
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": -1
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 0
+      },
+      "synth": {
+        "label": "Synth",
+        "value": 2
+      },
+      "style": {
+        "label": "Style",
+        "value": 0
+      },
+      "meat": {
+        "label": "Chair",
+        "value": 1
+      }
+    },
+    "statsDetail": "+1 Pro, -1 Esprit, +0 Cran, +2 Synth, +0 Style, +1 Chair",
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de livret",
+        "desc": "Les manœuvres spécifiques à ce livret.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "144f0ddef55481bf",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "8c9e8ef44b658034",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "0f88d90780c74fa9",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "bf1e826625d277f8",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "53a78af8b4b72766",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "7efb2517957c5b90",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "bc30d938bd66332b",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "33859d800eac56b7",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "6c7112b7248f9bb4",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "16798b3961be8478",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Armes, armures, cyberware et matériel.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "46a82384fd0095ad",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "aaf1bd023723d6fe",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "75468d1315656021",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "2231899882e3a0c4",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "eeed103de8b7b40e",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "7e9eb30af0b357fc",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "92a47a02585e34c6",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "0741269e3c4a327c",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "c6b4f427018b3d6d",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "f81bcc836c317d1c",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "2a00bb5cf7231060",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "ce224300bfe0dbb8",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "60e34ba70f4712ff",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "e89f0941da975a0d",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "826feffcdadb6833",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "4a90ec001614e9dd",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "211fb131e537a1b7",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "fb9944e544da0e15",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "c45fdc42ca227523",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "901560ccf95258be",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "6465169411e69418",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

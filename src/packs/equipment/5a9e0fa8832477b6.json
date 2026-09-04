@@ -1,0 +1,32 @@
+{
+  "_id": "5a9e0fa8832477b6",
+  "name": "Drone de combat",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5a9e0fa8832477b6",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "caf379fae069e43d",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Drone armé pour le soutien tactique.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+drone, +volant, 2-dégâts, 1-armure",
+    "uses": 0
+  }
+}

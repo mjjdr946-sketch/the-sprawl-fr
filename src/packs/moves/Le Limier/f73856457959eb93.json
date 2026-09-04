@@ -1,0 +1,47 @@
+{
+  "_id": "f73856457959eb93",
+  "name": "Chasseur de gros gibier",
+  "type": "move",
+  "img": "",
+  "folder": "d52e2ec42663251d",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!f73856457959eb93",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "d2a87f78f06309ae",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Tends un piège à une cible sur laquelle tu as enquêté, lance 2d6+Pro.</p><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : La cible est à ta merci. Si elle tente de s'échapper, lance 2d6+Pro au lieu de Chair pour employer la manière forte.</li><li><em>7-9</em> : Tu l'as prise au piège, la seule issue passe par toi.</li><li><em>6-</em> : Échec.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>À ta merci ; utilise Pro au lieu de Chair pour employer la manière forte.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Tu l'as prise au piège, la seule issue passe par toi.</p>"
+      }
+    }
+  }
+}

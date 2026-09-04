@@ -1,0 +1,32 @@
+{
+  "_id": "f81bcc836c317d1c",
+  "name": "Lames rétractables",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!f81bcc836c317d1c",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "c476acedf87938ca",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Armes internes dissimulées montées dans les avant-bras, déployables à volonté. Variante de l'Armement incorporé.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+contact, +carnage, +implant, +dissimulé, 2-dégâts",
+    "uses": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "e89f0941da975a0d",
+  "name": "Armure dermique",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!e89f0941da975a0d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "5087e37e64e6199d",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Plaques hypodermiques d'armure synthétique. Blessure : soustrais 2 au jet (3 si +fléchettes).</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+armure, +dermique, +implant",
+    "uses": 0
+  }
+}

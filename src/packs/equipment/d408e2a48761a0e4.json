@@ -1,0 +1,32 @@
+{
+  "_id": "d408e2a48761a0e4",
+  "name": "Programme : Filtre",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d408e2a48761a0e4",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "b509074ac0a7919f",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>+1 continu pour Effectuer une recherche ou chercher des données dans un serveur sécurisé.</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "+matrice, +programme",
+    "uses": 0
+  }
+}

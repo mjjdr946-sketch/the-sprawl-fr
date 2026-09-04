@@ -1,0 +1,52 @@
+{
+  "_id": "ba6e3a056382fa37",
+  "name": "Montrer les dents",
+  "type": "move",
+  "img": "",
+  "folder": "c3b5a0c83d14bd6a",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ba6e3a056382fa37",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "885f4cc1db1021d9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu menaces de violence et es prêt à exécuter, lance 2d6+Pro.</p><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : Les PNJ obéissent. Les PJ choisissent : obéir ou subir les conséquences.</li><li><em>7-9</em> : Face à des PNJ, le MC choisit : ils tentent de te supprimer, ils obéissent mais veulent se venger, ou ils obéissent mais en parlent. Face à des PJ : ils choisissent et gagnent +1 sur leur prochain jet contre toi.</li><li><em>6-</em> : Échec ; la cible réagit agressivement.</li></ul>",
+    "moveType": "basic",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>PJ: obéir ou conséquences. PNJ: obéissent.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>PNJ: le MC choisit. PJ: +1 pour agir contre toi.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; la cible réagit agressivement et le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

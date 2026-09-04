@@ -1,0 +1,32 @@
+{
+  "_id": "60c82485ad39cc2e",
+  "name": "Canon antichar",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!60c82485ad39cc2e",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "4fbdd9ed4193c7a7",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Canon lourd antichar.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+proche/longue, +zone, +carnage, +antiblindage, +encombrant, 4-dégâts",
+    "uses": 0
+  }
+}

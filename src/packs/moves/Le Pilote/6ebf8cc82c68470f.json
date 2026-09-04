@@ -1,0 +1,36 @@
+{
+  "_id": "6ebf8cc82c68470f",
+  "name": "Seconde peau",
+  "type": "move",
+  "img": "",
+  "folder": "05cf25604725acfa",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6ebf8cc82c68470f",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "e533176e51cc6a59",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Connecté par interface neurale à un véhicule câblé, tu ajoutes les stats du véhicule à tes jets :</p><ul><li><em>Agir sous pression</em> : 2d6 + Cran + Puissance</li><li><em>Employer la manière forte</em> : 2d6 + Synth + Puissance (au lieu de Chair)</li><li><em>Montrer les dents</em> : 2d6 + Pro + Aspect</li><li><em>Aider ou interférer</em> : 2d6 + Liens + Puissance</li><li>Si quelqu'un interfère avec toi, il ajoute le Défaut de ton véhicule à son jet.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

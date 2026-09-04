@@ -1,0 +1,52 @@
+{
+  "_id": "6ad0477e88fbbbab",
+  "name": "Administrer les premiers soins",
+  "type": "move",
+  "img": "",
+  "folder": "c3b5a0c83d14bd6a",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6ad0477e88fbbbab",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "a88fceca4815b2e1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu soignes des blessures avec le matériel médical approprié, lance 2d6+Cran.</p>",
+    "moveType": "basic",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Blessure ≤21h: -2 segments. Blessure >21h: -1 segment.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>-1 segment. Si >21h: -1 continu jusqu'à soins suffisants.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

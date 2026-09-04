@@ -1,0 +1,36 @@
+{
+  "_id": "04cbdb78e13637dd",
+  "name": "Casse-cou",
+  "type": "move",
+  "img": "",
+  "folder": "05cf25604725acfa",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!04cbdb78e13637dd",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "4677e5b2109d91aa",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>En conduisant au-devant du danger, +1 armure. Si tu subis 1+ dégâts, gagne XP.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

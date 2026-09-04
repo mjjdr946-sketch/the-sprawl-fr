@@ -1,0 +1,52 @@
+{
+  "_id": "b88c805812fb6dd1",
+  "name": "Blessure",
+  "type": "move",
+  "img": "",
+  "folder": "c3b5a0c83d14bd6a",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!b88c805812fb6dd1",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "fc202f7e8f6f1eee",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu subis des dégâts, retranche l'armure, coche les segments, lance 2d6+dégâts subis.</p><p><em>Note : jet inversé — les scores faibles sont favorables.</em></p><p><strong>Résultats</strong> :</p><ul><li><em>6-</em> : Tu encaisses le choc sans complication.</li><li><em>7-9</em> : Le MC choisit : perds pied, perds prise, perds trace, ou qqn prend le dessus.</li><li><em>10+</em> : Tu choisis : hors-de-combat, dégâts complets, cybernétique perdue, ou membre perdu.</li></ul>",
+    "moveType": "basic",
+    "rollType": "ask",
+    "rollFormula": "2d6",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Tu choisis: hors-de-combat / dégâts complets / cyber perdue / membre perdu.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Le MC choisit: perds pied / perds objet / perds trace / qqn prend le dessus.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Tu encaisses le choc sans complication supplémentaire immédiate. (Jet inversé : 6- est favorable).</p>"
+      }
+    }
+  }
+}

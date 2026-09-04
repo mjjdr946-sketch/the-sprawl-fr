@@ -1,0 +1,32 @@
+{
+  "_id": "dfc8b6392b514867",
+  "name": "Programme : Disjoncteur de sécurité",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!dfc8b6392b514867",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "8a6d8ab09fcac606",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Coupe l'alimentation lors d'une attaque de Glace Noire (0 dégât, déconnexion, console HS).</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "+matrice, +programme",
+    "uses": 0
+  }
+}

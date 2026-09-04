@@ -1,0 +1,52 @@
+{
+  "_id": "8abadc6c2ef6e774",
+  "name": "Magouilles",
+  "type": "move",
+  "img": "",
+  "folder": "8e2c286580498bff",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!8abadc6c2ef6e774",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "42fc5bcf00145436",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Des gens accomplissent des boulots pour toi. Tu démarres avec 2-équipe et deux jobs. Entre les Missions, choisis un nombre de jobs ≤ ton équipe, décris chacun, lance 2d6+Pro.</p><p><strong>Jobs disponibles</strong> :</p><ul><li><em>Surveillance</em> : Profit = [info] · Désastre = mauvaise info</li><li><em>Recouvrement de dettes</em> : Profit = [matos] · Désastre = débiteur à sec</li><li><em>Menu larcin</em> : Profit = [matos] · Désastre = volent la mauvaise personne</li><li><em>Livraisons</em> : Profit = 1 Cred · Désastre = livraison jamais arrivée</li><li><em>Intermédiaire</em> : Profit = 1 Cred · Désastre = négociation tourne au vinaigre</li><li><em>Travail technique</em> : Profit = [matos] · Désastre = matos d'un tiers a des problèmes</li><li><em>Proxénétisme</em> : Profit = [info] · Désastre = problème avec un client</li><li><em>Substances addictives</em> : Profit = [info] · Désastre = problème client ou labo</li></ul><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : Tous tes jobs sont des Profits.</li><li><em>7-9</em> : L'un d'eux est un Désastre.</li><li><em>6-</em> : Merdier complet. Le MC fait une Manœuvre pour chaque job.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Tous tes jobs sont des Profits.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>L'un d'eux est un Désastre.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Merdier complet. Le MC fera une Manœuvre pour chaque job.</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "7efb2517957c5b90",
+  "name": "Œil exercé",
+  "type": "move",
+  "img": "",
+  "folder": "3dfe7452ef3ef54c",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7efb2517957c5b90",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "ef2136478d872b9a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Jauge un individu, véhicule, drone ou gang, lance 2d6+Cran.</p><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : Demande « Comment m'es-tu vulnérable ? », gagne +1 sur le prochain jet qui utilise la réponse, et +1 continu quand tu agis contre cette cible.</li><li><em>7-9</em> : Demande « Comment m'es-tu vulnérable ? » et gagne +1 sur le prochain jet qui utilise la réponse.</li><li><em>6-</em> : Échec.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>+1 continu contre cette cible.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Demande « Comment m'es-tu vulnérable ? » et gagne +1 sur le prochain jet qui utilise la réponse.</p>"
+      }
+    }
+  }
+}

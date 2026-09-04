@@ -1,0 +1,36 @@
+{
+  "_id": "bf1e826625d277f8",
+  "name": "Dur à cuire",
+  "type": "move",
+  "img": "",
+  "folder": "3dfe7452ef3ef54c",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!bf1e826625d277f8",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "d75051db6903af77",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Blessure : soustrais ta Chair au jet.</p>",
+    "moveType": "playbook",
+    "rollType": "meat",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "84efd71b2337fefd",
+  "name": "Grenades à fragmentation",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!84efd71b2337fefd",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "331a0ab52a8dc7e3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Grenade explosive standard.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+proche, +zone, +recharge, +bruyant, +carnage, 4-dégâts",
+    "uses": 0
+  }
+}

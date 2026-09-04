@@ -1,0 +1,32 @@
+{
+  "_id": "cbbd1192cf93b554",
+  "name": "Compétences câblées",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!cbbd1192cf93b554",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "ce7159304564019c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Système expert cérébral émulant réflexes et connaissances. +1 continu si la puce correspond à la Manœuvre. 2 ports standard, démarre avec 2 puces. Puces : arts martiaux, crochetage, escalade, armes à feu, conduite extrême, parkour, premiers soins, etc.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "+cérébral, +puce, +compétence, +implant",
+    "uses": 0
+  }
+}

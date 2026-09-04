@@ -1,0 +1,32 @@
+{
+  "_id": "7f42a7d8941cc8fb",
+  "name": "Combinaison ailée / Aéronef ultraléger",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7f42a7d8941cc8fb",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "4507a9bce92d4180",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Appareil individuel pour infiltrations aériennes et largages.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+volant, +infiltration",
+    "uses": 0
+  }
+}

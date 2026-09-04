@@ -1,0 +1,47 @@
+{
+  "_id": "6aa2c9743acf41ca",
+  "name": "Guerre psychologique",
+  "type": "move",
+  "img": "",
+  "folder": "27cb722e15a4a376",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6aa2c9743acf41ca",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "a7a193403f298418",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Influence le moral de tes adversaires en laissant des preuves de violence tout en restant invisible, lance 2d6+Pro.</p><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : C'est toi qui choisis l'état des adversaires.</li><li><em>7-9</em> : Le MC choisit : excessivement prudents, effrayés et démoralisés, ou en colère et négligents.</li><li><em>6-</em> : Échec.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>C'est toi qui choisis.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Le MC choisit : excessivement prudents, effrayés et démoralisés, ou en colère et négligents.</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "8dadc5bac10456fe",
+  "name": "Drone de reconnaissance",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!8dadc5bac10456fe",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "c7a13bc2eee809de",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Petit drone discret pour la surveillance et l'exploration.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+drone, +volant, +discret",
+    "uses": 0
+  }
+}

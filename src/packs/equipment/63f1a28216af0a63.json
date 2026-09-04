@@ -1,0 +1,32 @@
+{
+  "_id": "63f1a28216af0a63",
+  "name": "Explosifs industriels / C4",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!63f1a28216af0a63",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "8d6b3ce72d51c213",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Matériel de brèche et démolition.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "+perforant, +dangereux, +carnage, +bruyant, +antiblindage, 4-dégâts",
+    "uses": 0
+  }
+}

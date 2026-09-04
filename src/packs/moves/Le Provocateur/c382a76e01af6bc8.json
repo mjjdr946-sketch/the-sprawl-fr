@@ -1,0 +1,36 @@
+{
+  "_id": "c382a76e01af6bc8",
+  "name": "Un million de points lumineux",
+  "type": "move",
+  "img": "",
+  "folder": "900113f96cd01eb8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!c382a76e01af6bc8",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "3077021892ecc01c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Sur un succès avec <em>Visionnaire</em>, pose l'une des questions suivantes. Tu peux dépenser des retenues pour en poser d'autres :</p><ul><li>Que souhaiterais-tu que je fasse ?</li><li>Comment es-tu vulnérable ?</li><li>Dis-tu la vérité ?</li><li>Qu'as-tu l'intention de faire ?</li><li>En quoi es-tu relié aux événements actuels ?</li><li>Que désires-tu le plus ?</li></ul>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

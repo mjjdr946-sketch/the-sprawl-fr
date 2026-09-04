@@ -2,9 +2,9 @@
   "type": "Item",
   "folder": null,
   "name": "Le Provocateur",
-  "color": "#ff6b35",
+  "color": "#6366f1",
   "sorting": "a",
-  "_id": "fc339e851aa68e23",
+  "_id": "900113f96cd01eb8",
   "description": "",
   "sort": 100000,
   "flags": {},
@@ -12,12 +12,12 @@
     "systemId": "pbta",
     "systemVersion": "1.2.0",
     "coreVersion": "14.367",
-    "createdTime": 1788216886379,
-    "modifiedTime": 1788216886379,
-    "lastModifiedBy": "b8db84ff2966e67e",
+    "createdTime": 1788551789249,
+    "modifiedTime": 1788551789249,
+    "lastModifiedBy": "0e03a485ed0d4b6d",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!fc339e851aa68e23"
+  "_key": "!folders!900113f96cd01eb8"
 }

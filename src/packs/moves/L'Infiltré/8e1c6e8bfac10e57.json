@@ -1,0 +1,47 @@
+{
+  "_id": "8e1c6e8bfac10e57",
+  "name": "Entrée subreptice",
+  "type": "move",
+  "img": "",
+  "folder": "27cb722e15a4a376",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!8e1c6e8bfac10e57",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "bdc660cd11b2b270",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu t'infiltres seul dans une zone sécurisée, lance 2d6+Cran.</p><p><strong>Dépense de retenues</strong> (une par une, pendant la description du MC) :</p><ul><li>Esquiver un système de sécurité ou un garde</li><li>Désactiver un système de sécurité que tu as esquivé</li><li>Neutraliser un garde</li><li>Éviter d'être repéré</li></ul>",
+    "moveType": "playbook",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Gagne 3 retenues.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Gagne 1 retenue.</p>"
+      }
+    }
+  }
+}

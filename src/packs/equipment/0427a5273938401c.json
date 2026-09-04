@@ -1,0 +1,32 @@
+{
+  "_id": "0427a5273938401c",
+  "name": "Fusil antichar",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!0427a5273938401c",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "946eed90fe8aaa8c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Fusil lourd antiblindage.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+longue/extrême, +bruyant, +carnage, +antiblindage, +encombrant, 3-dégâts",
+    "uses": 0
+  }
+}

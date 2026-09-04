@@ -1,0 +1,32 @@
+{
+  "_id": "9c692910cdcd6220",
+  "name": "Pistolet de poche",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!9c692910cdcd6220",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "73b3939fbad605ce",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Arme de poing compacte, facile à dissimuler.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+contact/courte, +discret, +rapide, +recharge, +bruyant, 2-dégâts",
+    "uses": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "4666b9790001b21d",
+  "name": "Se faire payer",
+  "type": "move",
+  "img": "",
+  "folder": "c3b5a0c83d14bd6a",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!4666b9790001b21d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "0b5d61909610321e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu te fais payer par ton employeur, lance 2d6+segments d'Investigation non remplis.</p><p><strong>Options disponibles</strong> : pas de traquenard · paiement en totalité (x2/x3) · employeur identifiable · pas d'attention de tiers · tout le monde gagne en expérience.</p>",
+    "moveType": "basic",
+    "rollType": "ask",
+    "rollFormula": "2d6",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Choisis 3 options.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Choisis 1 option.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; l'employeur trahit ou tend un piège, le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

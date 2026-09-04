@@ -1,0 +1,32 @@
+{
+  "_id": "498c1da7e4c18771",
+  "name": "Lance-roquette",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!498c1da7e4c18771",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1788551789181,
+    "modifiedTime": 1788551789181,
+    "lastModifiedBy": "cc84024471fb789c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Lance-roquette antichar.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "+proche/longue, +zone, +bruyant, +carnage, +encombrant, 4-dégâts",
+    "uses": 0
+  }
+}
