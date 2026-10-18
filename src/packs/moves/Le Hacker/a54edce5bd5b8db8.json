@@ -1,0 +1,36 @@
+{
+  "_id": "a54edce5bd5b8db8",
+  "name": "Chromé (Hacker)",
+  "type": "move",
+  "img": "",
+  "folder": "dc15f663f66d46cb",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!a54edce5bd5b8db8",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "5829262ec840bd50",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Choisis un autre implant cybernétique lors de la création ou durant un temps mort.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

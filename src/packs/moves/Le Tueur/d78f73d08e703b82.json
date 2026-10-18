@@ -1,0 +1,36 @@
+{
+  "_id": "d78f73d08e703b82",
+  "name": "Passé militaire (Tueur)",
+  "type": "move",
+  "img": "",
+  "folder": "ec8185a228f72ae9",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d78f73d08e703b82",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "60c2ee244d50fe6a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Battre le pavé pour matos militaire (7-9) : choisis une option en moins.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

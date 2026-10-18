@@ -1,0 +1,32 @@
+{
+  "_id": "ab77424f82fb1a76",
+  "name": "Console matricielle",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ab77424f82fb1a76",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "25aaf704a85ec7d6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Console de decking avec processeur, mémoire et programmes.</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+matrice\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

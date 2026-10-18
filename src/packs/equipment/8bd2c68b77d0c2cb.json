@@ -1,0 +1,32 @@
+{
+  "_id": "8bd2c68b77d0c2cb",
+  "name": "Revolver de gros calibre",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!8bd2c68b77d0c2cb",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "1f186d8442f43e29",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Un revolver lourd qui fait mal là où ça compte.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+courte/proche\",\"description\":\"\"},{\"value\":\"+recharge\",\"description\":\"\"},{\"value\":\"+bruyant\",\"description\":\"\"},{\"value\":\"3-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

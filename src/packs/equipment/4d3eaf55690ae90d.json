@@ -1,0 +1,32 @@
+{
+  "_id": "4d3eaf55690ae90d",
+  "name": "Station microélectronique de réparation",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!4d3eaf55690ae90d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "cb15aa4542f20de6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Permet d'effectuer des réparations sur le terrain sur l'électronique et la cybernétique.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+réparation\",\"description\":\"\"},{\"value\":\"+électronique\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

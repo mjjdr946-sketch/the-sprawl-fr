@@ -1,0 +1,32 @@
+{
+  "_id": "ba4f2f83a025eca7",
+  "name": "Arme de poing",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ba4f2f83a025eca7",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "4d5b0e0f9a7ecf91",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Pistolet standard, fiable et dissimulable.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+courte/proche\",\"description\":\"\"},{\"value\":\"+bruyant\",\"description\":\"\"},{\"value\":\"+rapide\",\"description\":\"\"},{\"value\":\"2-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

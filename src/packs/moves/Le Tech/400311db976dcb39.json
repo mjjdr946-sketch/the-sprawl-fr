@@ -1,0 +1,36 @@
+{
+  "_id": "400311db976dcb39",
+  "name": "Je suis sur le coup",
+  "type": "move",
+  "img": "",
+  "folder": "addc45e649bfea24",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!400311db976dcb39",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "be13d1e98a71c449",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Aider/interférer via ta sphère : 2d6+Cran au lieu de Liens.</p>",
+    "moveType": "playbook",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

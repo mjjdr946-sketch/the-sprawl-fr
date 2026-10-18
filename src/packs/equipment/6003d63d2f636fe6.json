@@ -1,0 +1,32 @@
+{
+  "_id": "6003d63d2f636fe6",
+  "name": "Blouson renforcé",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6003d63d2f636fe6",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "e21ab72fcc0814ff",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Blouson en cuir ou synthétique avec mailles protectrices intégrées.</p>",
+    "equipmentType": "armor",
+    "quantity": 1,
+    "tags": "[{\"value\":\"0-armure\",\"description\":\"\"},{\"value\":\"+discret\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "14ab1adb50795025",
+  "name": "Fusil à pompe",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!14ab1adb50795025",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "bfbb8f0c04678881",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Puissant à courte portée, dévastateur dans les espaces confinés.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+courte/proche\",\"description\":\"\"},{\"value\":\"+bruyant\",\"description\":\"\"},{\"value\":\"+carnage\",\"description\":\"\"},{\"value\":\"3-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

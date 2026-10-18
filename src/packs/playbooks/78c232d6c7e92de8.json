@@ -1,0 +1,190 @@
+{
+  "_id": "78c232d6c7e92de8",
+  "name": "Le Reporter",
+  "type": "playbook",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!78c232d6c7e92de8",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "d8320b694311363b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "reporter",
+    "actorType": "character",
+    "description": "<p><strong>« La vérité est une denrée rare. »</strong></p><p>Le Reporter est un journaliste d'investigation.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 2
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": 0
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 1
+      },
+      "synth": {
+        "label": "Synth",
+        "value": 0
+      },
+      "style": {
+        "label": "Style",
+        "value": 1
+      },
+      "meat": {
+        "label": "Chair",
+        "value": -1
+      }
+    },
+    "statsDetail": "+2 Pro, +0 Esprit, +1 Cran, +0 Synth, +1 Style, -1 Chair",
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de livret",
+        "desc": "Les manœuvres spécifiques à ce livret.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "19f1ff384eb96db6",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "d2bb3d6723d185fc",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "4eeea01861269f63",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "059c5ed43f8768c4",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "a75fe1ff513463a8",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "c211951cd238d01a",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "8badfb8654d4ba89",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "6fcd42de2749bb4d",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "824e37f56e9cdba2",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "3f013a627374cabe",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Armes, armures, cyberware et matériel.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "d2dd5ebae157f9c8",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "1be494946d2020e2",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "a7e5b278fa8d4367",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "a939e6f466f90255",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "5d1446475ddc3494",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "914da84b7e9f5f31",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "50397f9c3b5dc717",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          },
+          {
+            "uuid": "b25e5d34d953ece9",
+            "img": "",
+            "granted": true,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

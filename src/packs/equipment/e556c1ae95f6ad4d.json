@@ -1,0 +1,32 @@
+{
+  "_id": "e556c1ae95f6ad4d",
+  "name": "Fusil de chasse",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!e556c1ae95f6ad4d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "b6bea0c20c0a585f",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Carabine de chasse à longue portée.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+longue/extrême\",\"description\":\"\"},{\"value\":\"+bruyant\",\"description\":\"\"},{\"value\":\"2-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

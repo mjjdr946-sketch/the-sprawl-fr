@@ -1,0 +1,32 @@
+{
+  "_id": "f20284aa7a73625d",
+  "name": "Programme : Routines optimisées",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!f20284aa7a73625d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "597376af43afae55",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Octroie +2 Processeur à la console.</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+matrice\",\"description\":\"\"},{\"value\":\"+programme\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

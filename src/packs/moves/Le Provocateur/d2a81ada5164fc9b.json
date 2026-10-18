@@ -1,0 +1,36 @@
+{
+  "_id": "d2a81ada5164fc9b",
+  "name": "Adeptes",
+  "type": "move",
+  "img": "",
+  "folder": "a7eca83e7778a78d",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d2a81ada5164fc9b",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "2da95f7e773469cb",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Tu fais partie d'un groupe. Aide, ressources, planque. Compte comme un Contact.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

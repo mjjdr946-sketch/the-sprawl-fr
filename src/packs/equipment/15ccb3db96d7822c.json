@@ -1,0 +1,32 @@
+{
+  "_id": "15ccb3db96d7822c",
+  "name": "Pistolet-mitrailleur silencieux",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!15ccb3db96d7822c",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "e67e6ca126222d57",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>PM avec silencieux intégré pour les opérations discrètes.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+courte/proche\",\"description\":\"\"},{\"value\":\"+automatique\",\"description\":\"\"},{\"value\":\"+discret\",\"description\":\"\"},{\"value\":\"2-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

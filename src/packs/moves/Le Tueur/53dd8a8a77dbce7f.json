@@ -1,0 +1,36 @@
+{
+  "_id": "53dd8a8a77dbce7f",
+  "name": "Secrets corporatifs (Tueur)",
+  "type": "move",
+  "img": "",
+  "folder": "ec8185a228f72ae9",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!53dd8a8a77dbce7f",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "5ebd45d38500ff75",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Recherche sur corporation : question supplémentaire. 10+ : [info] additionnelle.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

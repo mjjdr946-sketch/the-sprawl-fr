@@ -1,0 +1,36 @@
+{
+  "_id": "4e4f6e41b2f37000",
+  "name": "De glace",
+  "type": "move",
+  "img": "",
+  "folder": "9a65211ee1b68878",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!4e4f6e41b2f37000",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "55d85cb720a50384",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu baratines, lance 2d6+Cran.</p>",
+    "moveType": "playbook",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

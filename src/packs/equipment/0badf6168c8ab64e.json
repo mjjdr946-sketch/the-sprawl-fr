@@ -1,0 +1,32 @@
+{
+  "_id": "0badf6168c8ab64e",
+  "name": "Shuriken ou couteaux de lancer",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!0badf6168c8ab64e",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "a6b4c4d3556df364",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Projectiles légers, nombreux et discrets.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+courte\",\"description\":\"\"},{\"value\":\"+nombreux\",\"description\":\"\"},{\"value\":\"2-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

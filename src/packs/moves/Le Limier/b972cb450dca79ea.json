@@ -1,0 +1,36 @@
+{
+  "_id": "b972cb450dca79ea",
+  "name": "Agrandissement, stop",
+  "type": "move",
+  "img": "",
+  "folder": "df0867903b6b7523",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!b972cb450dca79ea",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792358532289,
+    "modifiedTime": 1792358532289,
+    "lastModifiedBy": "8acff874cc88bfda",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu examines des preuves, gagne [info] et lance effectuer une recherche avec Pro au lieu d'Esprit.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

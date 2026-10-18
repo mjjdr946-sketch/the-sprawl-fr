@@ -57,7 +57,7 @@ async function build() {
         folder: null, sort: 0, ownership: { default: 2 }, flags: {}, effects: [],
         _key: '!items!' + _id,
         _stats: makeStats(ts),
-        system: { description: '<p>' + item.d + '</p>', equipmentType: EQ_TYPE_MAP[cat], quantity: 1, tags: item.t, uses: 0 }
+        system: { description: '<p>' + item.d + '</p>', equipmentType: EQ_TYPE_MAP[cat], quantity: 1, tags: JSON.stringify(String(item.t || '').split(',').map(s => s.trim()).filter(Boolean).map(v => ({ value: v, description: '' }))), uses: 0 }
       });
     }
   }
