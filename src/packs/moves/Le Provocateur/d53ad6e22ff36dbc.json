@@ -1,0 +1,36 @@
+{
+  "_id": "d53ad6e22ff36dbc",
+  "name": "Beau parleur",
+  "type": "move",
+  "img": "",
+  "folder": "322a3e25beae7801",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d53ad6e22ff36dbc",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "7bf23d1bad5d6a1f",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Baratiner 7+, gagne [info] en plus.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

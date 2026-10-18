@@ -1,0 +1,32 @@
+{
+  "_id": "6e657f32fd63d8a9",
+  "name": "Véhicule câblé",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6e657f32fd63d8a9",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "4348e1ff4a5af026",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Véhicule personnalisé avec interface neurale. Puissance, Aspect, Défaut et Armure variables selon le modèle.</p>",
+    "equipmentType": "vehicle",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+véhicule\",\"description\":\"\"},{\"value\":\"+câblé\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

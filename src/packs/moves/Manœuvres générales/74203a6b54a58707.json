@@ -1,0 +1,36 @@
+{
+  "_id": "74203a6b54a58707",
+  "name": "Produire du matériel",
+  "type": "move",
+  "img": "",
+  "folder": "abc94af67f8a1f0d",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!74203a6b54a58707",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "6372ccfe782a6de3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu produis l'équipement nécessaire au bon moment, décris comment et dépense [matos].</p>",
+    "moveType": "basic",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

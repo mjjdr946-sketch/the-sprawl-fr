@@ -1,0 +1,36 @@
+{
+  "_id": "2206b5e146a3198b",
+  "name": "Dépourvu de sentiments",
+  "type": "move",
+  "img": "",
+  "folder": "0b54991425ba6a09",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!2206b5e146a3198b",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "d536945a83282992",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Montrer les dents : 2d6+Synth au lieu de Pro.</p>",
+    "moveType": "playbook",
+    "rollType": "synth",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

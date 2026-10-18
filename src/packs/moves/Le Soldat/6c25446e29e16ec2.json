@@ -1,0 +1,36 @@
+{
+  "_id": "6c25446e29e16ec2",
+  "name": "Savoirs corporatifs (Soldat)",
+  "type": "move",
+  "img": "",
+  "folder": "49044531a4bf2984",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6c25446e29e16ec2",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "795410e6c9eb1024",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Recherche sur une corporation : question supplémentaire. 10+ : [info] additionnelle.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

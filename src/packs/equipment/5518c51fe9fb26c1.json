@@ -1,0 +1,32 @@
+{
+  "_id": "5518c51fe9fb26c1",
+  "name": "Nerfs synthétiques",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5518c51fe9fb26c1",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "48cbceaca3823bb7",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Remplacement partiel du système nerveux. +1 sur employer la manière forte si aucun ennemi n'en a. +1 sur agir sous pression si réaction importante.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+réflexes\",\"description\":\"\"},{\"value\":\"+nerfs\",\"description\":\"\"},{\"value\":\"+combat\",\"description\":\"\"},{\"value\":\"+implant\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

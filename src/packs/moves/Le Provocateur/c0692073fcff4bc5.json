@@ -1,0 +1,47 @@
+{
+  "_id": "c0692073fcff4bc5",
+  "name": "Déterminé",
+  "type": "move",
+  "img": "",
+  "folder": "322a3e25beae7801",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!c0692073fcff4bc5",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "3db5d36c8827184c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Au début d'une Mission qui promeut ta vision, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> : dépense une retenue avant de lancer n'importe quelle autre Manœuvre pour gagner <strong>+1</strong> sur ton jet ou <strong>-2</strong> sur le jet d'un adversaire.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Gagne 3 retenues.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Gagne 1 retenue.</p>"
+      }
+    }
+  }
+}

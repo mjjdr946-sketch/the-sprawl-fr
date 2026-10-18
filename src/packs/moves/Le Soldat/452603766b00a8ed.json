@@ -1,0 +1,36 @@
+{
+  "_id": "452603766b00a8ed",
+  "name": "Gestion directe",
+  "type": "move",
+  "img": "",
+  "folder": "49044531a4bf2984",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!452603766b00a8ed",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "62279d6357fefc37",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Employer la manière forte en commandant : 2d6+Esprit au lieu de Chair.</p>",
+    "moveType": "playbook",
+    "rollType": "mind",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

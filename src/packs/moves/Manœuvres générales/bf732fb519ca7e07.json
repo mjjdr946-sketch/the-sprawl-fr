@@ -1,0 +1,36 @@
+{
+  "_id": "bf732fb519ca7e07",
+  "name": "Révéler une info",
+  "type": "move",
+  "img": "",
+  "folder": "abc94af67f8a1f0d",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!bf732fb519ca7e07",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "cec1829ba233d10e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu révèles une info sur l'opposition, décris comment tu l'as découverte et dépense [info]. +1 au prochain jet.</p>",
+    "moveType": "basic",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

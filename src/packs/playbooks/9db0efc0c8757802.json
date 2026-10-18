@@ -1,0 +1,202 @@
+{
+  "_id": "9db0efc0c8757802",
+  "name": "Le Fixeur",
+  "type": "playbook",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!9db0efc0c8757802",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "2c01f8062d5a22d9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "fixeur",
+    "actorType": "character",
+    "description": "<p><strong>« Tout a un prix. Tout se négocie. Et moi, je connais tout le monde. »</strong></p><p>Le Fixeur est la plaque tournante du marché noir.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 1
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": 0
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 0
+      },
+      "synth": {
+        "label": "Synth",
+        "value": 0
+      },
+      "style": {
+        "label": "Style",
+        "value": 2
+      },
+      "meat": {
+        "label": "Chair",
+        "value": -1
+      }
+    },
+    "statsDetail": "+1 Pro, +0 Esprit, +0 Cran, +0 Synth, +2 Style, -1 Chair",
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de livret",
+        "desc": "Les manœuvres spécifiques à ce livret.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.fc932fc179457932",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.2c63a780646ea0f7",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.69d5031b8e726a3d",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.761c66378d785e08",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.6316428a510a3d29",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.50e2596acf981e57",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.a3d246628e0f631e",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.8c9ae1b761a6aa82",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.41b377a4ff767ae0",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.a7a41704937c480c",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.d80b01754ea38e5f",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.32335e31c57c2cc5",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.446de3bd4a68bedf",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Armes, armures, cyberware et matériel.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.974bd0e3475e35c3",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.98a0514df8e79f79",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.556c31825be0b88f",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.3f23d85d41966f4e",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.281b2d7255aadc99",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.628ec5036450ed90",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.ef56fbd4433089e8",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

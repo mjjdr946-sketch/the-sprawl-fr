@@ -1,0 +1,52 @@
+{
+  "_id": "6742f36d5eaa41dc",
+  "name": "Rassembler les preuves",
+  "type": "move",
+  "img": "",
+  "folder": "85f90b4fc9f4e6f5",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!6742f36d5eaa41dc",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "0c06f9a09d8ff169",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Réunis les preuves pour publier un scoop, lance 2d6+Esprit.</p><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : Preuves obtenues, avance le Compte à rebours d'Affaire.</li><li><em>7-9</em> : Preuves obtenues mais tu révèles tes atouts. Choisis quelle horloge avancer : Corporation, Tapage de cette affaire, ou Mission (Investigation/Action).</li><li><em>6-</em> : Le MC avance le Compte à rebours de Tapage et fait une Manœuvre.</li></ul><p><strong>Règles d'opposition</strong> :</p><ul><li>Affaire atteint 24h00 en premier : scoop publié, impact majeur.</li><li>Tapage atteint 24h00 en premier : affaire étouffée, les corpos s'occupent de toi.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "mind",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Preuves obtenues, avance CA d'Affaire.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Preuves obtenues mais atouts révélés.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>MC avance CA de Tapage et manœuvre.</p>"
+      }
+    }
+  }
+}

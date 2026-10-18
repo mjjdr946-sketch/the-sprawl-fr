@@ -1,0 +1,36 @@
+{
+  "_id": "5c3adbe6dadcb36e",
+  "name": "Fouille-merde",
+  "type": "move",
+  "img": "",
+  "folder": "85f90b4fc9f4e6f5",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5c3adbe6dadcb36e",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "6d1bb56913cb4f4a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Dépense [info] pour conseiller l'équipe : +1 au prochain jet, tu gagnes XP.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

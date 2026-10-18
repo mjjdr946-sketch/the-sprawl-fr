@@ -1,0 +1,202 @@
+{
+  "_id": "ce84f2c1199dbc67",
+  "name": "Le Soldat",
+  "type": "playbook",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ce84f2c1199dbc67",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "f3fa217636042da7",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "soldat",
+    "actorType": "character",
+    "description": "<p><strong>« On m'a appris à survivre. »</strong></p><p>Ancien militaire, le Soldat est un atout tactique.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 2
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": 0
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 1
+      },
+      "synth": {
+        "label": "Synth",
+        "value": -1
+      },
+      "style": {
+        "label": "Style",
+        "value": 0
+      },
+      "meat": {
+        "label": "Chair",
+        "value": 1
+      }
+    },
+    "statsDetail": "+2 Pro, +0 Esprit, +1 Cran, -1 Synth, +0 Style, +1 Chair",
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de livret",
+        "desc": "Les manœuvres spécifiques à ce livret.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.976064c1ed164577",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.8b28ddf0fcc66bde",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.e8cbb6aa8ecbc19d",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.f54c079d40f3c2b8",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.452603766b00a8ed",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.95dd840c4e1ccc93",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.6094f4d0fec3af5b",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.8cc8e7ecb6e45a41",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.d4d64f56e886c52d",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.6c25446e29e16ec2",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.bb1f21ff8a72d41f",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Armes, armures, cyberware et matériel.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.49166812c55d2637",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.2e57e61dd362c453",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.5d82f77a2d118592",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.f91304ef96f4aa95",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.556c31825be0b88f",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.3f23d85d41966f4e",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.ef09db8e64055a2e",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.526bf829944ad377",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.628ec5036450ed90",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

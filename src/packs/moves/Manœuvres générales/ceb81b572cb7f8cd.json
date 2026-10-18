@@ -1,0 +1,36 @@
+{
+  "_id": "ceb81b572cb7f8cd",
+  "name": "Déclarer un Contact",
+  "type": "move",
+  "img": "",
+  "folder": "abc94af67f8a1f0d",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ceb81b572cb7f8cd",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "e830425bf6f1de7d",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu as besoin d'un nouveau Contact, nomme-le et décris-le. Une fois par Mission.</p>",
+    "moveType": "basic",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

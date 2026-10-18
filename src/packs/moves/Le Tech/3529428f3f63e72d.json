@@ -1,0 +1,47 @@
+{
+  "_id": "3529428f3f63e72d",
+  "name": "Se fondre dans la masse (Tech)",
+  "type": "move",
+  "img": "",
+  "folder": "6e17890653d3f6c0",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!3529428f3f63e72d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "d656a1948ce531d6",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Sur le point de te faire prendre, agis comme à ta place, lance 2d6+Cran.</p>",
+    "moveType": "playbook",
+    "rollType": "cool",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Plus personne ne s'inquiète.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Tout va bien si tu t'esquives.</p>"
+      }
+    }
+  }
+}

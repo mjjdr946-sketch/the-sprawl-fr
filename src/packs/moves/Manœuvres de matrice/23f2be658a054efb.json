@@ -1,0 +1,52 @@
+{
+  "_id": "23f2be658a054efb",
+  "name": "Manipuler un système",
+  "type": "move",
+  "img": "",
+  "folder": "65a6f583181696dc",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!23f2be658a054efb",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "4599c22713b741a1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu manipules le dispositif d'un bâtiment contrôlé électroniquement, lance 2d6+Synth.</p><p><strong>Dépense de retenues</strong> : dépense 1 retenue pour activer une routine dans ce sous-système (verrouiller/déverrouiller des portes, éteindre/allumer les lumières, modifier la ventilation, déclencher les extincteurs).</p>",
+    "moveType": "matrix",
+    "rollType": "synth",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "10+",
+        "label": "10+",
+        "value": "<p>Retiens 3 sur le sous-système manipulé.</p>"
+      },
+      "partial": {
+        "key": "7-9",
+        "label": "7-9",
+        "value": "<p>Retiens 1 sur le sous-système manipulé.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

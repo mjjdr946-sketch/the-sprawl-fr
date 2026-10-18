@@ -1,0 +1,32 @@
+{
+  "_id": "ac812f67803aa325",
+  "name": "Trousse à outils (Tech)",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ac812f67803aa325",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "f2da56beb55f7ec4",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Trousse à outils et matériel adaptés à ta sphère d'expertise.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+outils\",\"description\":\"\"},{\"value\":\"+réparation\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

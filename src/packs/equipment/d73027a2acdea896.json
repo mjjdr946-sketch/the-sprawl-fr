@@ -1,0 +1,32 @@
+{
+  "_id": "d73027a2acdea896",
+  "name": "Explosifs",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!d73027a2acdea896",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "4f8865b1b09ecd72",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Grenades, charges ou autres explosifs.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+courte\",\"description\":\"\"},{\"value\":\"+dangereux\",\"description\":\"\"},{\"value\":\"4-dégâts\",\"description\":\"\"},{\"value\":\"+carnage\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

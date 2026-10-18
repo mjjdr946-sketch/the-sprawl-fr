@@ -1,0 +1,36 @@
+{
+  "_id": "2f1fd2cc56c01891",
+  "name": "Imposteur",
+  "type": "move",
+  "img": "",
+  "folder": "a328d6b6f8931f73",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!2f1fd2cc56c01891",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.367",
+    "createdTime": 1792359728194,
+    "modifiedTime": 1792359728194,
+    "lastModifiedBy": "2da1c3da2c0bdc2a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Après avoir dépensé toutes tes retenues d'entrée subreptice par le charisme, gagne [info].</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

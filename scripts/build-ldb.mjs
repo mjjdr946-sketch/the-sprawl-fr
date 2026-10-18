@@ -186,8 +186,8 @@ async function build() {
 
   for (const slug of Object.keys(allPbMoves)) {
     const s = pbStats[slug];
-    const moveChoices = (allPbMoves[slug] || []).map(n => movesStore[n] ? { uuid: movesStore[n], img: '', granted: true, advancement: 0 } : null).filter(Boolean);
-    const equipChoices = (allPbEquip[slug] || []).map(n => equipStore[n] ? { uuid: equipStore[n], img: '', granted: true, advancement: 0 } : null).filter(Boolean);
+    const moveChoices = (allPbMoves[slug] || []).map(n => movesStore[n] ? { uuid: `Compendium.the-sprawl-fr.moves.${movesStore[n]}`, img: '', granted: false, advancement: 0 } : null).filter(Boolean);
+    const equipChoices = (allPbEquip[slug] || []).map(n => equipStore[n] ? { uuid: `Compendium.the-sprawl-fr.equipment.${equipStore[n]}`, img: '', granted: false, advancement: 0 } : null).filter(Boolean);
     const choiceSets = [];
     if (moveChoices.length) choiceSets.push({ title: 'Manœuvres de livret', desc: 'Les manœuvres spécifiques à ce livret.', type: 'multi', repeatable: false, grantOn: 0, advancement: 0, granted: false, choices: moveChoices });
     if (equipChoices.length) choiceSets.push({ title: 'Équipement de départ', desc: 'Armes, armures, cyberware et matériel.', type: 'multi', repeatable: false, grantOn: 0, advancement: 0, granted: false, choices: equipChoices });
