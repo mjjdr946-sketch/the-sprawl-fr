@@ -12,7 +12,7 @@ function genId() { return randomBytes(8).toString('hex'); }
 const EQ_TYPE_MAP = { weapons: 'weapon', armors: 'armor', gear: 'gear', cyberware: 'cyberware', vehicles: 'vehicle', programs: 'program' };
 
 function makeStats(ts) {
-  return { systemId: 'pbta', systemVersion: '1.2.0', coreVersion: '14.367',
+  return { systemId: 'pbta', systemVersion: '1.2.0', coreVersion: '14.369',
     createdTime: ts, modifiedTime: ts, lastModifiedBy: genId(),
     compendiumSource: null, duplicateSource: null, exportSource: null };
 }
@@ -25,7 +25,7 @@ function writeFolder(dir, folderId, name, color) {
   return fs.writeFile(path.join(dir, '_Folder.json'), JSON.stringify({
     type: 'Item', folder: null, name, color, sorting: 'a',
     _id: folderId, description: '', sort: 100000, flags: {},
-    _stats: { systemId: 'pbta', systemVersion: '1.2.0', coreVersion: '14.367',
+    _stats: { systemId: 'pbta', systemVersion: '1.2.0', coreVersion: '14.369',
       createdTime: Date.now(), modifiedTime: Date.now(), lastModifiedBy: genId(),
       compendiumSource: null, duplicateSource: null, exportSource: null },
     _key: '!folders!' + folderId
