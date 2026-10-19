@@ -1,0 +1,32 @@
+{
+  "_id": "8ef2b21a29a25823",
+  "name": "Combinaison furtive",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!8ef2b21a29a25823",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "50eab5672b653a54",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>+1 continu pour éviter d'être repéré quand tu es seul et caché.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+furtif\",\"description\":\"\"},{\"value\":\"+discret\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

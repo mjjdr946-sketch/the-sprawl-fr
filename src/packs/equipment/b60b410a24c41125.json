@@ -1,0 +1,32 @@
+{
+  "_id": "b60b410a24c41125",
+  "name": "Fouet à monofilament",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!b60b410a24c41125",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "0cac1de305083541",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Fouet à monofilament implanté, capable de trancher presque tout. Variante de l'Armement incorporé.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+contact\",\"description\":\"\"},{\"value\":\"+carnage\",\"description\":\"\"},{\"value\":\"+zone\",\"description\":\"\"},{\"value\":\"+dangereux\",\"description\":\"\"},{\"value\":\"+implant\",\"description\":\"\"},{\"value\":\"4-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

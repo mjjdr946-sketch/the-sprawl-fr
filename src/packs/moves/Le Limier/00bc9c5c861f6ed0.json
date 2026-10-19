@@ -1,0 +1,36 @@
+{
+  "_id": "00bc9c5c861f6ed0",
+  "name": "Sous tous les angles",
+  "type": "move",
+  "img": "",
+  "folder": "43b340edd50b5f3e",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!00bc9c5c861f6ed0",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "d551ac6ad19ff586",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Au début de la Phase d'Action, gagne [info] et [matos].</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

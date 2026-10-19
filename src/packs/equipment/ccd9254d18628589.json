@@ -1,0 +1,32 @@
+{
+  "_id": "ccd9254d18628589",
+  "name": "Équipement de plongée sous-marine",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ccd9254d18628589",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "d4e47dad136dc02f",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Bouteilles, détendeurs et combinaison étanche.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+plongée\",\"description\":\"\"},{\"value\":\"+équipement\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

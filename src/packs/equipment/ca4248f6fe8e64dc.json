@@ -1,0 +1,32 @@
+{
+  "_id": "ca4248f6fe8e64dc",
+  "name": "Moto +agressive",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ca4248f6fe8e64dc",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "f177dd97e6a68508",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Moto au look agressif et performant.</p>",
+    "equipmentType": "vehicle",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+véhicule\",\"description\":\"\"},{\"value\":\"+moto\",\"description\":\"\"},{\"value\":\"+agressive\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "5714143662691952",
+  "name": "Salle d'opération / Chirurgie portable",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5714143662691952",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "c39414b7b257e4df",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Unité médicale autonome pour blessures critiques et implantation cybernétique.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+médical\",\"description\":\"\"},{\"value\":\"+encombrant\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

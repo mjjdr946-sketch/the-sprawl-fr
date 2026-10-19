@@ -1,0 +1,32 @@
+{
+  "_id": "ea1d6f7a22594b3d",
+  "name": "Fouet ou chaîne",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ea1d6f7a22594b3d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "f9fe6c810519d7bc",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Arme improvisée mais efficace pour garder ses distances.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+courte\",\"description\":\"\"},{\"value\":\"+zone\",\"description\":\"\"},{\"value\":\"1-dégât\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

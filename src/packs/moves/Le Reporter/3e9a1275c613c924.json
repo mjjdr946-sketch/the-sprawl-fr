@@ -1,0 +1,36 @@
+{
+  "_id": "3e9a1275c613c924",
+  "name": "Carte de presse",
+  "type": "move",
+  "img": "",
+  "folder": "a2e3158c71087dc3",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!3e9a1275c613c924",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "4d7b130f18ab2994",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Révèle ton identité pour baratiner un accès : 10+ automatique. Gagne [info].</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

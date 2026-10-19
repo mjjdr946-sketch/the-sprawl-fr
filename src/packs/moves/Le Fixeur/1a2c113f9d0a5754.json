@@ -1,0 +1,36 @@
+{
+  "_id": "1a2c113f9d0a5754",
+  "name": "Face-à-face",
+  "type": "move",
+  "img": "",
+  "folder": "5c1f8b6e8669264d",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!1a2c113f9d0a5754",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "5bb9d6a359ffdfde",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>En conversation de visu sans technologie, gagne +1 sur le prochain baratiner.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "cd210b4fca2904f4",
+  "name": "Équipement d'escalade / de rappel",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!cd210b4fca2904f4",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "a7ef58d267bf9331",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Matériel complet d'ascension verticale.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+escalade\",\"description\":\"\"},{\"value\":\"+équipement\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

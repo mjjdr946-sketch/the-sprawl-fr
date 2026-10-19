@@ -1,0 +1,32 @@
+{
+  "_id": "3f34c1694bc6c512",
+  "name": "Armure lourde",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!3f34c1694bc6c512",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "2cb59a5704c3d52f",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Armure complète avec plaques balistiques.</p>",
+    "equipmentType": "armor",
+    "quantity": 1,
+    "tags": "[{\"value\":\"2-armure\",\"description\":\"\"},{\"value\":\"+lourd\",\"description\":\"\"},{\"value\":\"+très voyant\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

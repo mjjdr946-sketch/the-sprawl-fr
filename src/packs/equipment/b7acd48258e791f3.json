@@ -1,0 +1,32 @@
+{
+  "_id": "b7acd48258e791f3",
+  "name": "Berline +quelconque",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!b7acd48258e791f3",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "3b9638d039674e2b",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Berline discrète qui ne se fait pas remarquer.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+véhicule\",\"description\":\"\"},{\"value\":\"+quelconque\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

@@ -195,7 +195,7 @@ async function build() {
     reporter: ['Du flair pour les nouvelles', 'En direct live', 'Rassembler les preuves'],
     soldat: ['Voici le plan', 'J\'adore quand un plan se déroule sans accroc'],
     tech: ['Bidouilleur', 'Bric-à-brac', 'Expert'],
-    tueur: []
+    tueur: ['Arme personnalisée']
   };
 
   function mkChoice(n, store, pack) {

@@ -1,0 +1,36 @@
+{
+  "_id": "efa385cb8420bdbb",
+  "name": "Théâtre d'opération humain",
+  "type": "move",
+  "img": "",
+  "folder": "43b340edd50b5f3e",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!efa385cb8420bdbb",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "d76b90242b85dd04",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>En enquêtant sur un groupe, dépense [info] pour le cibler. +1 continu contre lui.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

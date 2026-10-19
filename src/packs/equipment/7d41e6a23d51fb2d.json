@@ -1,0 +1,32 @@
+{
+  "_id": "7d41e6a23d51fb2d",
+  "name": "Cybercoms",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7d41e6a23d51fb2d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "4c79b048cdccd363",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Communications internes par impulsions mentales. Choisis 2 parmi : +brouillage, +relais satellite, +enregistrement, +crypté, +partition inaccessible. Surveiller des communications : 2d6+Synth pour évaluer.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+communication\",\"description\":\"\"},{\"value\":\"+implant\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

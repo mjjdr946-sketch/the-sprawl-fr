@@ -1,0 +1,32 @@
+{
+  "_id": "ff8d9dc1d5f5a671",
+  "name": "Lunettes tactiques",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!ff8d9dc1d5f5a671",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "a61439e3ba270bea",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Lunettes à réalité augmentée avec zoom et enregistrement.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+zoom\",\"description\":\"\"},{\"value\":\"+enregistrement\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

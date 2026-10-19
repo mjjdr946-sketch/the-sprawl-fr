@@ -1,0 +1,32 @@
+{
+  "_id": "13885a48c0254cc9",
+  "name": "Équipement d'enregistrement simsense",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!13885a48c0254cc9",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "1be2ccfc699968e7",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Équipement d'enregistrement de simulation sensorielle (simsense).</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+enregistrement\",\"description\":\"\"},{\"value\":\"+simsense\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

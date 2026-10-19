@@ -1,0 +1,32 @@
+{
+  "_id": "1588b05a43017cf0",
+  "name": "Exosquelette gyroscopique",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!1588b05a43017cf0",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407562077,
+    "modifiedTime": 1792407562077,
+    "lastModifiedBy": "85ed15b1b0fc60b9",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Harnais de stabilisation moteur permettant de porter des armes +encombrant sans malus.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+exosquelette\",\"description\":\"\"},{\"value\":\"+encombrant\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}
