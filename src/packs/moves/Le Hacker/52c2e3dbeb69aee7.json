@@ -1,0 +1,36 @@
+{
+  "_id": "52c2e3dbeb69aee7",
+  "name": "Support technique",
+  "type": "move",
+  "img": "",
+  "folder": "8120aa933e234c84",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!52c2e3dbeb69aee7",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "0a9bc4206a38a99a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Connecté à la Matrice, lance 2d6+Esprit pour aider au lieu de Liens.</p>",
+    "moveType": "playbook",
+    "rollType": "mind",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

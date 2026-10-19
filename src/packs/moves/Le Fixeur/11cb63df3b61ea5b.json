@@ -1,0 +1,36 @@
+{
+  "_id": "11cb63df3b61ea5b",
+  "name": "Renforts",
+  "type": "move",
+  "img": "",
+  "folder": "253efb38061484e8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!11cb63df3b61ea5b",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "d28b9e1b7baba613",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Tu embauches un petit Gang (5-10 gros bras : 2-dégâts, +petit, +employé, 1-armure). Tu obtiens +1 équipe et le job Protection.</p><p><strong>Personnalisation (choisis 2)</strong> :</p><ul><li>Associés bien armés : +1 dégât</li><li>Associés bien protégés : +1 armure, +voyant</li><li>Anciens militaires : +discipliné</li><li>Plus que des hommes de main : +loyal (remplace +employé)</li><li>Motos ou véhicules : +mobile</li><li>Large groupe (15-30) : +moyen (remplace +petit)</li></ul><p><strong>Job Protection</strong> :</p><ul><li><em>Profit</em> : Tes associés couvrent tes arrières.</li><li><em>Désastre</em> : Tes associés ont énervé les mauvaises personnes.</li></ul>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

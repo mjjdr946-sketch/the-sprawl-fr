@@ -4,20 +4,20 @@
   "name": "Manœuvres générales",
   "color": "#00ff41",
   "sorting": "a",
-  "_id": "abc94af67f8a1f0d",
+  "_id": "f18ede892e1f6d87",
   "description": "",
   "sort": 100000,
   "flags": {},
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.2.0",
-    "coreVersion": "14.367",
-    "createdTime": 1792359728244,
-    "modifiedTime": 1792359728244,
-    "lastModifiedBy": "5436411a2a606d28",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512930,
+    "modifiedTime": 1792407512930,
+    "lastModifiedBy": "775fdae1706371ed",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!abc94af67f8a1f0d"
+  "_key": "!folders!f18ede892e1f6d87"
 }

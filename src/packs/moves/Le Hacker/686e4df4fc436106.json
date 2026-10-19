@@ -1,0 +1,36 @@
+{
+  "_id": "686e4df4fc436106",
+  "name": "Anonyme",
+  "type": "move",
+  "img": "",
+  "folder": "8120aa933e234c84",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!686e4df4fc436106",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "37cb76f880461af8",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Ta console a +2 Furtivité.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

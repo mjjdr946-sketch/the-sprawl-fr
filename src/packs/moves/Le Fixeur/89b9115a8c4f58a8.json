@@ -1,0 +1,36 @@
+{
+  "_id": "89b9115a8c4f58a8",
+  "name": "Le bruit qui court",
+  "type": "move",
+  "img": "",
+  "folder": "253efb38061484e8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!89b9115a8c4f58a8",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "2ac698c8a02c88eb",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>En effectuant une recherche via les ragots, gagne [info] supplémentaire, même sur raté.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

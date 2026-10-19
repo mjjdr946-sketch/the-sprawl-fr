@@ -1,0 +1,32 @@
+{
+  "_id": "192f36ef5f496344",
+  "name": "Fusil de précision",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!192f36ef5f496344",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "fec48cb2a2cf6c99",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Fusil à longue portée pour le tir d'élite.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+longue/extrême\",\"description\":\"\"},{\"value\":\"+bruyant\",\"description\":\"\"},{\"value\":\"+encombrant\",\"description\":\"\"},{\"value\":\"3-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

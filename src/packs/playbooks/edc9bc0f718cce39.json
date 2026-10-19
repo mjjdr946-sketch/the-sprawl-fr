@@ -1,0 +1,313 @@
+{
+  "_id": "edc9bc0f718cce39",
+  "name": "Le Reporter",
+  "type": "playbook",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!edc9bc0f718cce39",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "99691cce8b0e24b1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "slug": "reporter",
+    "actorType": "character",
+    "description": "<p><strong>« La vérité est une denrée rare. »</strong></p><p>Le Reporter est un journaliste d'investigation.</p>",
+    "stats": {
+      "edge": {
+        "label": "Pro",
+        "value": 0
+      },
+      "mind": {
+        "label": "Esprit",
+        "value": 0
+      },
+      "cool": {
+        "label": "Cran",
+        "value": 0
+      },
+      "synth": {
+        "label": "Synth",
+        "value": 0
+      },
+      "style": {
+        "label": "Style",
+        "value": 0
+      },
+      "meat": {
+        "label": "Chair",
+        "value": 0
+      }
+    },
+    "attributes": {},
+    "choiceSets": [
+      {
+        "title": "Manœuvres de base",
+        "desc": "Ajoutées automatiquement à tout personnage.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.09f626c24ece5b56",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.c7b0c3d6f516f0ec",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.58890422a695254c",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.5f4e1b1bc11bd7e9",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.0f89341a0abcfc31",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.9d8682045f4f6e13",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.345a076a1ff2997d",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.488a03fbd20116a1",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.db99240d3a67b7bb",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.df220db26e9c4748",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.ed4774eae133ec82",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.39f76029ecf39b3a",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.144e2d7ebe39480d",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.9c1f8adb02408bb5",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.4af98fe05beb2f50",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.e5f619db3ce2812a",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.bf364a122d78c4e8",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Manœuvres obligatoires",
+        "desc": "Manœuvres de livret accordées automatiquement.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 0,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.13d5296039e16615",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.e00fe5be7a12fda9",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.e9895929c06def2c",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Manœuvres de livret (au choix)",
+        "desc": "Cochez les manœuvres que vous prenez à la création.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 1,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.044e2d01a43efbf9",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.a28b1f0593a19803",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.1151f9fefd615cf8",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.240cebfab0f8c924",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.7c7782eb11625cc2",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.b0d28eba55b706f0",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.moves.d4d70975e7aa4977",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          }
+        ]
+      },
+      {
+        "title": "Équipement de départ",
+        "desc": "Cochez l'équipement que vous prenez à la création.",
+        "type": "multi",
+        "repeatable": false,
+        "grantOn": 1,
+        "advancement": 0,
+        "granted": false,
+        "choices": [
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.c4c425e938dab66e",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.23d7ad2eee9913bb",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.6c5c63f99b76af43",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.6853e3b2b13d9b1d",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.198a5e6e722cb993",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.c0ec0cf6c2ec780c",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.06a7ef2164e77beb",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.the-sprawl-fr.equipment.11acd1acc31e075d",
+            "img": "",
+            "granted": false,
+            "advancement": 0
+          }
+        ]
+      }
+    ]
+  }
+}

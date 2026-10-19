@@ -1,0 +1,32 @@
+{
+  "_id": "06a7ef2164e77beb",
+  "name": "Lunettes (équipement)",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!06a7ef2164e77beb",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "f33607b40dba0b05",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Lunettes. Choisis 2 étiquettes parmi : +amplification lumineuse, +zoom, +enregistrement.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+vision\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

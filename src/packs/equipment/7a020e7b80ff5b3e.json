@@ -1,0 +1,32 @@
+{
+  "_id": "7a020e7b80ff5b3e",
+  "name": "Oreilles cybernétiques",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7a020e7b80ff5b3e",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "a29458786fcfa357",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Oreilles de remplacement aux capacités auditives supérieures. Choisis 2 parmi : +atténuation, +gamme de fréquences, +enregistrement, +crypté, +partition inaccessible. Audition améliorée : 2d6+Synth pour évaluer.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+audition\",\"description\":\"\"},{\"value\":\"+implant\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

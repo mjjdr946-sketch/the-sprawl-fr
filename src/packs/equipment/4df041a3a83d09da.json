@@ -1,0 +1,32 @@
+{
+  "_id": "4df041a3a83d09da",
+  "name": "Programme : Alerte",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!4df041a3a83d09da",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "7861e1d69e674efe",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Sur un succès à Évaluer dans la Matrice, choisis 1 option supplémentaire.</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+matrice\",\"description\":\"\"},{\"value\":\"+programme\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

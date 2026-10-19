@@ -1,0 +1,36 @@
+{
+  "_id": "1beef5a8d52be8d7",
+  "name": "Renom (Hacker)",
+  "type": "move",
+  "img": "",
+  "folder": "8120aa933e234c84",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!1beef5a8d52be8d7",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "150fb82da0e89441",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Avec un avatar reconnaissable, lance 2d6+Synth pour baratiner et montrer les dents au lieu de Style/Pro.</p><p>Quand ta renommée te cause problème (gêne, complications), gagne en expérience.</p>",
+    "moveType": "playbook",
+    "rollType": "synth",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

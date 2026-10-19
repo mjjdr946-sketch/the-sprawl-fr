@@ -1,0 +1,32 @@
+{
+  "_id": "fbacebb5202f1846",
+  "name": "Console matricielle (défensive)",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!fbacebb5202f1846",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "bd65972ec1d8ff9f",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Console défensive : Résistance 2, Pare-feu 2, Processeur 1, Furtivité 1. Avec 2 programmes.</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+matrice\",\"description\":\"\"},{\"value\":\"+défensive\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

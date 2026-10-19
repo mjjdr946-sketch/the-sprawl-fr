@@ -1,0 +1,32 @@
+{
+  "_id": "c345d1d8a58bc5ac",
+  "name": "Programme : Verrouillage",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!c345d1d8a58bc5ac",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "25bde8fd29e1fd72",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Sur un succès à Compromettre la sécurité, retiens 1 supplémentaire.</p>",
+    "equipmentType": "program",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+matrice\",\"description\":\"\"},{\"value\":\"+programme\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

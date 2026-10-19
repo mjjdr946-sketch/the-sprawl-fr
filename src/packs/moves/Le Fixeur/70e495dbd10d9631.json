@@ -1,0 +1,36 @@
+{
+  "_id": "70e495dbd10d9631",
+  "name": "Mielleux",
+  "type": "move",
+  "img": "",
+  "folder": "253efb38061484e8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!70e495dbd10d9631",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "e8f9a8f7642e9369",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu aides ou interfères, lance 2d6+Style au lieu de Liens.</p>",
+    "moveType": "playbook",
+    "rollType": "style",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

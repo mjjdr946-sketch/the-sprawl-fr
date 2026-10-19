@@ -1,0 +1,36 @@
+{
+  "_id": "69c9af6697a05b03",
+  "name": "Branché (Hacker)",
+  "type": "move",
+  "img": "",
+  "folder": "8120aa933e234c84",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!69c9af6697a05b03",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "cc4746a0b7bfa2f8",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu es immergé dans la Matrice, tu as accès aux Manœuvres de Matrice.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

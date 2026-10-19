@@ -4,20 +4,20 @@
   "name": "Le Soldat",
   "color": "#6366f1",
   "sorting": "a",
-  "_id": "49044531a4bf2984",
+  "_id": "27417550d5da1460",
   "description": "",
   "sort": 100000,
   "flags": {},
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.2.0",
-    "coreVersion": "14.367",
-    "createdTime": 1792359728329,
-    "modifiedTime": 1792359728329,
-    "lastModifiedBy": "21d284328776dc15",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512971,
+    "modifiedTime": 1792407512971,
+    "lastModifiedBy": "41f61543f2ed177c",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!49044531a4bf2984"
+  "_key": "!folders!27417550d5da1460"
 }

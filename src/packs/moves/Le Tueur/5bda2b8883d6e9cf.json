@@ -1,0 +1,36 @@
+{
+  "_id": "5bda2b8883d6e9cf",
+  "name": "Membre des Forces Spéciales",
+  "type": "move",
+  "img": "",
+  "folder": "3b8bc557b3f3a938",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!5bda2b8883d6e9cf",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "8d380b18d53e8cf3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Employer la manière forte : tu comptes comme un petit Gang.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "b0d28eba55b706f0",
+  "name": "Pitbull",
+  "type": "move",
+  "img": "",
+  "folder": "1513c2fdfe0b431b",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!b0d28eba55b706f0",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "93cdab8c55ea6f54",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Accule qqn et harcèle de questions, lance 2d6+Pro.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Il dit la vérité.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Il en dit assez puis réagit (peur/colère/calme).</p>"
+      }
+    }
+  }
+}

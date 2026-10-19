@@ -1,0 +1,32 @@
+{
+  "_id": "c0ec0cf6c2ec780c",
+  "name": "Matériel d'enregistrement",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!c0ec0cf6c2ec780c",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "1b09ccfe43301b8e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Matériel audio/vidéo. Choisis jusqu'à 2 étiquettes : +audio, +vidéo, +discret, +encrypté.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+enregistrement\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

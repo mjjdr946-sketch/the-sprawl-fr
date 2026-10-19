@@ -1,0 +1,32 @@
+{
+  "_id": "895e31347df3258c",
+  "name": "Réfrigérateur blindé",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!895e31347df3258c",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "09ff94016ad2ca1a",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Coffre blindé pour protéger du matériel sensible.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"3-armure\",\"description\":\"\"},{\"value\":\"+immobile\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

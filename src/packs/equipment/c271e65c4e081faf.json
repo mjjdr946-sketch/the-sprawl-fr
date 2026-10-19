@@ -1,0 +1,32 @@
+{
+  "_id": "c271e65c4e081faf",
+  "name": "Jambes cybernétiques",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!c271e65c4e081faf",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "c000c15bb7cae56c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Jambes de remplacement aux capacités athlétiques surhumaines. +1 pour agir sous pression via capacités athlétiques. 12+ : gagne 1 retenue (comme évaluer).</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+jambes\",\"description\":\"\"},{\"value\":\"+athlétique\",\"description\":\"\"},{\"value\":\"+implant\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

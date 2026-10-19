@@ -1,0 +1,36 @@
+{
+  "_id": "87180dd3ac326a67",
+  "name": "Ingénieur technico-commercial",
+  "type": "move",
+  "img": "",
+  "folder": "253efb38061484e8",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!87180dd3ac326a67",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "31afa3d48b532b37",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu produis du matériel, +1 sur le prochain jet avec cette pièce d'équipement.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

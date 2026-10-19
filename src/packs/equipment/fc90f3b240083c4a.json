@@ -1,0 +1,32 @@
+{
+  "_id": "fc90f3b240083c4a",
+  "name": "Mitrailleuse légère",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!fc90f3b240083c4a",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "d89292440f8e6f11",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Arme de soutien automatique.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+proche/longue\",\"description\":\"\"},{\"value\":\"+bruyant\",\"description\":\"\"},{\"value\":\"+carnage\",\"description\":\"\"},{\"value\":\"+automatique\",\"description\":\"\"},{\"value\":\"+encombrant\",\"description\":\"\"},{\"value\":\"3-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

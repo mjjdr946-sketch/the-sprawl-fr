@@ -184,13 +184,43 @@ async function build() {
   };
   const names = { fixeur:'Le Fixeur', hacker:'Le Hacker', infiltre:'L\'Infiltré', limier:'Le Limier', pilote:'Le Pilote', provocateur:'Le Provocateur', reporter:'Le Reporter', soldat:'Le Soldat', tech:'Le Tech', tueur:'Le Tueur' };
 
+  // Manœuvres obligatoires par livret (accordées automatiquement)
+  const obligatoryMoves = {
+    fixeur: ['Je connais du monde', 'Magouilles'],
+    hacker: ['Branché (Hacker)', 'Cowboy informatique'],
+    infiltre: ['Entrée subreptice'],
+    limier: ['Mais c\'est bien sûr !', 'Toujours à l\'écoute'],
+    pilote: ['Caisse', 'Seconde peau'],
+    provocateur: ['Déterminé', 'Visionnaire'],
+    reporter: ['Du flair pour les nouvelles', 'En direct live', 'Rassembler les preuves'],
+    soldat: ['Voici le plan', 'J\'adore quand un plan se déroule sans accroc'],
+    tech: ['Bidouilleur', 'Bric-à-brac', 'Expert'],
+    tueur: []
+  };
+
+  function mkChoice(n, store, pack) {
+    if (!store[n]) { console.warn('  ⚠ Manquant: ' + n); return null; }
+    return { uuid: `Compendium.the-sprawl-fr.${pack}.${store[n]}`, img: '', granted: false, advancement: 0 };
+  }
+
   for (const slug of Object.keys(allPbMoves)) {
+    // Stats à 0 : le livret ne modifie aucune caractéristique
     const s = pbStats[slug];
-    const moveChoices = (allPbMoves[slug] || []).map(n => movesStore[n] ? { uuid: `Compendium.the-sprawl-fr.moves.${movesStore[n]}`, img: '', granted: false, advancement: 0 } : null).filter(Boolean);
-    const equipChoices = (allPbEquip[slug] || []).map(n => equipStore[n] ? { uuid: `Compendium.the-sprawl-fr.equipment.${equipStore[n]}`, img: '', granted: false, advancement: 0 } : null).filter(Boolean);
+    const zeroStats = { edge: 0, mind: 0, cool: 0, synth: 0, style: 0, meat: 0 };
+
+    const required = obligatoryMoves[slug] || [];
+    const requiredChoices = required.map(n => mkChoice(n, movesStore, 'moves')).filter(Boolean);
+    const optionalChoices = (allPbMoves[slug] || []).filter(n => !required.includes(n)).map(n => mkChoice(n, movesStore, 'moves')).filter(Boolean);
+    const basicChoices = moveFolders['Manœuvres générales'].items.map(n => mkChoice(n, movesStore, 'moves')).filter(Boolean);
+    const matrixChoices = slug === 'hacker' ? moveFolders['Manœuvres de matrice'].items.map(n => mkChoice(n, movesStore, 'moves')).filter(Boolean) : [];
+    const equipChoices = (allPbEquip[slug] || []).map(n => mkChoice(n, equipStore, 'equipment')).filter(Boolean);
+
     const choiceSets = [];
-    if (moveChoices.length) choiceSets.push({ title: 'Manœuvres de livret', desc: 'Les manœuvres spécifiques à ce livret.', type: 'multi', repeatable: false, grantOn: 0, advancement: 0, granted: false, choices: moveChoices });
-    if (equipChoices.length) choiceSets.push({ title: 'Équipement de départ', desc: 'Armes, armures, cyberware et matériel.', type: 'multi', repeatable: false, grantOn: 0, advancement: 0, granted: false, choices: equipChoices });
+    if (basicChoices.length) choiceSets.push({ title: 'Manœuvres de base', desc: 'Ajoutées automatiquement à tout personnage.', type: 'multi', repeatable: false, grantOn: 0, advancement: 0, granted: false, choices: basicChoices });
+    if (matrixChoices.length) choiceSets.push({ title: 'Manœuvres de matrice', desc: 'Ajoutées automatiquement au Hacker.', type: 'multi', repeatable: false, grantOn: 0, advancement: 0, granted: false, choices: matrixChoices });
+    if (requiredChoices.length) choiceSets.push({ title: 'Manœuvres obligatoires', desc: 'Manœuvres de livret accordées automatiquement.', type: 'multi', repeatable: false, grantOn: 0, advancement: 0, granted: false, choices: requiredChoices });
+    if (optionalChoices.length) choiceSets.push({ title: 'Manœuvres de livret (au choix)', desc: 'Cochez les manœuvres que vous prenez à la création.', type: 'multi', repeatable: false, grantOn: 1, advancement: 0, granted: false, choices: optionalChoices });
+    if (equipChoices.length) choiceSets.push({ title: 'Équipement de départ', desc: 'Cochez l\'équipement que vous prenez à la création.', type: 'multi', repeatable: false, grantOn: 1, advancement: 0, granted: false, choices: equipChoices });
 
     const _id = genId();
     await writeJSON(pbDir, {
@@ -200,11 +230,12 @@ async function build() {
       _stats: makeStats(ts),
       system: {
         slug, actorType: 'character', description: pbDesc[slug],
-        stats: { edge: {label:'Pro',value:s.edge}, mind: {label:'Esprit',value:s.mind}, cool: {label:'Cran',value:s.cool}, synth: {label:'Synth',value:s.synth}, style: {label:'Style',value:s.style}, meat: {label:'Chair',value:s.meat} },
-        statsDetail: s.detail, attributes: {}, choiceSets
+        // valeurs à 0 : la sélection du livret ne modifie aucune caractéristique
+        stats: { edge: {label:'Pro',value:0}, mind: {label:'Esprit',value:0}, cool: {label:'Cran',value:0}, synth: {label:'Synth',value:0}, style: {label:'Style',value:0}, meat: {label:'Chair',value:0} },
+        attributes: {}, choiceSets
       }
     });
-    console.log('  ' + names[slug] + ': ' + moveChoices.length + ' moves, ' + equipChoices.length + ' equip');
+    console.log('  ' + names[slug] + ': base=' + basicChoices.length + ', matrice=' + matrixChoices.length + ', oblig=' + requiredChoices.length + ', opt=' + optionalChoices.length + ', equip=' + equipChoices.length);
   }
 
   // 4. COMPILE TO LEVELDB

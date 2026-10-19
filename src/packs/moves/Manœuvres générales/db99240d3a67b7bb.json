@@ -1,0 +1,52 @@
+{
+  "_id": "db99240d3a67b7bb",
+  "name": "Effectuer une recherche",
+  "type": "move",
+  "img": "",
+  "folder": "f18ede892e1f6d87",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!db99240d3a67b7bb",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "79bd8ed99c733bbd",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu enquêtes sur une personne, lieu, objet ou service, pose une question et lance 2d6+Esprit.</p><p><strong>Questions disponibles</strong> :</p><ul><li>Où pourrais-je trouver ______ ?</li><li>À quel point ______ est sécurisé ?</li><li>Qui est ou quoi est relié à ______ ?</li><li>Qui a possédé ou employé ______ ?</li><li>Pour qui ou pour quoi ______ est le plus précieux ?</li><li>Quelle relation unit ______ et ______ ?</li></ul><p><strong>Résultats</strong> :</p><ul><li><em>10+</em> : [info] + réponse + question supplémentaire.</li><li><em>7-9</em> : [info] + réponse.</li><li><em>6-</em> : Réponse… mais le MC effectue une Manœuvre.</li></ul>",
+    "moveType": "basic",
+    "rollType": "mind",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>[info] + question + question supplémentaire.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>[info] + réponse à la question.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Réponse… mais le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

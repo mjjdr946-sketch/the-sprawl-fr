@@ -1,0 +1,36 @@
+{
+  "_id": "7db8ded32f34957e",
+  "name": "Toujours à l'écoute",
+  "type": "move",
+  "img": "",
+  "folder": "4d2d57737b1b5938",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7db8ded32f34957e",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "3418334515e76ebd",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>En circulant dans un quartier ou un groupe, tu peux effectuer une recherche.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

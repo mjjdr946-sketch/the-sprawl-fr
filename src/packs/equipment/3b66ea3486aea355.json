@@ -1,0 +1,32 @@
+{
+  "_id": "3b66ea3486aea355",
+  "name": "Processeur tactique",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!3b66ea3486aea355",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "13d9cb4165a88f8e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Système expert calculant trajectoires, distances et variables environnementales pour guider la prise de décision. Quand tu évalues au cœur d'une situation tactique, retiens 1 supplémentaire, même sur un raté.</p>",
+    "equipmentType": "cyberware",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+implant cérébral\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

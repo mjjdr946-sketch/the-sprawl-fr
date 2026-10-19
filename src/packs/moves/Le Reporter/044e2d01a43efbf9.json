@@ -1,0 +1,36 @@
+{
+  "_id": "044e2d01a43efbf9",
+  "name": "24 heures sur 24, 7 jours sur 7",
+  "type": "move",
+  "img": "",
+  "folder": "1513c2fdfe0b431b",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!044e2d01a43efbf9",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "d417703211af294c",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Recherche via les flux : question supplémentaire. 10+ : [info] additionnelle.</p>",
+    "moveType": "playbook",
+    "rollType": "",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

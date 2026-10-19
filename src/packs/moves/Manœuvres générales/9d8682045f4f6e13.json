@@ -1,0 +1,52 @@
+{
+  "_id": "9d8682045f4f6e13",
+  "name": "Battre le pavé",
+  "type": "move",
+  "img": "",
+  "folder": "f18ede892e1f6d87",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!9d8682045f4f6e13",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "a283b5dde7507d5d",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Quand tu te rapproches d'un Contact pour obtenir de l'aide, lance 2d6+Style.</p><p><strong>Options & Retenues (sur 7-9)</strong> — tu obtiens ce que tu veux, mais choisis 2 options :</p><ul><li>Ta requête va te coûter cher.</li><li>Ta requête va prendre du temps à organiser.</li><li>Ta requête va attirer l'attention ou une complication.</li><li>Ton Contact a besoin d'un coup de main (refuser = -1 continu).</li></ul>",
+    "moveType": "basic",
+    "rollType": "style",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Obtiens ce que tu veux + bonus ([info] ou [matos]).</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Obtiens ce que tu veux + 2 complications.</p>"
+      },
+      "failure": {
+        "key": "failure",
+        "label": "6-",
+        "value": "<p>Échec ; la demande tourne mal et le MC effectue une Manœuvre.</p>"
+      }
+    }
+  }
+}

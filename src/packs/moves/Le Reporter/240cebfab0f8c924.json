@@ -1,0 +1,36 @@
+{
+  "_id": "240cebfab0f8c924",
+  "name": "Correspondant de guerre",
+  "type": "move",
+  "img": "",
+  "folder": "1513c2fdfe0b431b",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!240cebfab0f8c924",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "2ffdb319304552ce",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Agir sous pression en danger physique : 2d6+Pro au lieu de Cran.</p>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {}
+  }
+}

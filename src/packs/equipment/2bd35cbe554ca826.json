@@ -1,0 +1,32 @@
+{
+  "_id": "2bd35cbe554ca826",
+  "name": "Armure militaire intégrale",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!2bd35cbe554ca826",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "70eb180283887d88",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Armure complète avec plaques balistiques. Gêne les mouvements.</p>",
+    "equipmentType": "armor",
+    "quantity": 1,
+    "tags": "[{\"value\":\"3-armure\",\"description\":\"\"},{\"value\":\"+encombrant\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

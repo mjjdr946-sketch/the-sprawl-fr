@@ -1,0 +1,32 @@
+{
+  "_id": "7591659e9f59e5e7",
+  "name": "Silencieux / Modérateur de son",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!7591659e9f59e5e7",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "a4d5973c9ca1c7cf",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Accessoire d'arme retirant l'étiquette +bruyant. Incompatible avec +carnage ou +antiblindage.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+silencieux\",\"description\":\"\"},{\"value\":\"+accessoire\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

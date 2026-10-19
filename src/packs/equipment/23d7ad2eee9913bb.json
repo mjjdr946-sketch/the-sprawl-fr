@@ -1,0 +1,32 @@
+{
+  "_id": "23d7ad2eee9913bb",
+  "name": "Pistolet à fléchettes",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!23d7ad2eee9913bb",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "814424770811686e",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Pistolet tirant des fléchettes tranquillisantes ou empoisonnées.</p>",
+    "equipmentType": "weapon",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+courte/proche\",\"description\":\"\"},{\"value\":\"+rapide\",\"description\":\"\"},{\"value\":\"+fléchettes\",\"description\":\"\"},{\"value\":\"3-dégâts\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}

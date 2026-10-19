@@ -1,0 +1,47 @@
+{
+  "_id": "c1c4a884597281be",
+  "name": "Un putain d'as du volant",
+  "type": "move",
+  "img": "",
+  "folder": "c859513a7a8d432d",
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!c1c4a884597281be",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "0a896f3f14610673",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Conduis un véhicule câblé sous haute tension, lance 2d6+Pro.</p><p><strong>Dépense de retenues</strong> (une par une) :</p><ul><li>Éviter un danger externe (missile, tir en rafale, collision)</li><li>Échapper à un poursuivant</li><li>Maintenir le contrôle de ton véhicule</li><li>Impressionner, démoraliser ou effrayer quelqu'un</li></ul>",
+    "moveType": "playbook",
+    "rollType": "edge",
+    "rollFormula": "",
+    "rollMod": 0,
+    "uses": 0,
+    "actorType": "character",
+    "choices": "",
+    "moveResults": {
+      "success": {
+        "key": "success",
+        "label": "10+",
+        "value": "<p>Gagne 3 retenues.</p>"
+      },
+      "partial": {
+        "key": "partial",
+        "label": "7-9",
+        "value": "<p>Gagne 1 retenue.</p>"
+      }
+    }
+  }
+}

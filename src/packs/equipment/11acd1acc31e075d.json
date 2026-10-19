@@ -1,0 +1,32 @@
+{
+  "_id": "11acd1acc31e075d",
+  "name": "Traumapatch",
+  "type": "equipment",
+  "img": "",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {},
+  "effects": [],
+  "_key": "!items!11acd1acc31e075d",
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.2.0",
+    "coreVersion": "14.369",
+    "createdTime": 1792407512892,
+    "modifiedTime": 1792407512892,
+    "lastModifiedBy": "ddabe438130b7098",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "system": {
+    "description": "<p>Patch médical d'urgence pour blessures jusqu'à 21h00.</p>",
+    "equipmentType": "gear",
+    "quantity": 1,
+    "tags": "[{\"value\":\"+jetable\",\"description\":\"\"},{\"value\":\"+premiers soins\",\"description\":\"\"}]",
+    "uses": 0
+  }
+}
